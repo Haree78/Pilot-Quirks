@@ -1,0 +1,17 @@
+{
+  "logLevel": "Debug",
+  "features": {
+    "MechlabFix": true,
+    "LoadFixes": true,
+    "NoSalvageSoftlock": true,
+    "DataLoaderGetEntryCheck": true,
+    "ShopTabLagFix": true,
+    "ContractLagFix": true,
+    "EnableLoggingDuringLoads": true,
+    "ExtraLogging": true,
+    "ShaderDependencyOverride": true,
+    "GhostBlipOverride": true,
+    "DisableDeployAudio": true
+  },
+  "WantContractsLagFixVerify": false
+}

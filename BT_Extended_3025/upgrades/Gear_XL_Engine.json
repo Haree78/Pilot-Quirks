@@ -1,0 +1,37 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 500000,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "Pitban",
+        "Model" : "(Extralight Fusion Engine)",
+        "UIName" : "XL Engine",
+        "Id" : "Gear_XL_Engine",
+        "Name" : "XL Engine",
+        "Details" : "The Extralight Fusion Engine (often shortened to XL Fusion Engine) is mechanically similar to a Fusion Engine but uses much lighter radiation shielding. Replacing the dense tungsten carbide of standard fusion engines with a crystalline polymer similar to that of double heat sinks, the XL fusion engine is half the mass for the same performance. There is a penalty in bulk, however. The Inner Sphere XL fusion engine is twice as large as the standard fusion engine, while the Clan model is about two-thirds larger. The larger volume of the engines makes them much more likely to end up in the path of penetrating hits. Further, these bulkier engines intrude into the side torso bays of a BattleMech, exposing the 'Mechs to catastrophic engine damage from structural damage that would be otherwise survivable. There is also a penalty in cost; an XL fusion engine is four times as expensive as a standard, a component that is already usually the largest cost in a BattleMech. Despite this, the allure of huge weight reduction means that the technology saw wide use prior to becoming Lostech after the fall of the Star League.",
+        "Icon" : "uixSvgIcon_equipment_Gyro"
+    },
+    "BonusValueA" : "-50% Engine Weight",
+    "BonusValueB" : null,
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 0,
+    "AllowedLocations" : "Torso",
+    "DisallowedLocations" : "Head, Arms, Legs",
+    "CriticalComponent" : true,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+			"component_type_lostech",
+			"BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

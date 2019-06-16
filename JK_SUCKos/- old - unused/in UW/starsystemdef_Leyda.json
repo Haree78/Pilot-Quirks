@@ -1,0 +1,167 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Leyda",
+        "Name": "Leyda",
+        "Details": "Settled over 650 years ago, Leyda was once a staging world for the SLDF during the Reunification War, but is primarily known for its agricultural exports these days.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": -71.09,
+        "y": -346.95,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_size_medium",
+            "planet_climate_terran",
+            "planet_pop_medium",
+            "planet_civ_innersphere",
+            "planet_progress_3",
+            "planet_industry_agriculture",
+            "planet_feature_moon02",
+            "planet_other_starleague",
+            "planet_name_leyda",
+            "planet_faction_marik"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "lowlandsSpring",
+        "lowlandsFall",
+        "highlandsSpring",
+        "highlandsFall",
+        "desertParched",
+        "badlandsParched",
+        "polarFrozen",
+        "tundraFrozen"
+     ],
+     "MapRequiredTags": {
+         "items": [],
+         "tagSetSourceFile": ""
+     },
+     "MapExcludedTags": {
+         "items": [],
+         "tagSetSourceFile": ""
+     },
+    "FuelingStation": false,
+    "JumpDistance": 7,
+    "Owner": "Marik",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 3,
+    "SystemInfluence": [
+        {
+            "Faction": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "Faction": "Davion",
+            "Influence": 0
+        },
+        {
+            "Faction": "Liao",
+            "Influence": 0
+        },
+        {
+            "Faction": "Kurita",
+            "Influence": 0
+        },
+        {
+            "Faction": "Marik",
+            "Influence": 0
+        },
+        {
+            "Faction": "Steiner",
+            "Influence": 0
+        },
+        {
+            "Faction": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "Faction": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "Faction": "ComStar",
+            "Influence": 0
+        },
+        {
+            "Faction": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_3"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "F",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": false,
+    "MaxContractOverride": 0,
+    "SystemShopItems": [
+        "itemCollection_major_Marik",
+        "itemCollection_shop_starleague"
+    ],
+    "FactionShopOwner": "INVALID_UNSET",
+    "FactionShopItems": null,
+    "BlackMarketShopItems": null,
+    "CoreSystemID": "starsystemdef_Leyda",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": -1,
+    "DifficultyList": [
+        -1,
+        5
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "ContractEmployers": [
+        "MagistracyOfCanopus",
+        "Liao",
+        "Steiner",
+        "Marik"
+    ],
+    "ContractTargets": [
+        "AuriganPirates",
+        "MagistracyOfCanopus",
+        "Liao",
+        "Marik"
+    ]
+}

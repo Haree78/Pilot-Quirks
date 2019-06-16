@@ -1,0 +1,22 @@
+{
+  "PercentageToKeepPips": 0,
+  "AcePilotBonusPercentage": 40,
+  "LightKeepPipsCount": 0,
+  "MediumKeepPipsCount": 0,
+  "HeavyKeepPipsCount": 0,
+  "AssaultKeepPipsCount": 0,
+  "AcePilotBonusPips": 0,
+  "PilotSkillToKeepPips": false,
+  "PerSkillPointToKeepPips": 6,
+  "AcePilotPointToKeepPips": 8,
+  "MaxTotalChanceTokeepPips": 90,
+  "MinDamageForEvasionStrip": 0,
+  "AllowHitStrip": false,
+  "Movement210KeepPipsCount": 5,
+  "Movement190KeepPipsCount": 4,
+  "Movement165KeepPipsCount" : 4,
+  "Movement140KeepPipsCount": 4,
+  "Movement120KeepPipsCount": 3,
+  "Movement95KeepPipsCount": 2,
+  "UseMovement": true
+}

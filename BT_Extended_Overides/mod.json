@@ -1,0 +1,21 @@
+{
+    "Name": "BT_Extended_Overrides",
+    "Enabled": true,
+	
+    "DependsOn": [ "Z_Sab_JK_RarityTables" ],
+	
+    "OptionallyDependsOn": [ "Better AI" ],
+	
+    "Version": "1.6.0.0",
+
+    "Author": "Haree78",
+
+    "DependsOn": [],
+    "ConflictsWith": [],
+
+    "Manifest": [
+        { "Type": "LanceDef", "Path": "lance", "ShouldMergeJSON": true, "AddToDB": false },
+        { "Type": "LanceDef", "Path": "lance_new", "AddToDB": true },
+        { "Type": "Sprite", "Path": "portraits" }
+    ]
+}

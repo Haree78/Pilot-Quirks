@@ -1,0 +1,6 @@
+{
+  "ToHit": {
+    "ToHitGunneryDivisor": 50,
+    "ToHitIndirect": 4,
+  }
+}

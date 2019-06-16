@@ -1,0 +1,5 @@
+{
+    "Name": "BetterSorting",
+    "Enabled": true,
+    "DLL": "BetterSorting.dll"
+}

@@ -1,0 +1,32 @@
+﻿Tags
+
+TAGSReckless : \n<b>• Reckless:</b> Bonuses to-hit in combat, but easier to be hit.
+TAGSTech : \n<b>• Tech:</b> Improved 'Mech Repair Times.
+TAGSCautious : \n<b>• Cautious:</b> Penalty to-hit in combat, but harder to be hit.
+TAGSMerchant : \n<b>• Merchant:</b> Discount to buy shop items.
+///////////////////////////////////////////////////////////////////////////////////
+TAGSDependable : \n<b>• Dependable:</b> Bonus to resist pilot ejection.
+TAGSBrave : \n<b>• Brave:</b> Bonus to resist pilot panic.
+TAGSAssassin : \n<b>• Assassin:</b> Better Called Shot.
+TAGSAthletic : \n<b>• Athletic:</b> Reduced fatigue times.
+TAGSGladiator : \n<b>• Gladiator:</b> Less skill degradation for fatigue.
+TAGSLucky : \n<b>• Lucky:</b> Chance to avoid getting wounded.
+TAGSDrunk : \n<b>• Drunk:</b> While fatigued the pilot has +1 to-hit, -1 evasion, and 100% immunity to ejection.
+TAGSWealthy : \n<b>• Wealthy:</b> This pilot has no monthly maintenance cost.
+TAGSLostech : \n<b>• LosTech Technician:</b> Better chance to-hit with LosTech weapons.
+TAGSDisgraced : \n<b>• Disgraced:</b> Reduced Company Morale.
+TAGSNaive : \n<b>• Naive:</b> Less XP per mission.
+TAGSMilitary : \n<b>• Military:</b> Small bonus to starting XP.
+TAGSMechwarrior : \n<b>• Mechwarrior:</b> Moderate bonus to starting XP.
+TAGSBookish : \n<b>• Bookish:</b> Decrease to Guts, Piloting, and Gunnery but has increased Tactics.
+TAGSCommand : \n<b>• Command:</b> Moderate boost to maximum XP.
+TAGSOfficer : \n<b>• Officer:</b> Large boost to maximum XP.
+TAGSUnstable : \n<b>• Unstable:</b> Mood changes every day.
+TAGSJinxed : \n<b>• Jinxed:</b> Easier for this pilot to-be-hit, harder for them to-hit.
+TAGSKlutz : \n<b>• Klutz:</b> Reduced stability from piloting.
+TAGSNoble : \n<b>• Noble:</b> Increased pilot maintenance and mood changes upon funding level.
+TAGSCriminal : \n<b>• Criminal:</b> Chance to steal from the company. Increase in chance to find specials at Black Market systems.
+TAGSSpacer : \n<b>• Spacer:</b> Reduced maintenance costs for this pilot.
+TAGSComstar : \n<b>• Comstar:</b> Increase in MechTechSkill and increased specials at every store.
+TAGSHonest : \n<b>• Honest:</b> Increase Company Morale and prevent Criminals from stealing.
+TAGSDishonest : \n<b>• Dishonest:</b> Decreased Company Morale and the nature of their dishonesty changes monthly.

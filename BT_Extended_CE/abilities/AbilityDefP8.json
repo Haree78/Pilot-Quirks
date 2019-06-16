@@ -1,0 +1,16 @@
+{
+	"Description" : {
+		"Id" : "AbilityDefP8",
+		"Name" : "EVASSIVE EXPERT",
+		"Details" : "PASSIVE: A 'Mech piloted by this MechWarrior has a chance to not lose evasion when fired upon.",
+		"Icon" : "uixSvgIcon_run_n_gun"
+	},
+    "DisplayParams" : "ShowInMWTRay",
+	"ReqSkill" : "Piloting",
+	"ReqSkillLevel" : 8,
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+    ],
+	"IsPrimaryAbility" : true
+}

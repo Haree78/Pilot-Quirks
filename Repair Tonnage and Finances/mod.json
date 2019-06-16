@@ -1,0 +1,12 @@
+{
+    "Name": "Repair Tonnage and Finances",
+    "Enabled": true,
+
+    "Version": "0.1.1.1.dZ",
+    "Description": "Repair times/costs are multiplied by tonnage. Also contains financial changes.",
+    "Author": "raok",
+    "Website": "https://www.nexusmods.com/battletech/mods/133",
+    "Contact": "",
+
+    "DLL": "RepairTonnage.dll",
+}

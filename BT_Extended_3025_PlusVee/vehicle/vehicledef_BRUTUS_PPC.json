@@ -1,0 +1,109 @@
+{
+   "Version" : 1,
+   "Description" : {
+      "Id" : "vehicledef_BRUTUS_PPC",
+      "Name" : "Brutus PPC",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 973,
+      "Rarity" : 1,
+      "Purchasable" : false
+   },
+   "ChassisID" : "vehiclechassisdef_BRUTUS_PPC",
+   "VehicleTags": {
+      "items": [
+         "unit_vehicle",
+         "unit_heavy",
+         "unit_tracks"
+      ],
+      "tagSetSourceFile": ""
+   },
+   "Locations" : [
+		{
+			"Location" : "Front",
+			"CurrentArmor" : 285,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 285,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Left",
+			"CurrentArmor" : 135,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 230,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Right",
+			"CurrentArmor" : 230,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 230,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Rear",
+			"CurrentArmor" : 150,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 150,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Turret",
+			"CurrentArmor" : 225,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 225,
+			"DamageLevel" : "Functional"
+		}
+   ],
+   "inventory" : [
+      {
+         "ComponentDefID" : "Weapon_PPC_PPC_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+         "HardpointSlot" : 0,
+         "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_PPC_PPC_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+         "HardpointSlot" : 1,
+         "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_SRM_SRM6_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Front",
+         "HardpointSlot" : 0,
+         "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_SRM_SRM6_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Front",
+         "HardpointSlot" : 1,
+         "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_SRM_SRM2_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Front",
+         "HardpointSlot" : 2,
+         "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_SRM",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+         "HardpointSlot" : -1,
+         "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_SRM",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+         "HardpointSlot" : -1,
+         "DamageLevel" : "Functional"
+      }
+   ]
+}

@@ -1,0 +1,45 @@
+{
+   "Description" : {
+      "Id" : "pilot_commander_temp",
+      "Name" : "Arclight",
+      "FirstName" : "Nicolette",
+      "LastName" : "McKinney",
+      "Callsign" : "Arclight",
+      "Gender" : "Female",
+      "Faction" : "MagistracyOfCanopus",
+      "Age" : 30,
+      "Details" : "A former Solaris 7 Gladiator, fallen from noble birth.\n• Reckless: Bonuses to-hit in combat, but easier to be hit.\n• Spacer: Reduced maintenance costs for this pilot.",
+      "Icon" : "Arclight"
+   },
+   "BaseGunnery" : 4,
+   "BonusGunnery" : 0,
+   "BasePiloting" : 2,
+   "BonusPiloting" : 0,
+   "BaseGuts" : 3,
+   "BonusGuts" : 0,
+   "BaseTactics" : 2,
+   "BonusTactics" : 0,
+   "ExperienceUnspent" : 0,
+   "ExperienceSpent" : 2100,
+   "Injuries" : 0,
+   "Health" : 3,
+   "LethalInjury" : false,
+   "Incapacitated" : false,
+   "Morale" : 0,
+   "Voice" : "",
+   "abilityDefNames" : [
+      
+   ],
+   "AIPersonality" : "Undefined",
+   "PilotTags" : {
+      "items" : [
+		"BLACKLISTED",
+		"commander_player",
+         "pilot_taurian",
+         "pilot_tech",
+         "pilot_spacer"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "PilotCost" : 0
+}

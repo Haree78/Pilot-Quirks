@@ -1,0 +1,17 @@
+{
+    "Name": "JK_SUCKos",
+    "Enabled": true,
+
+	"Version": "1.6.1.1",
+    "PackagedOn": "2019-06-04T16:45:00Z",
+    
+    "Description": "Adds 16 new detailed lore based systems to the region.  Adjusts star system coordinates for all systems in HBS game to match Sarna coordinates.  Also adjusts 2 HBS created systems to allow for jump routes to remain consistent.",
+    "Author": "Justin Kase",
+    "Website": "https://www.nexusmods.com/battletech/mods/18",
+    "Contact": "message me at Nexus or Paradox sites",
+	
+	"Manifest": [
+        { "Type": "StarSystemDef", "Path": "starsystem", "ShouldMergeJSON": true, "AddToDB": false },
+        { "Type": "StarSystemDef", "Path": "JK_starsystems", "AddToDB": true }
+    ]
+}

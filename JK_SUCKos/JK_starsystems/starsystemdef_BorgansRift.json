@@ -1,0 +1,167 @@
+{
+    "Description": {
+        "Id": "starsystemdef_BorgansRift",
+        "Name": "Borgan's Rift",
+        "Details": "During the twilight years of the Star League, Borgan's Rift hosted a SLDF garrison in system.  During the Succession Wars the system suffered horribly from the crippling of interstellar economies and became a common target for pirates in the region.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": -105.06,
+        "y": -412.09,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_size_medium",
+            "planet_climate_tropical",
+            "planet_pop_medium",
+            "planet_civ_periphery",
+            "planet_progress_3",
+            "planet_industry_agriculture",
+            "planet_other_starleague",
+            "planet_other_pirate",
+            "planet_other_blackmarket",
+            "planet_name_borgansrift",
+            "planet_faction_magistracy"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "highlandsSpring",
+        "highlandsFall",
+        "lowlandsSpring",
+        "lowlandsFall",
+        "lowlandsCoastal",
+        "jungleTropical"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 20,
+    "Owner": "MagistracyOfCanopus",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 3,
+    "SystemInfluence": [
+        {
+            "Faction": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "Faction": "Davion",
+            "Influence": 0
+        },
+        {
+            "Faction": "Liao",
+            "Influence": 0
+        },
+        {
+            "Faction": "Kurita",
+            "Influence": 0
+        },
+        {
+            "Faction": "Marik",
+            "Influence": 0
+        },
+        {
+            "Faction": "Steiner",
+            "Influence": 0
+        },
+        {
+            "Faction": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "Faction": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "Faction": "ComStar",
+            "Influence": 0
+        },
+        {
+            "Faction": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_3"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "F",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": false,
+    "MaxContractOverride": 0,
+    "SystemShopItems": [
+        "itemCollection_minor_MagistracyOfCanopus",
+        "itemCollection_shop_starleague"
+    ],
+    "FactionShopOwner": "INVALID_UNSET",
+    "FactionShopItems": null,
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates"
+    ],
+    "CoreSystemID": "starsystemdef_BorgansRift",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": 0,
+    "DifficultyList": [
+        0,
+        4
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "ContractEmployers": [
+        "Liao",
+        "Marik",
+        "MagistracyOfCanopus"
+    ],
+    "ContractTargets": [
+        "AuriganPirates",
+        "Marik",
+        "Liao",
+        "MagistracyOfCanopus"
+    ]
+}

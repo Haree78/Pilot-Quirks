@@ -1,0 +1,162 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Ordino",
+        "Name": "Ordino",
+        "Details": "Once an important world in the Sian Commonality, Ordino's primary exports were rare minerals and ice.  With the mines having long run dry and the decline in available JumpShips for ice transport, the world has reverted to a more primitive state and is known to be a frequent pirate hideout.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": 42.02,
+        "y": -362.74,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_size_medium",
+            "planet_climate_ice",
+            "planet_pop_small",
+            "planet_civ_primitive",
+            "planet_progress_3",
+            "planet_feature_rings",
+            "planet_industry_poor",
+            "planet_other_storms",
+            "planet_other_pirate",
+            "planet_name_ordino",
+            "planet_faction_liao"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "polarFrozen",
+        "tundraFrozen"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 8,
+    "Owner": "Liao",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 2,
+    "SystemInfluence": [
+        {
+            "Faction": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "Faction": "Davion",
+            "Influence": 0
+        },
+        {
+            "Faction": "Liao",
+            "Influence": 0
+        },
+        {
+            "Faction": "Kurita",
+            "Influence": 0
+        },
+        {
+            "Faction": "Marik",
+            "Influence": 0
+        },
+        {
+            "Faction": "Steiner",
+            "Influence": 0
+        },
+        {
+            "Faction": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "Faction": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "Faction": "ComStar",
+            "Influence": 0
+        },
+        {
+            "Faction": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_3"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "K",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": false,
+    "MaxContractOverride": 0,
+    "SystemShopItems": [
+        "itemCollection_minor_Locals"
+    ],
+    "FactionShopOwner": "INVALID_UNSET",
+    "FactionShopItems": null,
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates"
+    ],
+    "CoreSystemID": "starsystemdef_Ordino",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": 0,
+    "DifficultyList": [
+        0,
+        4
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "ContractEmployers": [
+        "Davion",
+        "Marik",
+        "Liao"
+    ],
+    "ContractTargets": [
+        "AuriganPirates",
+        "Davion",
+        "Marik",
+        "Liao"
+    ]
+}

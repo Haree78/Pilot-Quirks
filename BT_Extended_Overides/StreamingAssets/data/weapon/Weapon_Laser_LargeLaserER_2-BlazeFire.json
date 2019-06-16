@@ -1,0 +1,8 @@
+{   
+    "HeatGenerated" : 20,
+    "Damage" : 50,
+    "AccuracyModifier" : -4,
+    "CriticalChanceMultiplier" : 1.3,
+    "Tonnage" : 5,
+    "BonusValueB" : "+ 5% Crit., +3 Acc."
+}

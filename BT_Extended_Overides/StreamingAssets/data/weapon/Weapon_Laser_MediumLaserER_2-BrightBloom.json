@@ -1,0 +1,7 @@
+{   
+    "HeatGenerated" : 13,
+    "Damage" : 35,
+    "CriticalChanceMultiplier" : 1.3,
+    "BonusValueA" : "- 13% Heat",
+    "BonusValueB" : "+ 5% Crit."
+}

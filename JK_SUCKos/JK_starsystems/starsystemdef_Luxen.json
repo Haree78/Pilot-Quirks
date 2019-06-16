@@ -1,0 +1,163 @@
+{
+    "Description": {
+        "Id": "starsystemdef_Luxen",
+        "Name": "Luxen",
+        "Details": "A former provincial capital, Luxen is one of the few worlds to have escaped the horrors of the Succession Wars.  It is home to the Canopian Medical Sciences Research and Training Complex, which trains the lion's share of the skilled medical personnel with the Magistracy.  It is also known for its supply of gemstones and precious metals.",
+        "Icon": ""
+    },
+    "Position": {
+        "x": -102.54,
+        "y": -493.87,
+        "z": 0
+    },
+    "Tags": {
+        "items": [
+            "planet_size_medium",
+            "planet_climate_terran",
+            "planet_pop_medium",
+            "planet_civ_innersphere",
+            "planet_progress_3",
+            "planet_industry_research",
+            "planet_industry_mining",
+            "planet_other_megacity",
+            "planet_name_luxen",
+            "planet_faction_magistracy"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "SupportedBiomes": [
+        "highlandsSpring",
+        "highlandsFall",
+        "lowlandsSpring",
+        "lowlandsFall",
+        "lowlandsCoastal",
+        "tundraFrozen"
+    ],
+    "MapRequiredTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "MapExcludedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "FuelingStation": false,
+    "JumpDistance": 6,
+    "Owner": "MagistracyOfCanopus",
+    "ShopRefreshRate": 0,
+    "ShopMaxInventory": 0,
+    "ShopMaxSpecials": 3,
+    "SystemInfluence": [
+        {
+            "Faction": "NoFaction",
+            "Influence": 0
+        },
+        {
+            "Faction": "Davion",
+            "Influence": 0
+        },
+        {
+            "Faction": "Liao",
+            "Influence": 0
+        },
+        {
+            "Faction": "Kurita",
+            "Influence": 0
+        },
+        {
+            "Faction": "Marik",
+            "Influence": 0
+        },
+        {
+            "Faction": "Steiner",
+            "Influence": 0
+        },
+        {
+            "Faction": "TaurianConcordat",
+            "Influence": 0
+        },
+        {
+            "Faction": "MagistracyOfCanopus",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganDirectorate",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganRestoration",
+            "Influence": 0
+        },
+        {
+            "Faction": "ComStar",
+            "Influence": 0
+        },
+        {
+            "Faction": "MercenaryReviewBoard",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganPirates",
+            "Influence": 0
+        },
+        {
+            "Faction": "AuriganMercenaries",
+            "Influence": 0
+        }
+    ],
+    "TravelRequirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "map_travel_3"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
+    ],
+    "StarPosition": null,
+    "StarType": "M",
+    "Depletable": false,
+    "UseSystemRoninHiringChance": false,
+    "RoninHiringChance": 0,
+    "UseMaxContractOverride": false,
+    "MaxContractOverride": 0,
+    "SystemShopItems": [
+        "itemCollection_major_MagistracyOfCanopus",
+        "itemCollection_shop_research",
+        "itemCollection_shop_progression_med"
+    ],
+    "FactionShopOwner": "INVALID_UNSET",
+    "FactionShopItems": null,
+    "BlackMarketShopItems": null,
+    "CoreSystemID": "starsystemdef_Luxen",
+    "StartingSystemModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ],
+    "DefaultDifficulty": 1,
+    "DifficultyList": [
+        1,
+        6
+    ],
+    "DifficultyModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER"
+    ],
+    "ContractEmployers": [
+        "MagistracyOfCanopus",
+        "Locals"
+    ],
+    "ContractTargets": [
+        "AuriganPirates",
+        "MagistracyOfCanopus",
+        "Locals"
+    ]
+}

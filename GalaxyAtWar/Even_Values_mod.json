@@ -1,0 +1,33 @@
+{
+    "Name": "Galaxy at War",
+    "Enabled": true,
+
+    "Version": "0.1a",
+    "Author": "SAME",
+    
+    "DLL": "Galaxy at War.dll",
+
+    "Settings": 
+	{
+		"AttackResourceMap": {
+			"MagistracyOfCanopus" : 386,
+			"Davion" : 291,
+			"Locals" : 337,
+			"Liao" : 79,
+			"Marik" : 300,
+			"AuriganRestoration" : 352,
+			"TaurianConcordat" : 235,
+			"NoFaction" : 432
+			},
+		"DefensiveResourceMap": {
+			"MagistracyOfCanopus" : 405,
+			"Davion" : 324,
+			"Locals" : 350,
+			"Liao" : 0,
+			"Marik" : 297,
+			"AuriganRestoration" : 267,
+			"TaurianConcordat" : 244,
+			"NoFaction" : 521,
+			}
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "Name": "BT_Extended_CE",
+    "Enabled": true,
+	
+    "DependsOn": [ "BT_Extended_Overrides" ],
+	
+    "OptionallyDependsOn": [ "PermanentEvasion", "Repair Tonnage and Finances" ],
+	
+    "Version": "1.6.0.0",
+
+    "Author": "Haree78",
+
+    "DependsOn": [],
+    "ConflictsWith": [],
+
+    "Manifest": [
+    ]
+}

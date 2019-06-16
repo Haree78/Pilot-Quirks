@@ -1,0 +1,18 @@
+﻿{
+  "Name": "FastWorkOrderMover",
+  "Enabled": true,
+
+  "Version": "0.0.1",
+
+  "Author": "janxious",
+  "Website": "https://github.com/janxious/FastWorkOrderMover",
+
+  "DLL": "FastWorkOrderMover.dll",
+  "DLLEntryPoint": "FastWorkOrderMover.AssemblyPatch.Init",
+  "DependsOn": [],
+  "ConflictsWith": [],
+
+  "Settings": {
+    "debug": false
+  }
+}

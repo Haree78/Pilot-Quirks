@@ -1,0 +1,70 @@
+{
+   "Version" : 1,
+   "Description" : {
+      "Id" : "vehicledef_APC_Maultier_Basic",
+      "Name" : "Maultier APC Basic",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 993,
+      "Rarity" : 3,
+      "Purchasable" : false
+   },
+   "ChassisID" : "vehiclechassisdef_APC_Maultier_Basic",
+   "VehicleTags": {
+        "items" : [
+            "unit_vehicle",
+            "unit_light",
+            "unit_wheels",
+            "unit_noncombatant",
+            "unit_vehicle_apc",
+            "unit_release"
+        ],
+      "tagSetSourceFile": ""
+   },
+   "Locations" : [
+		{
+			"Location" : "Front",
+			"CurrentArmor" : 80,
+			"CurrentInternalStructure" : 10,
+			"AssignedArmor" : 80,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Left",
+			"CurrentArmor" : 55,
+			"CurrentInternalStructure" : 10,
+			"AssignedArmor" : 55,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Right",
+			"CurrentArmor" : 55,
+			"CurrentInternalStructure" : 10,
+			"AssignedArmor" : 55,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Rear",
+			"CurrentArmor" : 50,
+			"CurrentInternalStructure" : 10,
+			"AssignedArmor" : 50,
+			"DamageLevel" : "Functional"
+		}
+   ],
+   "inventory" : [
+      {
+         "ComponentDefID" : "Weapon_SRM_SRM2_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Front",
+         "HardpointSlot" : 0,
+         "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_SRM",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+         "HardpointSlot" : -1,
+         "DamageLevel" : "Functional"
+      }
+   ]
+}

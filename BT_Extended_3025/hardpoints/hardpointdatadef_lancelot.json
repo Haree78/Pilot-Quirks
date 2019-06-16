@@ -1,0 +1,146 @@
+{
+    "ID" : "hardpointdatadef_lancelot",
+    "HardpointData" : [
+        {
+            "location" : "leftarm",
+            "weapons" : [
+			[
+			"chrPrfWeap_lancelot_leftarm_laser_eh1",
+			"chrPrfWeap_lancelot_leftarm_flamer_eh1",
+			"chrPrfWeap_lancelot_leftarm_ppc_eh1",
+			"chrPrfWeap_lancelot_leftarm_gauss_bh1",
+			"chrPrfWeap_lancelot_leftarm_mg_bh1",
+			"chrPrfWeap_lancelot_leftarm_ac20_bh1",
+			"chrPrfWeap_lancelot_leftarm_srm4_mh1",
+			"chrPrfWeap_lancelot_leftarm_srm6_mh1",
+			"chrPrfWeap_lancelot_leftarm_lrm15_mh1",
+			"chrPrfWeap_lancelot_leftarm_srm20_mh1"
+			],
+			[
+			"chrPrfWeap_lancelot_leftarm_laser_eh2",
+			"chrPrfWeap_lancelot_leftarm_flamer_eh2",
+			"chrPrfWeap_lancelot_leftarm_ppc_eh2",
+			"chrPrfWeap_lancelot_leftarm_mg_bh2",
+			"chrPrfWeap_lancelot_leftarm_ac20_bh2",
+			"chrPrfWeap_lancelot_leftarm_srm4_mh2",
+			"chrPrfWeap_lancelot_leftarm_srm6_mh2",
+			"chrPrfWeap_lancelot_leftarm_lrm15_mh2",
+			"chrPrfWeap_lancelot_leftarm_srm20_mh2"
+			],
+			[
+			"chrPrfWeap_lancelot_leftarm_laser_eh3",
+			"chrPrfWeap_lancelot_leftarm_flamer_eh3",
+			"chrPrfWeap_lancelot_leftarm_ppc_eh3",
+			"chrPrfWeap_lancelot_leftarm_mg_bh3",
+			"chrPrfWeap_lancelot_leftarm_ac20_bh3"
+			]
+            ],
+            "blanks" : [
+
+            ],
+            "mountingPoints" : [
+                
+            ]
+        },
+        {
+            "location" : "lefttorso",
+            "weapons" : [
+			[
+			]			
+			],
+            "blanks" : [
+			
+            ],
+            "mountingPoints" : [
+                
+            ]
+        },
+        {
+            "location" : "rightarm",
+            "weapons" : [
+			[
+			"chrPrfWeap_lancelot_rightarm_laser_eh1",
+			"chrPrfWeap_lancelot_rightarm_flamer_eh1",
+			"chrPrfWeap_lancelot_rightarm_ppc_eh1",
+			"chrPrfWeap_lancelot_rightarm_gauss_bh1",
+			"chrPrfWeap_lancelot_rightarm_mg_bh1",
+			"chrPrfWeap_lancelot_rightarm_ac20_bh1",
+			"chrPrfWeap_lancelot_rightarm_srm4_mh1",
+			"chrPrfWeap_lancelot_rightarm_srm6_mh1",
+			"chrPrfWeap_lancelot_rightarm_lrm15_mh1",
+			"chrPrfWeap_lancelot_rightarm_srm20_mh1"
+			],
+			[
+			"chrPrfWeap_lancelot_rightarm_laser_eh2",
+			"chrPrfWeap_lancelot_rightarm_flamer_eh2",
+			"chrPrfWeap_lancelot_rightarm_ppc_eh2",
+			"chrPrfWeap_lancelot_rightarm_mg_bh2",
+			"chrPrfWeap_lancelot_rightarm_ac20_bh2",
+			"chrPrfWeap_lancelot_rightarm_srm4_mh2",
+			"chrPrfWeap_lancelot_rightarm_srm6_mh2",
+			"chrPrfWeap_lancelot_rightarm_lrm15_mh2",
+			"chrPrfWeap_lancelot_rightarm_srm20_mh2"
+			],
+			[
+			"chrPrfWeap_lancelot_rightarm_laser_eh3",
+			"chrPrfWeap_lancelot_rightarm_flamer_eh3",
+			"chrPrfWeap_lancelot_rightarm_ppc_eh3",
+			"chrPrfWeap_lancelot_rightarm_mg_bh3",
+			"chrPrfWeap_lancelot_rightarm_ac20_bh3"
+			]			
+			],
+            "blanks" : [
+                
+            ],
+            "mountingPoints" : [
+                
+            ]
+        },
+        {
+            "location" : "righttorso",
+            "weapons" : [
+			[
+			"chrPrfWeap_lancelot_righttorso_laser_eh1",
+			"chrPrfWeap_lancelot_righttorso_flamer_eh1",	
+			"chrPrfWeap_lancelot_righttorso_ppc_eh1"			
+			]			
+			],
+            "blanks" : [
+			
+            ],
+            "mountingPoints" : [
+                
+            ]
+        },
+        {
+            "location" : "head",
+            "weapons" : [
+			[
+			"chrPrfWeap_lancelot_head_laser_eh1",
+			"chrPrfWeap_lancelot_head_flamer_eh1"	
+			]				
+            ],
+            "blanks" : [
+                
+            ],
+            "mountingPoints" : [
+                
+            ]
+        },		
+		{
+            "location" : "centertorso",
+            "weapons" : [
+			"chrPrfWeap_lancelot_lefttorso_laser_eh1",
+			"chrPrfWeap_lancelot_lefttorso_flamer_eh1",	
+			"chrPrfWeap_lancelot_lefttorso_ppc_eh1"			
+			],
+            "blanks" : [
+                
+            ],
+            "mountingPoints" : [
+                
+            ]
+        }
+    ]
+	
+}
