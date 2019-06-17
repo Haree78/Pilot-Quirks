@@ -14,5 +14,6 @@
     "ConflictsWith": [],
 
     "Manifest": [
+		{ "Type": "AbilityDef", "Path": "abilities", "ShouldMergeJSON": false  },
     ]
 }
