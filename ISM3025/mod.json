@@ -1,0 +1,37 @@
+{
+    "Name": "ISM3025",
+    "DLL": "ISM3025.dll",
+    "Enabled": true,
+
+    "Settings": {
+        "MapWidth": 200,
+        "MapHeight": 200,
+
+        "MapMargin": 50,
+        "MapBottomMargin": 100,
+        
+        "MinFov": 20,
+        "MaxFov": 125,
+
+        "StarHitboxSize": 2,
+        "BorderMargin": 5,
+
+        "FactionColors": {
+            "Kurita": [0.863, 0.078, 0.235, 1],
+            "Steiner": [0.255, 0.412, 0.882, 1]
+        },
+
+        "LogoScalar": 0.75,
+        "LogoMaxSize": 50,
+        "FactionLogoPaths": {
+            "Kurita": "logos/kuritaLogo.png",
+            "Steiner": "logos/steinerLogo.png"
+        },
+
+        "NavRoomScreenTexturePath": "testInnerSphere.PNG"
+    },
+	
+	"Manifest": [
+        { "Type": "StarSystemDef", "Path": "starsystems" }
+    ]
+}
