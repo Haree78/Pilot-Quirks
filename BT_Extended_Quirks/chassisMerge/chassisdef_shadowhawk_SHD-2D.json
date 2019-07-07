@@ -1,0 +1,18 @@
+{
+    "TargetID": "chassisdef_shadowhawk_SHD-2D",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_battlefists",
+				"mech_quirk_improvedlifesupport"
+			]
+        },
+        {
+            "JSONPath": "MeleeToHitModifier",
+            "Action": "Replace",
+            "Value": -2
+        }
+    ]
+}

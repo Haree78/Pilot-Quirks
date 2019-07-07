@@ -1,0 +1,18 @@
+{
+    "TargetID": "chassisdef_hatamotoku_HTM-27W",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_barrelfist",
+				"mech_quirk_easytomaintain"
+			]
+        },
+        {
+            "JSONPath": "MeleeToHitModifier",
+            "Action": "Replace",
+            "Value": -1
+        }
+    ]
+}

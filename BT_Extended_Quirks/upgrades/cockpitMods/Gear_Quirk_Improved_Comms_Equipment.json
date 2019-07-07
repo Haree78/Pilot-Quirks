@@ -1,0 +1,118 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 470000,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "StarCorps",
+        "Model" : "Advanced",
+        "UIName" : "Advanced Comms",
+        "Id" : "Gear_Quirk_Improved_Comms_Equipment",
+        "Name" : "StarCorps Advanced Comms System",
+        "Details" : "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. Comms System upgrades allow for better lance cohesion during combat, increasing the Resolve generated.",
+        "Icon" : "uixSvgIcon_equipment_Comms"
+    },
+    "BonusValueA" : "+ Counter ECM",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 0,
+    "Tonnage" : 0,
+    "AllowedLocations" : "Head",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "Aura",
+                "effectTargetType" : "EnemiesWithinRange",
+                "range" : 250,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : true,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "Improved_Comms_Remove_Ghost",
+                "Name" : "IMPROVED COMMUNICATIONS",
+                "Details" : "Signifies a powerful communications suite that can thwart jamming. Removes a Sensor Ghost stack from enemies within range.",
+                "Icon" : "uixSvgIcon_action_sensorlock"
+            },
+            "nature" : "Debuff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "GhostEffectStacks",
+                "operation" : "Int_Add",
+                "modValue" : "-1",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+		{
+			"durationData" : {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0.0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "ImprovedCommDummyForPreview",
+				"Name" : "IMPROVED COMMUNICATIONS",
+				"Details" : "Signifies a powerful communications suite that can thwart jamming. Removes a Sensor Ghost stack from enemies within range.",
+				"Icon" : "uixSvgIcon_action_sensorlock"
+			},
+			"statisticData" : 
+			{
+				"statName" : "BaseInitiative",
+				"operation": "Int_Add",
+				"modValue": "0",
+				"modType": "System.Int32"
+			},
+			"nature" : "Buff"
+		}
+    ],
+    "ComponentTags" : {
+        "items" : [
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

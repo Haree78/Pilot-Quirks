@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_dragon_DRG-1C",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_narrowlowprofile",
+				"mech_quirk_stable"
+			]
+        }
+    ]
+}

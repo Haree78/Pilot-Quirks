@@ -4,7 +4,7 @@
 	
     "DependsOn": [ "BT_Extended_Overrides" ],
 	
-    "OptionallyDependsOn": [ "PermanentEvasion", "Repair Tonnage and Finances" ],
+    "OptionallyDependsOn": [ "Galaxy at War", "PermanentEvasion", "Repair Tonnage and Finances" ],
 	
     "Version": "1.6.0.0",
 

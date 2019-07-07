@@ -1,17 +1,19 @@
 {
     "VehicleTags": {
         "items": [
-            "unit_vehicle",
-            "unit_vehicle_apc",
+            "unit_vehicle",  
+            "unit_vehicle_apc", 
             "unit_light",
             "unit_wheels", 
             "unit_noncombatant",
+            "unit_range_medium", 
+            "unit_armor_low",  
             "unit_release",
             "Davion",
             "Liao",
             "Marik",
             "Steiner",
-            "Kurita",
+            "Kurita", 
             "TaurianConcordat",
             "unit_uncommon",
             "unit_uncommon_Davion",
@@ -48,6 +50,8 @@
             "unit_uncommon_PaladinProtectionLLC",
             "unit_uncommon_HouseNakano",
             "unit_uncommon_HouseKhulan",
+            "unit_rare_ProfHorvat",
+            "unit_uncommon_EdCorbu",
             "unit_uncommon_HostileMercenaries",
             "unit_uncommon_NoFaction"
         ],

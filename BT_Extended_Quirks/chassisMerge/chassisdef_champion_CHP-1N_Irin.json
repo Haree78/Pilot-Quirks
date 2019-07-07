@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_champion_CHP-1N_Irin",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_nominimalarms"
+        }
+    ]
+}

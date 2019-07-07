@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_cataphract_CTF-1X",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_protectedactuators"
+        }
+    ]
+}

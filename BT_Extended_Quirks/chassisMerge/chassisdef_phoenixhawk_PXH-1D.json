@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_phoenixhawk_PXH-1D",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_improvedcomm"
+        }
+    ]
+}

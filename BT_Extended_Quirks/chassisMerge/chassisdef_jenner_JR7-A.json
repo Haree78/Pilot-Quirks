@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_jenner_JR7-A",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_nominimalarms",
+				"mech_quirk_notorsotwist"
+			]
+        }
+    ]
+}

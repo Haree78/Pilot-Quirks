@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_centurion_CN9-A",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_improvedtargetingshort",
+				"mech_quirk_nonstandardparts"
+			]
+        }
+    ]
+}

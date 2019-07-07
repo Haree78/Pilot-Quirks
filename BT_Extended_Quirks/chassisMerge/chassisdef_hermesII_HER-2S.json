@@ -1,0 +1,14 @@
+{
+    "TargetID": "chassisdef_hermesII_HER-2S",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_easytomaintain",
+				"mech_quirk_improvedcomm",
+				"mech_quirk_notorsotwist"
+			]
+        }
+    ]
+}

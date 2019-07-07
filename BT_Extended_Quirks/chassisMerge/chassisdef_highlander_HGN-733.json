@@ -1,0 +1,15 @@
+{
+    "TargetID": "chassisdef_highlander_HGN-733",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_commandmech",
+				"mech_quirk_cowl",
+				"mech_quirk_reinforcedlegs",
+				"mech_quirk_difficultejection"
+			]
+        }
+    ]
+}

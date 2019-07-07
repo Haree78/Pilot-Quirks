@@ -22,7 +22,7 @@
         "UIName": "Wyvern WVE-6N",
         "Id": "mechdef_wyvern_WVE-6N",
         "Name": "Wyvern",
-        "Details": "Blackjack 1s are solid, well-rounded 'Mechs for their tonnage. They typically mount Jump Jets, which give them an extra edge by repositioning quickly to keep a direct line of fire for their Autocannons.",
+        "Details": "The Wyvern was designed as an urban warfare BattleMech for the Star League Defense Force. While considered slow when compared to other medium 'Mechs, and indeed vulnerable if forced to engage in open country, the Wyvern quickly proved itself to be one of the best urban combatants ever built. Thanks to its combination of weaponry, decent armor and jump jets the Wyvern can take on and destroy 'Mechs well outside its weight class.",
         "Icon": "uixTxrIcon_wyvern"
     },
     "simGameMechPartCost": 440000,

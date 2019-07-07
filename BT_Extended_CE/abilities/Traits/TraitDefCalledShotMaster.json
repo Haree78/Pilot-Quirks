@@ -6,7 +6,7 @@
 		"Icon" : "uixSvgIcon_ability_mastertactician"
 	},
 	"Type" : "CalledShotBonus",
-	"ShortDesc" : "Called Shot Mastery\nNo Penalty for Moving/Jumping",
+	"ShortDesc" : "Called Shot Mastery",
     "DisplayParams" : "ShowInPilotToolTip",
 	"ActivationTime" : "Passive",
 	"EffectData" :
@@ -33,7 +33,7 @@
 			{
 				"statName" : "CalledShotBonusMultiplier",
 				"operation" : "Float_Multiply",
-				"modValue" : "2.5",
+				"modValue" : "2.92",
 				"modType" : "System.Single"
 			}
 		}

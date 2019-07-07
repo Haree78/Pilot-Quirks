@@ -13,7 +13,7 @@
     },
     "MovementCapDefID": "movedef_marauderII_MAD-4A",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_marauder",
+    "HardpointDataDefID": "hardpointdatadef_marauderii",
     "PrefabIdentifier": "chrprfmech_marauderiibase-001",
     "PrefabBase": "marauderii",
     "Tonnage": 100,

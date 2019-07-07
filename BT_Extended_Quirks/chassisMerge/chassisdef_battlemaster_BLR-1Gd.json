@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_battlemaster_BLR-1Gd",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_commandmech"
+        }
+    ]
+}

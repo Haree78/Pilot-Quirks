@@ -1,0 +1,14 @@
+{
+    "TargetID": "chassisdef_trooper_TP-1R",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_easytomaintain",
+				"mech_quirk_improvedlifesupport",
+				"mech_quirk_nominimalarms"
+			]
+        }
+    ]
+}

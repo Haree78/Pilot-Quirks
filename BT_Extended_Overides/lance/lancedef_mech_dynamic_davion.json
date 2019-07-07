@@ -108,8 +108,6 @@
          "excludedUnitTagSet" : {
             "items" : [
 				"unit_noncombatant",
-				"unit_rare_Davion",
-				"unit_very_rare_Davion",
 				"unit_ext_rare_Davion",
 				"unit_none_Davion",
 				"unit_hero_Davion",
@@ -145,6 +143,8 @@
          "excludedUnitTagSet" : {
             "items" : [
 				"unit_noncombatant",
+				"unit_rare_Davion",
+				"unit_very_rare_Davion",
 				"unit_ext_rare_Davion",
 				"unit_none_Davion",
 				"unit_hero_Davion",

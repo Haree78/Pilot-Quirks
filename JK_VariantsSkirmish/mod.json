@@ -1,8 +1,8 @@
 {
     "Name": "JK_VariantsSkirmish",
-    "Enabled": true,
+    "Enabled": false,
 
-	"Version": "1.6.1.1",
+	"Version": "1.6.2.1",
 	"PackagedOn": "2019-06-04T16:45:00Z",
 
     "Description": "Adds 10 'Mech Variants - usable in Skirmish mode.",

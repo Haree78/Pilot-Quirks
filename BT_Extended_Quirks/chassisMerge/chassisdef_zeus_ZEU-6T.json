@@ -1,0 +1,18 @@
+{
+    "TargetID": "chassisdef_zeus_ZEU-6T",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_barrelfist",
+				"mech_quirk_easytomaintain"
+			]
+        },
+        {
+            "JSONPath": "MeleeToHitModifier",
+            "Action": "Replace",
+            "Value": -1
+        }
+    ]
+}

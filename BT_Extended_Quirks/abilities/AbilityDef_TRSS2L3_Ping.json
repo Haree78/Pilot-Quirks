@@ -1,0 +1,14 @@
+{
+	"Description" : {
+		"Id" : "AbilityDef_TRSS2L3_Ping",
+		"Name" : "TRSS.2L3 TRACKING PING",
+		"Details" : "ACTION: Perform a Sensor Lock on all enemies within [FloatParam1] meters, and generates [FloatParam2] Heat for the user. There is a [ActivationCooldown] round cooldown.",
+		"Icon" : "uixSvgIcon_action_sensorlock"
+	},
+	"ActivationTime" : "ConsumedByFiring",
+    "Targeting" : "ActiveProbe",
+    "ActivationCooldown" : 5,
+	"FloatParam1": 225.0,
+	"FloatParam2": 50.0,
+	"StringParam1": "TRSS.2L3 Tracking Ping is unavailable."
+}

@@ -1,12 +1,14 @@
 {
     "VehicleTags": {
         "items": [
-            "unit_vehicle",
+            "unit_vehicle",    
             "unit_assault",
-            "unit_tracks", 
+            "unit_tracks",  
+            "unit_range_long", 
+            "unit_armor_low",  
             "unit_release",
             "Davion",
-            "Liao",
+            "Liao", 
             "Steiner",
             "Kurita",
             "MagistracyOfCanopus",
@@ -46,6 +48,8 @@
             "unit_uncommon_PaladinProtectionLLC",
             "unit_uncommon_HouseNakano",
             "unit_uncommon_HouseKhulan",
+            "unit_uncommon_ProfHorvat",
+            "unit_uncommon_EdCorbu",
             "unit_uncommon_HostileMercenaries",
             "unit_uncommon_NoFaction"
         ],

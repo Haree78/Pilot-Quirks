@@ -1,0 +1,19 @@
+{
+    "TargetID": "chassisdef_warhammer_WHM-6D",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_rugged2",
+				"mech_quirk_searchlight_LT",
+				"mech_quirk_stable"
+			]
+        },
+        {
+            "JSONPath": "Stability",
+            "Action": "Replace",
+            "Value": 200
+        }
+    ]
+}

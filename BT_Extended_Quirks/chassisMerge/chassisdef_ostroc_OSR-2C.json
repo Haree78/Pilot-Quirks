@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_ostroc_OSR-2C",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_narrowlowprofile"
+        }
+    ]
+}

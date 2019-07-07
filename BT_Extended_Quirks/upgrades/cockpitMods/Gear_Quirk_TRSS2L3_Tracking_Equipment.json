@@ -1,0 +1,55 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 940000,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "Robinson Standard BattleWorks",
+        "Model" : "TRSS.2L3",
+        "UIName" : "Advanced Sensors",
+        "Id" : "Gear_Quirk_TRSS2L3_Tracking_Equipment",
+        "Name" : "TRSS.2L3 Sensors",
+        "Details" : "The Kong Interstellar Corporation designed TRSS.2L3 Targeting-Tracking System is so advanced compared to it's contemporary opposition it is able to be activated to performs a Sensor Lock against all enemies within its radius before entering a cooldown state.",
+        "Icon" : "UixSvgIcon_specialEquip_Sensors"
+    },
+    "BonusValueA" : "+ Area Sensor Lock",
+    "BonusValueB" : null,
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "Prototype_ElectronicWarfare",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 0,
+    "Tonnage" : 0,
+    "AllowedLocations" : "Head",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [		
+		{
+            "targetingData" : {
+                "effectTriggerType" : "OnActivation",
+                "effectTargetType" : "EnemiesWithinRange",
+				"alsoTargetsCreator" : true,
+                "forceVisRebuild" : true,
+            },
+			"effectType" : "ActiveAbility",
+			"Description" :
+			{
+				"Id" : "TRSS2L3_SENSOR_PING",
+				"Name" : "TRSS.2L3 SENSOR PING",
+				"Details" : "Activated ability (uses Firing action). Performs a Sensor Lock against all enemies within its radius, as indicated by the spinning gold ring. Will go into cooldown state after use.",
+				"Icon" : "uixSvgIcon_action_sensorlock"
+			},
+			"activeAbilityEffectData" : 
+			{
+				"abilityName" : "AbilityDef_TRSS2L3_Ping",
+			},
+		},		
+    ],
+    "ComponentTags" : {
+        "items" : [
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

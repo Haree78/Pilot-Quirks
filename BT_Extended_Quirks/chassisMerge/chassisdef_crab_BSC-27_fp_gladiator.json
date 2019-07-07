@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_crab_BSC-27_fp_gladiator",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_easytomaintain"
+        }
+    ]
+}

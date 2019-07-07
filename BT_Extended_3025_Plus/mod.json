@@ -1,6 +1,6 @@
 {
     "Name": "BT_Extended_3025_Plus",
-    "Enabled": false,
+    "Enabled": true,
 
 	"Version": "1.6.0.0",
 	"PackagedOn": "2019-06-04T16:45:00Z",

@@ -20,7 +20,7 @@
         "UIName": "Hermes II HER-4K",
         "Id": "mechdef_hermesII_HER-4K",
         "Name": "Hermes II",
-        "Details": "The Cicada 3C is slightly slower than the 2A but has more room for weaponry and armor. It still generally underperforms in most areas except speed, but it can put up more of a fight, with better survival rates.",
+        "Details": "Also sometimes referred to as the Hermes III, this variant of the Hermes II was introduced a year after the original. It is a modification of the design built to remove its dependence on ammunition by replacing all of the weapons with two Large Lasers.  Exclusive to the Draconis combine, the Hermes II 4K features the Ostmann Industries upgraded Sensors and Tracking system.",
         "Icon": "uixTxrIcon_hermesII"
     },
     "simGameMechPartCost": 380000,

@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_hatchetman_HCT-3NH",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_antiaircraft"
+        }
+    ]
+}

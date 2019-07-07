@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_raven_RVN-3X",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_nominimalarms"
+        }
+    ]
+}

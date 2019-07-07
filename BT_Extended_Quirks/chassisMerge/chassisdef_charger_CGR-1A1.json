@@ -1,0 +1,19 @@
+{
+    "TargetID": "chassisdef_charger_CGR-1A1",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_barrelfist",
+				"mech_quirk_easytomaintain",
+				"mech_quirk_badreputation"
+			]
+        },
+        {
+            "JSONPath": "MeleeToHitModifier",
+            "Action": "Replace",
+            "Value": -1
+        }
+    ]
+}

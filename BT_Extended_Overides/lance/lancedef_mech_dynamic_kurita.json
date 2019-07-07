@@ -108,8 +108,6 @@
          "excludedUnitTagSet" : {
             "items" : [
 				"unit_noncombatant",
-				"unit_rare_Kurita",
-				"unit_very_rare_Kurita",
 				"unit_ext_rare_Kurita",
 				"unit_none_Kurita",
 				"unit_hero_Kurita",
@@ -145,6 +143,8 @@
          "excludedUnitTagSet" : {
             "items" : [
 				"unit_noncombatant",
+				"unit_rare_Kurita",
+				"unit_very_rare_Kurita",
 				"unit_ext_rare_Kurita",
 				"unit_none_Kurita",
 				"unit_hero_Kurita",

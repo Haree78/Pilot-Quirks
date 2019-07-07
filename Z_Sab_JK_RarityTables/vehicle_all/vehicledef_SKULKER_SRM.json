@@ -1,18 +1,20 @@
 {
     "VehicleTags": {
         "items": [
-            "unit_vehicle",
+            "unit_vehicle",    
             "unit_light",
             "unit_wheels", 
             "unit_noncombatant",
+            "unit_range_medium",
+            "unit_speed_high",   
             "unit_release",
             "NotDavion",
             "NotLiao",
             "NotMarik",
-            "NotSteiner",
+            "NotSteiner", 
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
-            "unit_none",
+            "unit_ext_rare",
             "unit_ext_rare_Davion",
             "unit_none_Liao",
             "unit_none_Marik",
@@ -47,6 +49,8 @@
             "unit_none_PaladinProtectionLLC",
             "unit_none_HouseNakano",
             "unit_none_HouseKhulan",
+            "unit_none_ProfHorvat",
+            "unit_none_EdCorbu",
             "unit_none_HostileMercenaries",
             "unit_none_NoFaction"
         ],

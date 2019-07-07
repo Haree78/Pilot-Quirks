@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_guillotine_GLT-3N",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_searchlight_CT"
+        }
+    ]
+}

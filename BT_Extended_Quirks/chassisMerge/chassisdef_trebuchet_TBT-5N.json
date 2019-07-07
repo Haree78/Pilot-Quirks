@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_trebuchet_TBT-5N",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_easytomaintain"
+        }
+    ]
+}

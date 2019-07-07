@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_wolfhound_WLF-1A",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_easytomaintain",
+				"mech_quirk_goodreputation"
+			]
+        }
+    ]
+}

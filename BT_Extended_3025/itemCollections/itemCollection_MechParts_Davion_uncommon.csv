@@ -20,13 +20,14 @@ mechdef_shadowhawk_SHD-2D,MechPart,1,8
 mechdef_vulcan_VL-5T,MechPart,1,4
 mechdef_whitworth_WTH-1,MechPart,1,8
 mechdef_blackknight_BL-7-KNT,MechPart,1,2
+mechdef_crusader_CRD-3D,MechPart,1,6
 mechdef_jagermech_JM6-A,MechPart,1,3
 mechdef_jagermech_JM6-S,MechPart,1,4
 mechdef_jagermech_JM6-B,MechPart,1,3
 mechdef_marauder_MAD-3D,MechPart,1,6
 mechdef_merlin_MLN-1A,MechPart,1,6
 mechdef_warhammer_WHM-6D,MechPart,1,3
-mechdef_atlas_AS7-D,MechPart,1,4
+mechdef_atlas_AS7-D,MechPart,1,3
 mechdef_atlas_AS7-RS,MechPart,1,2
 mechdef_battlemaster_BLR-1D,MechPart,1,2
 mechdef_stalker_STK-3F,MechPart,1,2

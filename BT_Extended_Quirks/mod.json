@@ -1,0 +1,63 @@
+{
+    "Name": "BT_Extended_Quirks",
+    "Enabled": true,
+	
+    "DependsOn": [],
+	
+    "OptionallyDependsOn": [ "BT_Extended_Overrides", "PermanentEvasion", "Repair Tonnage and Finances" ],
+	
+    "Version": "1.6.2.0",
+
+    "Author": "Haree78",
+
+    "ConflictsWith": [],
+	
+	"DLL": "MechQuirks.dll",
+
+    "Settings": 
+	{
+		"RuggedMaintModifier" : -25,
+		"EasyToMaintMaintModifier" : 0,
+		"DifficultToMaintMaintModifier" : 0,
+		"NonStandardMaintModifier" : 0,
+		"PrototypeMaintModifier" : 25,
+
+        "RuggedTechModifier" : 0,
+        "EasyToMaintTechModifier" : -25,
+        "DifficultToMaintTechModifier" : 25,
+        "NonStandardTechModifier" : 0,
+        "PrototypeTechModifier" : 0,
+
+        "RuggedCostModifier" : 0,
+        "EasyToMaintCostModifier" : 0,
+        "DifficultToMaintCostModifier" : 0,
+        "NonStandardCostModifier" : 25,
+        "PrototypeCostModifier" : 15,
+
+		"CombatComputerHeatLoss" : -3,
+        "CommandMechInitiative" : -1,
+        "CowlDamageReduction" : -3.0,
+        "CrampedCockpitResolve" : -1,
+		"MultiTracBonus" : -1.0,
+        "NarrowLowProfileModifier" : 1,
+		"NoArmsStandUpHitReduction" : 2.0,
+        "OversizedModifier" : -1,
+        "StabilizedWeaponAccuracy" : -1.0,
+		"WeakHeadArmorReduction" : -3,
+		
+		"TargetingShortRange" : 240.0,
+		"TargetingMediumRange" : 460.0,
+		
+		"TargetingShortModifier" : -1.0,
+		"TargetingMediumModifier" : -1.0,
+		"TargetingLongModifier" : -1.0,
+		
+		"YourModHasWalkHeat" : false
+    },
+
+    "Manifest": [
+		{ "Type": "AbilityDef", "Path": "abilities", "ShouldMergeJSON": false  },
+		{ "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
+        { "Path": "chassisMerge", "Type": "AdvancedJSONMerge" }
+    ]
+}

@@ -2,6 +2,9 @@
    "Finances" : {
 		"MechWarriorBaseCostPerPoint" : 1400.0,
 		"MechWarriorBonusCostPerPoint" : 700.0,
+		"LeopardBaseMaintenanceCost" : 60000,
+		"ArgoBaseMaintenanceCost" : 70000,
+		"QuartersYouCanAffordWithoutTriggeringWarning" : 1,
 	},
    "Story" : {
 		"StartingMechTechSkill" : 5000,

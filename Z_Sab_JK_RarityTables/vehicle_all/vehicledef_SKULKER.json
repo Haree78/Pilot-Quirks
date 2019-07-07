@@ -1,13 +1,15 @@
 {
     "VehicleTags": {
         "items": [
-            "unit_vehicle",
+            "unit_vehicle",    
             "unit_light",
             "unit_wheels", 
             "unit_noncombatant",
-            "unit_release",
-            "Kurita",
-            "unit_rare",
+            "unit_range_medium",
+            "unit_speed_high",   
+            "unit_release",    
+            "Kurita",  
+            "unit_uncommon",
             "unit_rare_Davion",
             "unit_rare_Liao",
             "unit_rare_Marik",
@@ -22,7 +24,7 @@
             "unit_rare_DuchyOfAndurien",
             "unit_rare_AuriganMercenaries",
             "unit_very_rare_AuriganPirates",
-            "unit_none_Locals",
+            "unit_rare_Locals",
             "unit_very_rare_Betrayers",
             "unit_none_MajestyMetals",
             "unit_none_KellHounds",
@@ -42,6 +44,8 @@
             "unit_rare_PaladinProtectionLLC",
             "unit_rare_HouseNakano",
             "unit_rare_HouseKhulan",
+            "unit_uncommon_ProfHorvat",
+            "unit_none_EdCorbu",
             "unit_rare_HostileMercenaries",
             "unit_rare_NoFaction"
         ],

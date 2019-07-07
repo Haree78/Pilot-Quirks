@@ -1,0 +1,14 @@
+{
+    "TargetID": "chassisdef_marauderII_MAD-4A",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_commandmech",
+				"mech_quirk_hyperextendingactuators",
+				"mech_quirk_narrowlowprofile"
+			]
+        }
+    ]
+}

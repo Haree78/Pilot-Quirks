@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_blackjack_BJ-3",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_badreputation"
+        }
+    ]
+}

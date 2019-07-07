@@ -1,0 +1,15 @@
+{
+    "TargetID": "chassisdef_awesome_AWS-8T",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_battlefists"
+        },
+        {
+            "JSONPath": "MeleeToHitModifier",
+            "Action": "Replace",
+            "Value": -2
+        }
+    ]
+}

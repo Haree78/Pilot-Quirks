@@ -1,12 +1,14 @@
 {
     "VehicleTags": {
         "items": [
-            "unit_vehicle",
-            "unit_weaponless",
+            "unit_vehicle",  
+            "unit_weaponless", 
             "unit_light",
             "unit_wheels", 
-            "unit_noncombatant",
-            "unit_release",
+            "unit_noncombatant", 
+            "unit_speed_high",
+            "unit_armor_high",  
+            "unit_release",       
             "unit_rare",
             "unit_rare_Davion",
             "unit_rare_Liao",
@@ -42,6 +44,8 @@
             "unit_rare_PaladinProtectionLLC",
             "unit_rare_HouseNakano",
             "unit_rare_HouseKhulan",
+            "unit_rare_ProfHorvat",
+            "unit_rare_EdCorbu",
             "unit_rare_HostileMercenaries",
             "unit_rare_NoFaction"
         ],

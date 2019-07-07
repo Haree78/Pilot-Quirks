@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_valkyrie_VLK-QF",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_improvedcomm"
+        }
+    ]
+}

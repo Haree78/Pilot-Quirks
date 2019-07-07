@@ -1,0 +1,16 @@
+{
+    "TargetID": "chassisdef_clint_CLNT-2-4T",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_improvedtargetingmedium",
+				"mech_quirk_improvedtargetinglong",
+				"mech_quirk_exposedactuators",
+				"mech_quirk_difficulttomaintain",
+				"mech_quirk_nonstandardparts"
+			]
+        }
+    ]
+}

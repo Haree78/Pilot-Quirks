@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_thunderbolt_TDR-5SE",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_multitrac",
+				"mech_quirk_rugged2"
+			]
+        }
+	]
+}

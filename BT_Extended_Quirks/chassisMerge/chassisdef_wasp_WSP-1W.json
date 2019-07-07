@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_wasp_WSP-1W",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_easytomaintain",
+				"mech_quirk_extendedtorsotwist"
+			]
+        }
+    ]
+}

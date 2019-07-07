@@ -1,0 +1,15 @@
+{
+    "TargetID": "chassisdef_assassin_ASN-101",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_easytomaintain",
+				"mech_quirk_crampedcockpit",
+				"mech_quirk_nonstandardparts",
+				"mech_quirk_poorlifesupport"
+			]
+        }
+    ]
+}

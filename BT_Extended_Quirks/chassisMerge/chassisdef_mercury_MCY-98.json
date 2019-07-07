@@ -1,0 +1,14 @@
+{
+    "TargetID": "chassisdef_mercury_MCY-98",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_easytomaintain",
+				"mech_quirk_modularweapons",
+				"mech_quirk_notorsotwist"
+			]
+        }
+    ]
+}

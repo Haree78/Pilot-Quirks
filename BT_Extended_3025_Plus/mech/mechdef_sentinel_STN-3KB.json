@@ -20,7 +20,7 @@
         "UIName": "Sentinel STN-3KB",
         "Id": "mechdef_sentinel_STN-3KB",
         "Name": "Sentinel",
-        "Details": "The Cicada 3C is slightly slower than the 2A but has more room for weaponry and armor. It still generally underperforms in most areas except speed, but it can put up more of a fight, with better survival rates.",
+        "Details": "The Sentinel was one of many designs to suffer from the technological decline of the recent Succession Wars, with Defiance first losing the ability to manufacture its advanced weapon systems before discontinuing production entirely in 3014 due to lack of both parts and interest. Despite this, with a powerful targeting and communications package, the Sentinel is ideal for long-range patrols or mobile observation. The 3KB Sentinel is an uncommon field refit of the 3K. This variant replaces the autocannon with a PPC and three extra heat sinks.",
         "Icon": "uixTxrIcon_cicada"
     },
     "simGameMechPartCost": 380000,

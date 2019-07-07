@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_jayhawker_JHR-X0",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_narrowlowprofile",
+				"mech_quirk_stabilized_CT_LargeLaser"
+			]
+        }
+    ]
+}

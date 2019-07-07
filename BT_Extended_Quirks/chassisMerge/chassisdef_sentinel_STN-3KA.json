@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_sentinel_STN-3KA",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_improvedcomm",
+				"mech_quirk_notorsotwist"
+			]
+        }
+    ]
+}

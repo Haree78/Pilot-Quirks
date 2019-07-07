@@ -1,0 +1,14 @@
+{
+    "TargetID": "chassisdef_lancelot_LNC25-01",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_antiaircraft",
+				"mech_quirk_narrowlowprofile",
+				"mech_quirk_badreputation"
+			]
+        }
+    ]
+}

@@ -108,8 +108,6 @@
          "excludedUnitTagSet" : {
             "items" : [
 				"unit_noncombatant",
-				"unit_rare_Marik",
-				"unit_very_rare_Marik",
 				"unit_ext_rare_Marik",
 				"unit_none_Marik",
 				"unit_hero_Marik",
@@ -145,6 +143,8 @@
          "excludedUnitTagSet" : {
             "items" : [
 				"unit_noncombatant",
+				"unit_rare_Marik",
+				"unit_very_rare_Marik",
 				"unit_ext_rare_Marik",
 				"unit_none_Marik",
 				"unit_hero_Marik",

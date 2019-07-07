@@ -1,0 +1,14 @@
+{
+    "TargetID": "chassisdef_cyclops_CP-10-Z",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_cowl",
+				"mech_quirk_difficultejection",
+				"mech_quirk_weakheadarmor2"
+			]
+        }
+    ]
+}

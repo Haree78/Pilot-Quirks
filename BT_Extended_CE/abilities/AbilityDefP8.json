@@ -1,8 +1,8 @@
 {
 	"Description" : {
 		"Id" : "AbilityDefP8",
-		"Name" : "EVASSIVE EXPERT",
-		"Details" : "PASSIVE: A 'Mech piloted by this MechWarrior has a chance to not lose evasion when fired upon.",
+		"Name" : "EVASIVE EXPERT",
+		"Details" : "PASSIVE: A 'Mech piloted by this MechWarrior has a chance to not lose evasion when fired upon.  The faster the BattleMech, the more evasion can be kept.",
 		"Icon" : "uixSvgIcon_run_n_gun"
 	},
     "DisplayParams" : "ShowInMWTRay",

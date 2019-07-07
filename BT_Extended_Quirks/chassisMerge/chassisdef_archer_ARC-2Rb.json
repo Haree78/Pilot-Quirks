@@ -1,0 +1,24 @@
+{
+    "TargetID": "chassisdef_archer_ARC-2Rb",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_battlefists",
+				"mech_quirk_commandmech",
+				"mech_quirk_stable"
+			]
+        },
+        {
+            "JSONPath": "MeleeToHitModifier",
+            "Action": "Replace",
+            "Value": -2
+        },
+        {
+            "JSONPath": "Stability",
+            "Action": "Replace",
+            "Value": 200
+        }
+    ]
+}

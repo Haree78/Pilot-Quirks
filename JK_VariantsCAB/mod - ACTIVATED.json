@@ -4,7 +4,7 @@
 
     "DependsOn": [ "JK_VariantsCampaign", "CommunityBundles" ],
 
-	"Version": "1.6.1.1",
+	"Version": "1.6.2.1",
 	"PackagedOn": "2019-06-04T16:45:00Z",
 
     "Description": "Making use of the Community Asset Bundle, this folder collects all the 3025-ish era variants for Vanilla in one place - includes Warhammer, Archer, Rifleman, Phoenix Hawk, Wolfhound, Urbie R50, Assassin, Javelin, Marauder, Marauder II, Charger, Champion, Longbow, Nightstar.  It then adds in the DC/Command Console variants for the Warhammer & Marauder, along with 'Mechs from the TRO 3028 such as Linesman, Jayhawker, Nightstar and Loader King variants - along with the Trooper.  Also includes the MASH truck with special missions.",

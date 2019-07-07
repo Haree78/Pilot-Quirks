@@ -15,7 +15,7 @@
  		"lance_type_dynamic_difficulty",
 		"lance_type_mech",
 		"lance_type_notallvehicles",
-		"lance_type_common"
+		"lance_type_common",
 		"NoFaction",
 		"AuriganDirectorate",
 		"AuriganRestoration",
@@ -40,16 +40,15 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
-				"unit_uncommon",
-				"unit_rare",
-				"unit_very_rare",
-				"unit_ext_rare",
-				"unit_none",
-				"unit_hero",
-				"unit_LosTech",
-				"unit_era_2750",
-				"unit_era_2900",
-				"unit_clan"
+               "unit_urbie",
+               "unit_very_rare",
+               "unit_ext_rare",
+               "unit_none",
+               "unit_hero",
+               "unit_LosTech",
+               "unit_era_2750",
+               "unit_era_2900",
+               "unit_clan"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -78,51 +77,16 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
-				"unit_very_rare",
-				"unit_ext_rare",
-				"unit_none",
-				"unit_hero",
-				"unit_LosTech",
-				"unit_era_2750",
-				"unit_era_2900",
-				"unit_clan"
-		    ],
-            "tagSetSourceFile" : "Tags/UnitTags"
-         },
-         "pilotTagSet" : {
-            "items" : [
-
-            ],
-            "tagSetSourceFile" : "Tags/PilotTags"
-         },
-         "excludedPilotTagSet" : {
-            "items" : null,
-            "tagSetSourceFile" : "Tags/PilotTags"
-         }
-      },
-      {
-         "unitType" : "Mech",
-         "unitId" : "Tagged",
-         "pilotId" : "Tagged",
-		 "dynamicDifficulty": true,
-         "unitTagSet" : {
-            "items" : [
-               "unit_mech"
-            ],
-            "tagSetSourceFile" : "Tags/UnitTags"
-         },
-         "excludedUnitTagSet" : {
-            "items" : [
-               "unit_noncombatant",
-				"unit_rare",
-				"unit_very_rare",
-				"unit_ext_rare",
-				"unit_none",
-				"unit_hero",
-				"unit_LosTech",
-				"unit_era_2750",
-				"unit_era_2900",
-				"unit_clan"
+               "unit_urbie",
+               "unit_rare",
+               "unit_very_rare",
+               "unit_ext_rare",
+               "unit_none",
+               "unit_hero",
+               "unit_LosTech",
+               "unit_era_2750",
+               "unit_era_2900",
+               "unit_clan"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -151,13 +115,51 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
-				"unit_ext_rare",
-				"unit_none",
-				"unit_hero",
-				"unit_LosTech",
-				"unit_era_2750",
-				"unit_era_2900",
-				"unit_clan"
+               "unit_urbie",
+               "unit_ext_rare",
+               "unit_none",
+               "unit_hero",
+               "unit_LosTech",
+               "unit_era_2750",
+               "unit_era_2900",
+               "unit_clan"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "Tagged",
+         "pilotId" : "Tagged",
+		 "dynamicDifficulty": true,
+         "unitTagSet" : {
+            "items" : [
+               "unit_noncombatant",
+               "unit_rare",
+               "unit_very_rare",
+               "unit_ext_rare",
+               "unit_none",
+               "unit_hero",
+               "unit_LosTech",
+               "unit_era_2750",
+               "unit_era_2900",
+               "unit_clan"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+               "unit_noncombatant"
             ],
 			"tagSetSourceFile" : "Tags/UnitTags"
 		 },

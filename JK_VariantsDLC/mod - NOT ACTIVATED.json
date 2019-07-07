@@ -2,7 +2,7 @@
     "Name": "JK_VariantsDLC",
     "Enabled": false,
 
-	"Version": "1.6.1.1",
+	"Version": "1.6.2.1",
 	"PackagedOn": "2019-06-04T16:45:00Z",
 
     "Description": "Adds DLC content 'Mech Variants - currently 1 Mech Variant and 1 Upgrade, includes optional JJ rules as well - usable in both Skirmish and Campaign modes.",
@@ -14,6 +14,7 @@
 		{ "Type": "MechDef", "Path": "mech", "ShouldMergeJSON": false, "AddToDB": true },
 		{ "Type": "VehicleDef", "Path": "vehicle", "ShouldMergeJSON": false, "AddToDB": true },
 		{ "Type": "VehicleChassisDef", "Path": "vehicleChassis", "ShouldMergeJSON": false, "AddToDB": true },
-		{ "Type": "UpgradeDef", "Path": "upgrades", "ShouldMergeJSON": false, "AddToDB": true }
+		{ "Type": "UpgradeDef", "Path": "upgrades", "ShouldMergeJSON": false, "AddToDB": true },
+		{ "Type": "MovementCapabilitiesDef", "Path": "movement", "ShouldMergeJSON": false, "AddToDB": true }
     ]
 }

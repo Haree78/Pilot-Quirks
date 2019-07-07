@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_commando_COM-1B",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_narrowlowprofile",
+				"mech_quirk_exposedactuators"
+			]
+        }
+    ]
+}

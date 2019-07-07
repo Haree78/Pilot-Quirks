@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_crab_CRB-20",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_easytomaintain"
+        }
+    ]
+}

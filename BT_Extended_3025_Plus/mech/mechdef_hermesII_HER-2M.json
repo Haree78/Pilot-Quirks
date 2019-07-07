@@ -20,7 +20,7 @@
         "UIName": "Hermes II HER-2M",
         "Id": "mechdef_hermesII_HER-2M",
         "Name": "Hermes II",
-        "Details": "The Cicada 3C is slightly slower than the 2A but has more room for weaponry and armor. It still generally underperforms in most areas except speed, but it can put up more of a fight, with better survival rates.",
+        "Details": "Also known as the Mercury, this variant of the Hermes II was introduced in 2802.  A larger engine was installed to bring the 'Mech's top speed up to 118.8 km/h, although this necessitated the removal of the autocannon, eliminating the 'Mech's long-range firepower. To make up for this, short-range firepower was increased with two additional medium lasers and two Machine Guns mounted in the right torso.",
         "Icon": "uixTxrIcon_hermesII"
     },
     "simGameMechPartCost": 380000,

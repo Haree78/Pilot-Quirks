@@ -1,0 +1,14 @@
+{
+    "TargetID": "chassisdef_rifleman_II_RFL-3N-2_Kataga",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_antiaircraft",
+				"mech_quirk_improvedcomm",
+				"mech_quirk_searchlight"
+			]
+        }
+    ]
+}

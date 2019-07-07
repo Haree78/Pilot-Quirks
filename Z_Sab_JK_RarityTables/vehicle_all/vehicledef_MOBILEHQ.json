@@ -1,11 +1,12 @@
 {
     "VehicleTags": {
         "items": [
-            "unit_vehicle",
-            "unit_vehicle_mobileHQ",
+            "unit_vehicle",  
+            "unit_vehicle_mobileHQ", 
             "unit_light",
             "unit_wheels", 
             "unit_noncombatant",
+            "unit_range_medium",    
             "unit_release",
             "Davion",
             "Liao",
@@ -29,7 +30,7 @@
             "unit_uncommon_DuchyOfAndurien",
             "unit_rare_AuriganMercenaries",
             "unit_rare_AuriganPirates",
-            "unit_rare_Locals",
+            "unit_uncommon_Locals",
             "unit_rare_Betrayers",
             "unit_rare_MajestyMetals",
             "unit_rare_KellHounds",
@@ -49,6 +50,8 @@
             "unit_rare_PaladinProtectionLLC",
             "unit_rare_HouseNakano",
             "unit_rare_HouseKhulan",
+            "unit_uncommon_ProfHorvat",
+            "unit_rare_EdCorbu",
             "unit_rare_HostileMercenaries",
             "unit_rare_NoFaction"
         ],

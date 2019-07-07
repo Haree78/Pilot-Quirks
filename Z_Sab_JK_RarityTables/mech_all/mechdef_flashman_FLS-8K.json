@@ -4,7 +4,7 @@
           "unit_mech",
           "unit_heavy", 
           "unit_range_long",
-           "unit_range_medium",
+          "unit_range_medium",
           "unit_speed_high",
           "unit_armor_high",
           "unit_hot",

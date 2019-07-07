@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_thug_THG-11E",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_notorsotwist"
+        }
+    ]
+}

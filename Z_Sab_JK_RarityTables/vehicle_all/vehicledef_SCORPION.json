@@ -1,9 +1,12 @@
 {
     "VehicleTags": {
         "items": [
-            "unit_vehicle",
+            "unit_vehicle",    
             "unit_light",
-            "unit_tracks", 
+            "unit_tracks",  
+            "unit_range_long",
+            "unit_speed_low",
+            "unit_armor_low",  
             "unit_release",
             "Davion",
             "Liao",
@@ -47,6 +50,8 @@
             "unit_common_PaladinProtectionLLC",
             "unit_common_HouseNakano",
             "unit_common_HouseKhulan",
+            "unit_common_ProfHorvat",
+            "unit_common_EdCorbu",
             "unit_common_HostileMercenaries",
             "unit_common_NoFaction"
         ],

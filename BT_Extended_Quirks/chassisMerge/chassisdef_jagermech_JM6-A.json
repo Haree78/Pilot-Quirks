@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_jagermech_JM6-A",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_antiaircraft",
+				"mech_quirk_notorsotwist"
+			]
+        }
+    ]
+}

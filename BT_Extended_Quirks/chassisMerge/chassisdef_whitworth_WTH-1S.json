@@ -1,0 +1,18 @@
+{
+    "TargetID": "chassisdef_whitworth_WTH-1S",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_rugged1",
+				"mech_quirk_weaklegs"
+			]
+        },
+        {
+            "JSONPath": "DFASelfDamage",
+            "Action": "Replace",
+            "Value": 100
+        }
+    ]
+}

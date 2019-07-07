@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_annihilator_ANH-1E",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_easytomaintain"
+        }
+    ]
+}

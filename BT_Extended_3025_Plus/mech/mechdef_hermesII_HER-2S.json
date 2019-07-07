@@ -20,7 +20,7 @@
         "UIName": "Hermes II HER-2S",
         "Id": "mechdef_hermesII_HER-2S",
         "Name": "Hermes II",
-        "Details": "The Cicada 3C is slightly slower than the 2A but has more room for weaponry and armor. It still generally underperforms in most areas except speed, but it can put up more of a fight, with better survival rates.",
+        "Details": "When operating as part of a team the Hermes II is usually paired with 'Mechs sharing similar performance statistics, such as the Vulcan or Phoenix Hawk, but it was also paired with heavier 'Mechs like the Hunchback or Centurion where it served as bait to draw the enemy in to its compatriot's heavier guns. A heavy scout, the Hermes II can easily brawl with lighter 'Mechs, but is best playing it safe and running when it meets something heavier.",
         "Icon": "uixTxrIcon_hermesII"
     },
     "simGameMechPartCost": 380000,

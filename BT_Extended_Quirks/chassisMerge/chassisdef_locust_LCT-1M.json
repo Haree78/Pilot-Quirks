@@ -1,0 +1,14 @@
+{
+    "TargetID": "chassisdef_locust_LCT-1M",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_narrowlowprofile",
+				"mech_quirk_nominimalarms",
+				"mech_quirk_weaklegs"
+			]
+        }
+    ]
+}

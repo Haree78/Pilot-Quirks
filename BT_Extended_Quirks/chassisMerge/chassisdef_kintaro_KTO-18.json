@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_kintaro_KTO-18",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_rugged1"
+        }
+    ]
+}

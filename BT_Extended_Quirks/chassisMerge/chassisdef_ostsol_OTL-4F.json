@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_ostsol_OTL-4F",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_improvedsensors",
+				"mech_quirk_narrowlowprofile"
+			]
+        }
+    ]
+}

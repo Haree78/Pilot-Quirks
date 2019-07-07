@@ -1,0 +1,15 @@
+{
+    "TargetID": "chassisdef_rifleman_RFL-4D",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_antiaircraft",
+				"mech_quirk_improvedcomm",
+				"mech_quirk_searchlight_LT",
+				"mech_quirk_searchlight_RT"
+			]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_gladiator_GLD-4R",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_cowl",
+				"mech_quirk_badreputation"
+			]
+        }
+    ]
+}

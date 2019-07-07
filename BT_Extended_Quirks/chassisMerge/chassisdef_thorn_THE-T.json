@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_thorn_THE-T",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_easytomaintain"
+        }
+    ]
+}

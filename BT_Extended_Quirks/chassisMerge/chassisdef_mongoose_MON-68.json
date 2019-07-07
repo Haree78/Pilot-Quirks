@@ -1,0 +1,15 @@
+{
+    "TargetID": "chassisdef_mongoose_MON-68",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_commandmech",
+				"mech_quirk_easytopilot",
+				"mech_quirk_stabilized_H_Laser",
+				"mech_quirk_stabilized_CT_Laser"
+			]
+        }
+    ]
+}

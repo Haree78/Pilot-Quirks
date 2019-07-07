@@ -1,0 +1,14 @@
+{
+    "TargetID": "chassisdef_urbanmech_UM-R60C",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_extendedtorsotwist",
+				"mech_quirk_narrowlowprofile",
+				"mech_quirk_nominimalarms"
+			]
+        }
+    ]
+}

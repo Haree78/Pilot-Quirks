@@ -1,0 +1,15 @@
+{
+    "TargetID": "chassisdef_nightstar_NSR-10C",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_commandmech",
+				"mech_quirk_goodreputation",
+				"mech_quirk_variablerangetargeting",
+				"mech_quirk_difficulttomaintain"
+			]
+        }
+    ]
+}
