@@ -29,5 +29,6 @@
 		"FatigueResolveFactor" : 2.5,
 		"FatigueCausesLowSpirits" : true,
 		"LowMoraleTime" : 14,
+		"LightInjuriesOn" : false,
 	}
 }
