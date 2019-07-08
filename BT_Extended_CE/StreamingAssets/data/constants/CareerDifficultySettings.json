@@ -500,7 +500,7 @@
             "Visible" : true,
             "Toggle" : false,
             "StartOnly" : false,
-            "DefaultIndex" : 0,
+            "DefaultIndex" : 1,
             "Options" : [
                 {
                     "ID" : "diff_PP_easy",
@@ -785,7 +785,7 @@
                             "ConstantType": "CareerMode",
                             "ConstantName": "StartingRandomMechLists",
                             "ConstantValue": 
-                            "itemCollection_Mechs_Periphery_worst,itemCollection_Mechs_Periphery_best,itemCollection_Mechs_Periphery_support,itemCollection_Mechs_Periphery_20s,itemCollection_Mechs_Periphery_20s"
+                            "itemCollection_Mechs_Periphery_worst,itemCollection_Mechs_Periphery_best,itemCollection_Mechs_Taurian_support,itemCollection_Mechs_Taurian_20s,itemCollection_Mechs_Taurian_20s"
                         }
 					]
 				},
@@ -803,7 +803,7 @@
                             "ConstantType": "CareerMode",
                             "ConstantName": "StartingRandomMechLists",
                             "ConstantValue": 
-                            "itemCollection_Mechs_Periphery_worst,itemCollection_Mechs_Periphery_best,itemCollection_Mechs_Periphery_support,itemCollection_Mechs_Periphery_20s,itemCollection_Mechs_Periphery_20s"
+                            "itemCollection_Mechs_Periphery_worst,itemCollection_Mechs_Periphery_best,itemCollection_Mechs_Canopus_support,itemCollection_Mechs_Canopus_20s,itemCollection_Mechs_Canopus_20s"
                         }
 					]
 				},	
@@ -821,7 +821,7 @@
                             "ConstantType": "CareerMode",
                             "ConstantName": "StartingRandomMechLists",
                             "ConstantValue": 
-                            "itemCollection_Mechs_Periphery_worst,itemCollection_Mechs_Periphery_best,itemCollection_Mechs_Periphery_support,itemCollection_Mechs_Periphery_20s,itemCollection_Mechs_Periphery_20s"
+                            "itemCollection_Mechs_Aurigan_worst,itemCollection_Mechs_Aurigan_best,itemCollection_Mechs_Aurigan_support,itemCollection_Mechs_Aurigan_20s,itemCollection_Mechs_Aurigan_20s"
                         }
 					]
 				},

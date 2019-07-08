@@ -1,0 +1,168 @@
+{
+    "Category" : "AntiPersonnel",
+    "Type" : "Flamer",
+    "WeaponSubType" : "Flamer",
+    "MinRange" : 0,
+    "MaxRange" : 64,
+    "RangeSplit" : [
+        64,
+        64,
+        64
+    ],
+    "AmmoCategory" : "Flamer",
+    "StartingAmmoCapacity" : 120,
+    "HeatGenerated" : 0,
+    "Damage" : 1,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 2.0,
+    "EvasivePipsIgnored" : 4,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 10,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
+    "Instability" : 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
+    "Description" : {
+        "Cost" : 550000,
+        "Rarity" : 99,
+        "Purchasable" : true,
+        "Manufacturer" : "Cal-Boeing",
+        "Model" : "Anti-Missile System",
+        "UIName" : "AMS",
+        "Id" : "Weapon_MachineGun_AMS_0-STOCK",
+        "Name" : "Anti-Missile System",
+        "Details" : "Introduced in 2617 by the Terran Hegemony, the anti-missile system is used to destroy missiles before they strike their target. This is accomplished by using a short ranged rapid firing weapon which shoots at the missiles. Because missiles in BattleTech are usually fired in salvos of up to forty at a time, anti-missile systems are rarely capable of destroying them all. Due to the loss of knowledge caused by the Succession Wars, anti-missile systems ceased to be produced by 2835.",
+        "Icon" : "uixSvgIcon_weapon_Support"
+    },
+    "BonusValueA" : "+2 Missile Hit Def.",
+    "BonusValueB" : "-15% Incom. Missile Dmg.",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "MachineGun",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 1.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "Legs",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+		{
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 2,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "AMSHITDEFENSE",
+                "Name" : "Anti-Missile Defense",
+                "Details" : "- [AMT] to hit for all missile weapon attacks.",
+                "Icon" : "uixSvgIcon_equipment_Gyro"
+            },
+            "nature" : "Buff",
+            "statisticData" : 
+            {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "ToHitThisActor",
+                "operation" : "Float_Add",
+                "modValue" : "2.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+			"effectTargetsCreator": true,
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "AMSDMGREDUCED",
+                "Name" : "Anti-Missile System",
+                "Details" : "An AMS will decrease the damage taken from missiles to [AMT]%.",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamageReductionMultiplierMissile",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.85",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }		
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+			"component_lostech",
+            "range_close"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
