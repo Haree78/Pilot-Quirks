@@ -112,6 +112,7 @@
     ],
     "ComponentTags" : {
         "items" : [
+			"BLACKLISTED"
         ],
         "tagSetSourceFile" : ""
     }
