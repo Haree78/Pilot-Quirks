@@ -10,6 +10,11 @@
 				"mech_quirk_reinforcedlegs",
 				"mech_quirk_difficultejection"
 			]
+        },
+        {
+            "JSONPath": "DFASelfDamage",
+            "Action": "Replace",
+            "Value": 58
         }
     ]
 }
