@@ -12,7 +12,7 @@
 	{
 		"StartingPirateActivity" : 5.0,
 		"BonusPirateResources" : 1000.0,
-		"PirateSystemFlagValue" : 20.0,
+		"PirateSystemFlagValue" : 50.0,
 		"ISMCompatibility" : true,
 		
 		"ResourceScale" : 0.5,
