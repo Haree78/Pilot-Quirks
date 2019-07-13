@@ -1,0 +1,11 @@
+﻿{
+    "Name": "Retrainer",
+    "Version": "1.2",
+    "Enabled": true,
+
+    "DLL": "Retrainer.dll",
+    "Settings": {
+        "cost": 500000,
+        "onceOnly": true
+    }
+}
