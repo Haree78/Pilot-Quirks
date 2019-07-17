@@ -18,7 +18,7 @@
 		"ResourceScale" : 0.5,
 		"UseSubsetOfSystems" : false,
 		"SubSetFraction" : 1.0,
-		
+		"ISMCorrectionNeeded" : true,
 		
 		"BonusAttackResources": {
 			"MagistracyOfCanopus" : 0,
