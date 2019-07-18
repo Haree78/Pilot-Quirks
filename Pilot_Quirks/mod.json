@@ -16,10 +16,10 @@
 		"pilot_tech_TechBonus" : 100,
 		"pilot_tech_vanillaTech" : false,
 		"pilot_tech_TechsNeeded" : 3,
-		"pilot_reckless_ToHitBonus" : -2,
-		"pilot_reckless_ToBeHitBonus" : -2,
-		"pilot_cautious_ToHitBonus" : 2,
-        "pilot_cautious_ToBeHitBonus" : 2,
+		"pilot_reckless_ToHitBonus" : -1,
+		"pilot_reckless_ToBeHitBonus" : -1,
+		"pilot_cautious_ToHitBonus" : 1,
+        "pilot_cautious_ToBeHitBonus" : 1,
         "pilot_assassin_CalledShotBonus" : 0,
         "pilot_merchant_ShopDiscount" : 2,
         "pilot_lucky_InjuryAvoidance" : 25,
@@ -27,11 +27,11 @@
         "pilot_jinxed_ToHitBonus" : 1,
         "pilot_jinxed_ToBeHitBonus" : -1,
         
-        "pilot_drunk_ToHitBonus" : 2,
-        "pilot_lostech_ToHitBonus" : -2,
+        "pilot_drunk_ToHitBonus" : 1,
+        "pilot_lostech_ToHitBonus" : -1,
         "pilot_naive_LessExperience" : 0.1,
         "pilot_noble_IncreasedCost" : 0,
-        "pilot_spacer_DecreasedCost" : -0.5,
+        "pilot_spacer_DecreasedCost" : 0,
         "pilot_comstar_TechBonus" : 0,
         "pilot_honest_MoraleBonus" : 1,
         "pilot_dishonest_MoralePenalty" : 0,
@@ -39,6 +39,8 @@
 		"pilot_officer_BonusResolve" : 5,
 		"pilot_command_BonusLanceXP" : 10,
 		"pilot_criminal_bonus" : 2,
+		"pilot_spacer_InjuryTimeReduction" : 0.9,
+		"pilot_wealthy_CostFactor" : 0.9,
 		
 		"TagIDToNames" : {
 			"pilot_assassin" : "Assassin",
@@ -100,10 +102,10 @@
 			"pilot_officer" : "Increased Resolve per turn if an Officer is in the lance.",
 			"pilot_rebellious" : "Reduced Resolve when in combat with an Officer or the Company Commander.",
 			"pilot_reckless" : "Increased chance to hit in combat while being easier to be hit by the enemy.",
-			"pilot_spacer" : "Pilot costs less maintenance every month.",
+			"pilot_spacer" : "Pilot has reduced injury times.",
 			"pilot_tech" : "Increased MechTech Skill.",
 			"pilot_unstable" : "Pilot's mood changes every day.",
-			"pilot_wealthy" : "No monthly maintenance costs."
+			"pilot_wealthy" : "Pilot generates extra fatigue per mission and has no maximum fatigue days. Reduced maintenance cost per month."
 		},
 	}
 }
