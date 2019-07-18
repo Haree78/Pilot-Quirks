@@ -1,0 +1,164 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Biota",
+    "Name": "Biota",
+    "Details": "The Biota system was located near the Cusset and Rastaban systems. Biota was settled by the Lyran Commonwealth during the Star League era at some point after the end of the Reunification War.",
+    "Icon": ""
+  },
+  "Position": {
+    "x": -44.735,
+    "y": 271.632,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "mod_generate_shops",
+      "planet_name_biota",
+      "planet_size_medium",
+      "planet_climate_terran",
+      "planet_other_mudflats",
+      "planet_feature_asteroids",
+      "planet_feature_gasgiant",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_none",
+      "planet_civ_innersphere",
+      "planet_faction_steiner"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal",
+    "jungleTropical"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": false,
+  "JumpDistance": 6,
+  "Owner": "Steiner",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 9,
+  "SystemInfluence": [
+    {
+      "Faction": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "Faction": "Davion",
+      "Influence": 0
+    },
+    {
+      "Faction": "Liao",
+      "Influence": 0
+    },
+    {
+      "Faction": "Kurita",
+      "Influence": 0
+    },
+    {
+      "Faction": "Marik",
+      "Influence": 0
+    },
+    {
+      "Faction": "Steiner",
+      "Influence": 0
+    },
+    {
+      "Faction": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "Faction": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "Faction": "ComStar",
+      "Influence": 0
+    },
+    {
+      "Faction": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_2a"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "StarPosition": null,
+  "StarType": "K",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [],
+  "FactionShopOwner": "INVALID_UNSET",
+  "FactionShopItems": null,
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Biota",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 5,
+  "DifficultyList": [],
+  "DifficultyModes": [],
+  "ContractEmployers": [
+    "Steiner",
+    "Locals"
+  ],
+  "ContractTargets": [
+    "Marik",
+    "Kurita",
+    "Davion",
+    "Liao",
+    "AuriganRestoration",
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
+    "Locals",
+    "AuriganDirectorate",
+    "AuriganPirates"
+  ]
+}
