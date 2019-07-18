@@ -13,6 +13,9 @@
         "MinFov": 20,
         "MaxFov": 125,
 
+        "UseSmoothZoom": true,
+        "SmoothZoomTime": 0.15,
+
         "StarHitboxSize": 2,
         "BorderMargin": 5,
 
@@ -24,14 +27,34 @@
         "LogoScalar": 0.75,
         "LogoMaxSize": 50,
         "FactionLogoPaths": {
-            "Kurita": "logos/kuritaLogo.png",
-            "Steiner": "logos/steinerLogo.png"
+            "Kurita": "Logos/kuritaLogo.png",
+            "Steiner": "Logos/steinerLogo.png"
         },
 
-        "NavRoomScreenTexturePath": "testInnerSphere.PNG"
+        "NavRoomScreenTexturePath": "testInnerSphere.PNG",
+
+        "GenerateShopsTag": "mod_generate_shops",
+        "GenerateShopsIgnoreTags": [
+            "planet_pop_none",
+            "planet_civ_primitive"
+        ],
+        "TagToShopItemCollection": {
+            "planet_faction_steiner": "itemCollection_minor_Steiner",
+            "planet_faction_liao": "itemCollection_minor_Liao",
+            "planet_faction_kurita": "itemCollection_minor_Kurita",
+            "planet_faction_marik": "itemCollection_minor_Marik",
+            "planet_faction_davion": "itemCollection_minor_Davion",
+            "planet_faction_taurianconcordat": "itemCollection_minor_TaurianConcordat",
+            "planet_faction_magistracyofcanopus": "itemCollection_minor_MagistracyOfCanopus",
+            "planet_other_battlefield": "itemCollection_shop_battlefield",
+            "planet_industry_manufacturing": "itemCollection_shop_industrial",
+            "planet_industry_research": "itemCollection_shop_research",
+            "planet_other_starleague": "itemCollection_shop_starleague"
+        }
     },
 	
 	"Manifest": [
-        { "Type": "StarSystemDef", "Path": "starsystems" }
+        { "Type": "StarSystemDef", "Path": "StarSystemDefs" },
+        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs" }
     ]
 }

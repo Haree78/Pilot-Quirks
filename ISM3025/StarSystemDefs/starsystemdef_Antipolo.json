@@ -1,0 +1,159 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Antipolo",
+    "Name": "Antipolo",
+    "Details": "There are scattered forests of orange fronds. A network of tunnels extends under much of the surface. The air is filled with dark orange fluttering creatures. Most of the local animals are different morphs of the same highly versatile species.",
+    "Icon": ""
+  },
+  "Position": {
+    "x": -94.87,
+    "y": -268.848,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "mod_generate_shops",
+      "planet_name_antipolo",
+      "planet_size_large",
+      "planet_climate_desert",
+      "planet_feature_gasgiant",
+      "planet_pop_medium",
+      "planet_civ_innersphere",
+      "planet_industry_mining",
+      "planet_industry_agriculture",
+      "planet_industry_aquaculture",
+      "planet_other_starleague",
+      "planet_other_alienvegetation",
+      "planet_faction_marik"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "desertParched"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": false,
+  "JumpDistance": 11,
+  "Owner": "Marik",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 9,
+  "SystemInfluence": [
+    {
+      "Faction": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "Faction": "Davion",
+      "Influence": 0
+    },
+    {
+      "Faction": "Liao",
+      "Influence": 0
+    },
+    {
+      "Faction": "Kurita",
+      "Influence": 0
+    },
+    {
+      "Faction": "Marik",
+      "Influence": 0
+    },
+    {
+      "Faction": "Steiner",
+      "Influence": 0
+    },
+    {
+      "Faction": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "Faction": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "Faction": "ComStar",
+      "Influence": 0
+    },
+    {
+      "Faction": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "Faction": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_2a"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "StarPosition": null,
+  "StarType": "F",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [],
+  "FactionShopOwner": "INVALID_UNSET",
+  "FactionShopItems": null,
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Antipolo",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 1,
+  "DifficultyList": [],
+  "DifficultyModes": [],
+  "ContractEmployers": [
+    "Marik",
+    "Locals"
+  ],
+  "ContractTargets": [
+    "Steiner",
+    "Kurita",
+    "Davion",
+    "Liao",
+    "AuriganRestoration",
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
+    "Locals",
+    "AuriganDirectorate",
+    "AuriganPirates"
+  ]
+}
