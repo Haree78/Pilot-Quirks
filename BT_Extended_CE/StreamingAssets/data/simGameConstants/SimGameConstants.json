@@ -9,16 +9,7 @@
    "Story" : {
 		"StartingMechTechSkill" : 3000,
    },
-   "CareerMode" : {
-		"LoathedMaxContractDifficulty" : 1,
-		"HatedMaxContractDifficulty" : 2,
-		"DislikedMaxContractDifficulty" : 3,
-		"IndifferentMaxContractDifficulty" : 4,
-		"LikedMaxContractDifficulty" : 6,
-		"FriendlyMaxContractDifficulty" : 8,
-		"HonoredMaxContractDifficulty" : 10,
-	},
-   "MechLab" : {
+   "MechLab" :{
 		"StructureRepairTechPoints" : 20,
 		"StructureRepairCost" : 4,
 		"ComponentRepairTechPoints" : 2000,
