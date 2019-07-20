@@ -14,7 +14,7 @@
     "ConflictsWith": [],
 
     "Manifest": [
-		{ "Type": "AbilityDef", "Path": "abilities", "ShouldMergeJSON": false  },
+		{ "Type": "AbilityDef", "Path": "abilities", "ShouldMergeJSON": true  },
 		{ "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "AddToDB": true },
 		{ "Type": "WeaponDef", "Path": "weapon", "AddToDB": true }
     ]
