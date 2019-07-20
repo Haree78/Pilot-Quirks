@@ -33,7 +33,7 @@
 			{
 				"statName" : "CalledShotBonusMultiplier",
 				"operation" : "Float_Multiply",
-				"modValue" : "2.5",
+				"modValue" : "2.92",
 				"modType" : "System.Single"
 			}
 		}

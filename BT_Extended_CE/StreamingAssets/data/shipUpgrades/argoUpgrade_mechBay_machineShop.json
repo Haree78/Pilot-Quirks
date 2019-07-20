@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay_machineShop",
         "Name" : "Machine Shop",
-        "Details" : "<b>• Variant Assembly: Shift-Right Click on 'Mechs in storage to attempt to assemble that variant from available parts. Parts from multiple variants can be combined using the Mechine Shop to create the variant of your choice.</b>\n\nMaintaining 'Mechs in the Succession War era is complicated by the relative rarity of precision-manufactured parts. The <i>Argo</i>'s machine shop, once repaired and brought online, can help address this lack.",
+        "Details" : "<b>• Variant Assembly: Shift-Right Click on 'Mechs in storage to attempt to assemble that variant from available parts. Parts from multiple variants can be combined using the Machine Shop to create the variant of your choice.</b>\n\nMaintaining 'Mechs in the Succession War era is complicated by the relative rarity of precision-manufactured parts. The <i>Argo</i>'s machine shop, once repaired and brought online, can help address this lack.",
         "Icon" : "uixSvgIcon_shipUpgrade_machineshop"
     },
     "Illustration" : "uixTxrSpot_YangWorking",

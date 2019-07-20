@@ -1,12 +1,14 @@
 {
-  "MoraleConstants": {
+  "MoraleConstants":
+  {
 		"BaselineMultiplyByActiveElites": false,
-	},
-  "ToHit": {
-		"ToHitMinimumRange": 6,
-	},
+  },
   "PilotingConstants":
   {
     "PilotingDivisor": 50,
+  }
+  "ToHit":
+  {
+    "ToHitBaseFloor": 0.70,
   }
 }
