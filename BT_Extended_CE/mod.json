@@ -12,6 +12,8 @@
 
     "DependsOn": [],
     "ConflictsWith": [],
+	
+	"DLL": "Extended_CE.dll",
 
     "Manifest": [
 		{ "Type": "AbilityDef", "Path": "abilities", "ShouldMergeJSON": false  },
