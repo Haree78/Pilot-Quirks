@@ -8,6 +8,12 @@
 	},
    "Story" : {
 		"StartingMechTechSkill" : 3000,
+		"SpartanMoraleModifier" : -15,
+		"RestrictedMoraleModifier" : -5,
+		"NormalMoraleModifier" : 0,
+		"GenerousMoraleModifier" : 5,
+		"ExtravagantMoraleModifier" : 10,
+		"MechReadyTime" :  7000,
    },
    "MechLab" :{
 		"StructureRepairTechPoints" : 20,
