@@ -1,7 +1,7 @@
 {
     "Name": "Pilot Fatigue",
     "Enabled": true,
-    "Version": "4.3",
+    "Version": "4.4",
     "Description": "Adds Pilot Fatigue",
     "Author": "don Zappo and gnivler",
     "Website": "",
@@ -13,7 +13,6 @@
 	
 	"Settings": {
 		"FatigueTimeStart" : 7,
-		"StartingMorale" : 25,
 		"FatigueMinimum" : 1,
 		"MoralePositiveTierOne" : 5,
 		"MoralePostiveTierTwo" : 15,
