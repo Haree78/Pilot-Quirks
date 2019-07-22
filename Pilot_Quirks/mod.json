@@ -41,6 +41,7 @@
 		"pilot_criminal_bonus" : 2,
 		"pilot_spacer_InjuryTimeReduction" : 0.9,
 		"pilot_wealthy_CostFactor" : 0.9,
+		"pilot_rebellious_ResolveMalus" : 1,
 		
 		"TagIDToNames" : {
 			"pilot_assassin" : "Assassin",
