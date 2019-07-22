@@ -4,7 +4,7 @@
             "ID" : "diff_ironMan",
             "Name" : "Ironman Mode",
 			"TelemetryEventName": "",
-            "UIOrder" : -1,
+            "UIOrder" : -2,
             "Tooltip" : "Ironman Mode restricts you to only one save file. All consequences, including 'Mech loss, MechWarrior death, and failed missions are <i>permanent</i>. <color=#F79B26>Running out of funds <i>or</i> failing any Priority Mission will result in Career loss. This setting is intended for veterans and those seeking a significant challenge.</color>",
             "Enabled" : true,
             "Visible" : true,
@@ -130,12 +130,12 @@
             "ID" : "diff_mechConstruction",
             "Name" : "Parts for 'Mech Assembly",
 			"TelemetryEventName": "",
-            "UIOrder" : 2,
+            "UIOrder" : 4,
             "Tooltip" : "This setting controls the number of salvaged or purchased 'Mech parts you must acquire to assemble a new 'Mech. Increase this value to make new 'Mechs rarer and more difficult to obtain. <color=#F79B26>This setting is intended for veterans and those seeking a significant challenge.</color>",
             "Enabled" : true,
             "Visible" : true,
             "Toggle" : false,
-            "StartOnly" : true,
+            "StartOnly" : false,
             "DefaultIndex" : 1,
             "Options" : [
                 {
@@ -154,7 +154,7 @@
                 },
                 {
                     "ID" : "diff_MC_easymed",
-                    "Name" : "4",
+                    "Name" : "4 (N/H)",
                     "TelemetryEventDesc": "",
                     "DifficultyValue" : 0,
                     "CareerScoreModifier" : 0.05,
@@ -168,7 +168,7 @@
                 },
                 {
                     "ID" : "diff_MC_med",
-                    "Name" : "5",
+                    "Name" : "5 (S)",
                     "TelemetryEventDesc": "",
                     "DifficultyValue" : 1,
                     "CareerScoreModifier" : 0.1,
@@ -252,7 +252,7 @@
                 },
                 {
                     "ID" : "diff_CMD_med",
-                    "Name" : "Normal",
+                    "Name" : "Normal (N)",
                     "TelemetryEventDesc": "normal",
                     "DifficultyValue" : 0,
                     "CareerScoreModifier" : 0.05,
@@ -266,7 +266,7 @@
                 },
                 {
                     "ID" : "diff_CMD_hard",
-                    "Name" : "Hard",
+                    "Name" : "Hard (H/S)",
                     "TelemetryEventDesc": "hard",
                     "DifficultyValue" : 1,
                     "CareerScoreModifier" : 0.1,
@@ -308,7 +308,7 @@
                 },
                 {
                     "ID" : "diff_CMD_med",
-                    "Name" : "Normal",
+                    "Name" : "Normal (N)",
                     "TelemetryEventDesc": "normal",
                     "DifficultyValue" : 0,
                     "CareerScoreModifier" : 0.05,
@@ -322,7 +322,7 @@
                 },
                 {
                     "ID" : "diff_CMD_hard",
-                    "Name" : "Rare",
+                    "Name" : "Rare (H/S)",
                     "TelemetryEventDesc": "rare",
                     "DifficultyValue" : 1,
                     "CareerScoreModifier" : 0.1,
@@ -340,7 +340,7 @@
             "ID" : "diff_mechDestruction",
             "Name" : "'Mech Destruction",
 			"TelemetryEventName": "mech_destruction",
-            "UIOrder" : 7,
+            "UIOrder" : 10,
             "Tooltip" : "When active, this setting will cause any 'Mech disabled by the destruction of its center torso to be lost permanently. <color=#F79B26>This setting is intended for veterans and those seeking a significant challenge.</color>",
             "Enabled" : true,
             "Visible" : true,
@@ -494,7 +494,7 @@
             "ID" : "diff_pilotProgression",
             "Name" : "MechWarrior Progression",
 			"TelemetryEventName": "mech_warrior_progression",
-            "UIOrder" : 10,
+            "UIOrder" : 7,
             "Tooltip" : "This setting controls the amount of experience MechWarriors gain after each mission. Change this setting to adjust the rate at which MechWarriors improve their stats and gain new skills.",
             "Enabled" : true,
             "Visible" : true,
@@ -504,7 +504,7 @@
             "Options" : [
                 {
                     "ID" : "diff_PP_easy",
-                    "Name" : "Normal",
+                    "Name" : "Normal (S)",
                     "TelemetryEventDesc": "normal",
                     "DifficultyValue" : 0,
                     "CareerScoreModifier" : 0.05,
@@ -518,7 +518,7 @@
                 },
                 {
                     "ID" : "diff_PP_med",
-                    "Name" : "Slow",
+                    "Name" : "Slow (N/H)",
                     "TelemetryEventDesc": "slow",
                     "DifficultyValue" : 1,
                     "CareerScoreModifier" : 0.1,
@@ -673,7 +673,8 @@
 		{
 			"ID": "diff_startingplanet",
 			"Name": "Starting Planet",
-			"UIOrder": 4,
+			"UIOrder": 3,
+			"TelemetryEventName": "",
 			"Tooltip": "This Setting decides at which planet you start defined by Faction",
 			"Enabled": true,
 			"Visible": true,
@@ -848,7 +849,7 @@
 		{
 			"ID": "diff_difficulty",
 			"Name": "Overall Difficulty",
-			"UIOrder": 3,
+			"UIOrder": 2,
 			"Tooltip": "This setting controls the underlying difficulty of the game in addtion to what is available on this settings screen. Simulation is identical to Hard Difficulty, but adds in additonal elements to give a more immersive Company Commander experience.",
 			"Enabled": true,
 			"Visible": true,
@@ -931,7 +932,7 @@
                         {
                             "ConstantType": "Story",
                             "ConstantName": "StartingMechTechSkill",
-                            "ConstantValue": "2500",
+                            "ConstantValue": "3000",
                         },
                         {
                             "ConstantType": "Story",
@@ -973,7 +974,7 @@
                         {
                             "ConstantType": "Story",
                             "ConstantName": "StartingMechTechSkill",
-                            "ConstantValue": "2500",
+                            "ConstantValue": "3000",
                         },
                         {
                             "ConstantType": "Story",
