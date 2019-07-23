@@ -18,6 +18,7 @@
     "Manifest": [
 		{ "Type": "AbilityDef", "Path": "abilities", "ShouldMergeJSON": true  },
 		{ "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "AddToDB": true },
+		{ "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": false },
 		{ "Type": "WeaponDef", "Path": "weapon", "AddToDB": true }
     ]
 }
