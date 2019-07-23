@@ -36,12 +36,12 @@
         "pilot_honest_MoraleBonus" : 1,
         "pilot_dishonest_MoralePenalty" : 0,
 		"pilot_XP_change" : 0.2,
-		"pilot_officer_BonusResolve" : 5,
+		"pilot_officer_BonusResolve" : 2,
 		"pilot_command_BonusLanceXP" : 10,
 		"pilot_criminal_bonus" : 2,
 		"pilot_spacer_InjuryTimeReduction" : 0.9,
 		"pilot_wealthy_CostFactor" : 0.9,
-		"pilot_rebellious_ResolveMalus" : 1,
+		"pilot_rebellious_ResolveMalus" : 2,
 		
 		"TagIDToNames" : {
 			"pilot_assassin" : "Assassin",
