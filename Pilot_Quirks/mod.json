@@ -73,7 +73,8 @@
 			"pilot_spacer" : "Spacer",
 			"pilot_tech" : "Tech",
 			"pilot_unstable" : "Unstable",
-			"pilot_wealthy" : "Wealthy"
+			"pilot_wealthy" : "Wealthy",
+			"commander_player" : "Commander"
 		},
 		
 		"TagIDToDescription" : {
@@ -100,13 +101,14 @@
 			"pilot_military" : "Small bonus to starting XP.",
 			"pilot_naive" : "Reduced XP gained from combat.",
 			"pilot_noble" : "Mood changes based upon funding.",
-			"pilot_officer" : "Increased Resolve per turn if an Officer is in the lance.",
+			"pilot_officer" : "Increased Resolve per turn if an Officer or the Commander is in the lance.",
 			"pilot_rebellious" : "Reduced Resolve when in combat with an Officer or the Company Commander.",
 			"pilot_reckless" : "Increased chance to hit in combat while being easier to be hit by the enemy.",
 			"pilot_spacer" : "Pilot has reduced injury times.",
 			"pilot_tech" : "Increased MechTech Skill.",
 			"pilot_unstable" : "Pilot's mood changes every day.",
-			"pilot_wealthy" : "Pilot generates extra fatigue per mission and has no maximum fatigue days. Reduced maintenance cost per month."
+			"pilot_wealthy" : "Pilot generates extra fatigue per mission and has no maximum fatigue days. Reduced maintenance cost per month.",
+			"commander_player" : "Increased Resolve per turn if an Officer or Commander is in the lance."
 		},
 	}
 }
