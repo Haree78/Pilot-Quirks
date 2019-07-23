@@ -849,7 +849,7 @@
 			"ID": "diff_difficulty",
 			"Name": "Overall Difficulty",
 			"UIOrder": 3,
-			"Tooltip": "This setting controls the underlying difficulty of the game in addtion to what is available on this settings screen. Simulation is identical to Hard Difficulty, but adds in additonal elements to give a more immersive Company Commander experience.",
+			"Tooltip": "This setting controls the underlying difficulty of the game in addtion to what is available on this settings screen. Simulation is identical to Hard Difficulty, but adds in additonal elements to give a more hardcore immersive Company Commander experience.",
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
@@ -906,7 +906,7 @@
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingMedTechSkill",
-							"ConstantValue": "4"
+							"ConstantValue": "6"
 						},
                         {
                             "ConstantType": "Story",
@@ -916,22 +916,22 @@
                         {
                             "ConstantType": "Story",
                             "ConstantName": "MaxMechWarriorsPerPod",
-                            "ConstantValue": "6",
+                            "ConstantValue": "8",
                         },
                         {
                             "ConstantType": "Story",
                             "ConstantName": "MechReadyTime",
-                            "ConstantValue": "7000",
+                            "ConstantValue": "6000",
                         },
                         {
                             "ConstantType": "Story",
                             "ConstantName": "StartingMorale",
-                            "ConstantValue": "20",
+                            "ConstantValue": "25",
                         },
                         {
                             "ConstantType": "Story",
                             "ConstantName": "StartingMechTechSkill",
-                            "ConstantValue": "2500",
+                            "ConstantValue": "3000",
                         },
                         {
                             "ConstantType": "Story",
