@@ -26,11 +26,10 @@
     "LethalInjury": false,
     "Incapacitated": false,
     "Morale": 0,
-    "Voice": "m_pro03_rick",
+    "Voice": "m_pro05_rick",
     "abilityDefNames": [
         "AbilityDefG5",
         "AbilityDefT5A",
-        "TraitDefUnsteadySet60",
         "TraitDefIndirectReduceOne",
         "TraitDefMinRangeReduce45"
     ],

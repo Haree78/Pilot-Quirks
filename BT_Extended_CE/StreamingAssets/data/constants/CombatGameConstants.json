@@ -5,6 +5,7 @@
   },
   "PilotingConstants":
   {
+    "PilotingBaseFloor": 0.8,
     "PilotingDivisor": 50,
   }
   "ToHit":

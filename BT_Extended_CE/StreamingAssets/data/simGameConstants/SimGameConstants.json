@@ -14,6 +14,7 @@
 		"GenerousMoraleModifier" : 5,
 		"ExtravagantMoraleModifier" : 10,
 		"MechReadyTime" :  7000,
+		"NotifLowFundsQtrRemainThreshold": 0,
    },
    "MechLab" :{
 		"StructureRepairTechPoints" : 20,

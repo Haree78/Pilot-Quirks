@@ -28,8 +28,11 @@
     "Morale": 0,
     "Voice": "m_pro03_brit",
     "abilityDefNames": [
-        "AbilityDefG5",
-        "TraitDefIndirectReduceOne"
+        "AbilityDefGu5",
+        "TraitDefHealthAddOne",
+        "TraitDefIndirectReduceOne",
+        "TraitDefRefireReduceOne",
+        "TraitDefUnsteadySet60"
     ],
     "AIPersonality": "Undefined",
     "PilotTags": {

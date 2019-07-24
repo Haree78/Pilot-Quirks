@@ -26,10 +26,13 @@
     "LethalInjury": false,
     "Incapacitated": false,
     "Morale": 0,
-    "Voice": "m_pro03_brit",
+    "Voice": "m_raju",
     "abilityDefNames": [
-        "AbilityDefG5",
-        "TraitDefIndirectReduceOne"
+        "AbilityDefGu5",
+        "AbilityDefP5",
+        "TraitDefHealthAddOne",
+        "TraitDefRefireReduceOne",
+        "TraitDefUnsteadySet60"
     ],
     "AIPersonality": "Undefined",
     "PilotTags": {

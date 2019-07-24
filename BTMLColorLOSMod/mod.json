@@ -1,66 +1,90 @@
 ﻿{
-  "Name": "BTMLColorLOSMod",
-  "Enabled": true,
+    "Name": "BTMLColorLOSMod",
+    "Enabled": true,
 
-  "Version": "0.6.0.3025",
+    "Version": "0.6.2.4",
 
-  "Author": "janxious",
-  "Website": "https://github.com/janxious/BTMLColorLOSMod",
+    "Author": "janxious, Redferne",
+    "Website": "https://github.com/Red1812/BTMLColorLOSMod",
 
-  "DLL": "BTMLColorLOSMod.dll",
-  "DLLEntryPoint": "BTMLColorLOSMod.BTMLColorLOSMod.Init",
-  "DependsOn": [],
-  "ConflictsWith": [],
+    "DLL": "BTMLColorLOSMod.dll",
+    "DLLEntryPoint": "BTMLColorLOSMod.BTMLColorLOSMod.Init",
+    "DependsOn": [],
+    "ConflictsWith": [],
 
-  "Settings": {
-    "nextColorKeyBinding": {
-      "active": true,
-      "keys": ["shift", "i"]
-    },
+    "Settings": {
+        "nextColorKeyBinding": {
+            "active": false,
+            "keys": [ "shift", "i" ]
+        },
 
-    "direct": {
-      "active": true,
-      "colors": [
-        [179,   0,   0, 255],
-        [  0, 255,   0, 255],
-        [  0,   0, 255, 255],
-        [  0,   0,   0, 255]
-      ],
-      "dashed": false,
-      "thickness": 1.5
-    },
-    "indirect": {
-      "active": true,
-      "colors": [
-        [255, 191,   0, 255],
-        [  0, 255,   0, 255],
-        [255,   0,   0, 255],
-        [  0,   0, 255, 255]
-      ],
-      "dashed": true,
-      "thickness": 1.75
-    },
-    "obstructedAttackerSide": {
-      "active": false,
-      "colors": [
-        [  0,  64, 255, 255],
-        [  0,   0, 255, 255],
-        [  0, 255,   0, 255],
-        [255,   0,   0, 255]
-      ],
-      "dashed": false,
-      "thickness": 1
-    },
-    "obstructedTargetSide": {
-      "active": true,
-      "colors": [
-        [100,  50,  25, 255],
-        [255,   0,   0, 255],
-        [  0,   0, 255, 255],
-        [  0, 255,   0, 255]
-      ],
-      "dashed": false,
-      "thickness": 1.5
+        "direct": {
+            "active": true,
+            "colors": [
+                [ 255, 0, 0, 255 ],
+                [ 0, 255, 0, 255 ],
+                [ 0, 0, 255, 255 ],
+                [ 0, 0, 0, 255 ]
+            ],
+            "dashed": false,
+            "thickness": 1
+        },
+        "indirect": {
+            "active": true,
+            "colorside":  true,
+            "colors": [
+                [ 255, 128, 0, 255 ],
+                [ 0, 255, 0, 255 ],
+                [ 255, 0, 0, 255 ],
+                [ 0, 0, 255, 255 ]
+            ],
+            "dashed": true,
+            "thickness": 1
+        },
+        "side": {
+            "active": true,
+            "colors": [
+                [ 0, 255, 255, 255 ],
+                [ 0, 0, 255, 255 ],
+                [ 0, 255, 0, 255 ],
+                [ 255, 0, 0, 255 ]
+            ],
+            "dashed": false,
+            "thickness": 1
+        },
+        "back": {
+            "active": true,
+            "colors": [
+                [ 0, 218, 0, 255 ],
+                [ 255, 0, 0, 255 ],
+                [ 0, 0, 255, 255 ],
+                [ 0, 255, 0, 255 ]
+            ],
+            "dashed": false,
+            "thickness": 1
+        },
+        "obstructedAttackerSide": {
+            "active": true,
+            "colorside": true,
+            "colors": [
+                [ 221, 0, 255, 255 ],
+                [ 0, 0, 255, 255 ],
+                [ 0, 255, 0, 255 ],
+                [ 255, 0, 0, 255 ]
+            ],
+            "dashed": false,
+            "thickness": 1
+        },
+        "obstructedTargetSide": {
+            "active": true,
+            "colors": [
+                [ 204, 136, 238, 255 ],
+                [ 255, 0, 0, 255 ],
+                [ 0, 0, 255, 255 ],
+                [ 0, 255, 0, 255 ]
+            ],
+            "dashed": true,
+            "thickness": 1
+        }
     }
-  }
 }
