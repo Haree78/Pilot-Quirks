@@ -14,8 +14,6 @@
     "Website": "",
     "Contact": "message me at Nexus or Paradox sites",
 	
-	"DLL": "Z_JK_AppearanceDates.dll",
-	
 	"Manifest": [
         { "Type": "MechDef", "Path": "mech_all", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "MechDef", "Path": "mech_noChassis", "ShouldMergeJSON": true, "AddToDB": false },
