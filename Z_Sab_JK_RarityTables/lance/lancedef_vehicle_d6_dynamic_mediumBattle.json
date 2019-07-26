@@ -14,8 +14,8 @@
          "lance_bracket_med",
          "lance_type_battle",
          "lance_type_medium",
-		 "lance_type_dynamic",
-		 "lance_type_vehicle"
+         "lance_type_dynamic",
+         "lance_type_vehicle"
       ],
       "tagSetSourceFile" : "Tags/LanceTags"
    },
@@ -26,23 +26,24 @@
          "pilotId" : "Tagged",
          "unitTagSet" : {
             "items" : [
+               "unit_vehicle"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+               "unit_light",
                "unit_assault",
-               "unit_vehicle"
-            ],
-            "tagSetSourceFile" : "Tags/UnitTags"
-         },
-         "excludedUnitTagSet" : {
-            "items" : [
                "unit_noncombatant",
-			   "unit_urbie",
-            "unit_very_rare_{CUR_TEAM.faction}",
-            "unit_ext_rare_{CUR_TEAM.faction}",
-            "unit_none_{CUR_TEAM.faction}",
-            "unit_hero_{CUR_TEAM.faction}",
-            "unit_LosTech",
-            "unit_era_2750",
-            "unit_era_2900",
-            "unit_clan"
+               "unit_urbie",
+               "unit_very_rare_{CUR_TEAM.faction}",
+               "unit_ext_rare_{CUR_TEAM.faction}",
+               "unit_none_{CUR_TEAM.faction}",
+               "unit_hero_{CUR_TEAM.faction}",
+               "unit_LosTech",
+               "unit_era_2750",
+               "unit_era_2900",
+               "unit_clan"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -63,23 +64,25 @@
          "pilotId" : "Tagged",
          "unitTagSet" : {
             "items" : [
-               "unit_heavy",
                "unit_vehicle"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "excludedUnitTagSet" : {
             "items" : [
+               "unit_light",
+               "unit_assault",
                "unit_noncombatant",
-			   "unit_urbie",
-            "unit_very_rare_{CUR_TEAM.faction}",
-            "unit_ext_rare_{CUR_TEAM.faction}",
-            "unit_none_{CUR_TEAM.faction}",
-            "unit_hero_{CUR_TEAM.faction}",
-            "unit_LosTech",
-            "unit_era_2750",
-            "unit_era_2900",
-            "unit_clan"
+               "unit_urbie",
+               "unit_rare_{CUR_TEAM.faction}",
+               "unit_very_rare_{CUR_TEAM.faction}",
+               "unit_ext_rare_{CUR_TEAM.faction}",
+               "unit_none_{CUR_TEAM.faction}",
+               "unit_hero_{CUR_TEAM.faction}",
+               "unit_LosTech",
+               "unit_era_2750",
+               "unit_era_2900",
+               "unit_clan"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -100,7 +103,7 @@
          "pilotId" : "Tagged",
          "unitTagSet" : {
             "items" : [
-               "unit_heavy",
+               "unit_medium",
                "unit_vehicle"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
@@ -108,14 +111,13 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
-			   "unit_urbie",
-            "unit_ext_rare_{CUR_TEAM.faction}",
-            "unit_none_{CUR_TEAM.faction}",
-            "unit_hero_{CUR_TEAM.faction}",
-            "unit_LosTech",
-            "unit_era_2750",
-            "unit_era_2900",
-            "unit_clan"
+               "unit_urbie",
+               "unit_none_{CUR_TEAM.faction}",
+               "unit_hero_{CUR_TEAM.faction}",
+               "unit_LosTech",
+               "unit_era_2750",
+               "unit_era_2900",
+               "unit_clan"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -136,7 +138,7 @@
          "pilotId" : "Tagged",
          "unitTagSet" : {
             "items" : [
-               "unit_heavy",
+               "unit_medium",
                "unit_vehicle"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
@@ -144,15 +146,16 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
-            "unit_urbie",            
-            "unit_very_rare_{CUR_TEAM.faction}",
-            "unit_ext_rare_{CUR_TEAM.faction}",
-            "unit_none_{CUR_TEAM.faction}",
-            "unit_hero_{CUR_TEAM.faction}",
-            "unit_LosTech",
-            "unit_era_2750",
-            "unit_era_2900",
-            "unit_clan"
+               "unit_urbie",
+               "unit_rare_{CUR_TEAM.faction}",
+               "unit_very_rare_{CUR_TEAM.faction}",
+               "unit_ext_rare_{CUR_TEAM.faction}",
+               "unit_none_{CUR_TEAM.faction}",
+               "unit_hero_{CUR_TEAM.faction}",
+               "unit_LosTech",
+               "unit_era_2750",
+               "unit_era_2900",
+               "unit_clan"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },

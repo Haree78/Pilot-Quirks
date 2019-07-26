@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 7400000,
+        "Cost": 9400000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
@@ -39,7 +39,7 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 95,
+    "MeleeDamage": 70,
     "MeleeInstability": 75,
     "MeleeToHitModifier": 0,
     "DFADamage": 95,
@@ -100,7 +100,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -197,5 +197,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Ranged Assault",
-    "YangsThoughts": "Not a bad idea to slam a Command Console into a Marauder, it certainly has the space for it.  Not sure how I feel about the downgrade from an AC5 to an AC2, I guess the extra range might encourage a headstrong Commander to hang back a but... er.. no offense Commander."
+    "YangsThoughts": "Not a bad idea to slam a Command Console into a Marauder, it certainly has the space for it.  Not sure how I feel about the downgrade from an AC5 to an AC2, I guess the extra range might encourage a headstrong Commander to hang back a bit... er.. no offense Commander."
 }

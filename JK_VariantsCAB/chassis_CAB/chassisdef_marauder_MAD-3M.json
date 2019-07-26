@@ -39,7 +39,7 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 95,
+    "MeleeDamage": 70,
     "MeleeInstability": 75,
     "MeleeToHitModifier": 0,
     "DFADamage": 95,
@@ -201,5 +201,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Ranged Assault",
-    "YangsThoughts": "The Marauder packs blistering fire power, and does it in style.  It's great to see this mech in our mech bay."
+    "YangsThoughts": "I'm not sure if the trade off in overall firepower and range on the MAD-3R is worth it or not, but at least the lower heat profile will allow you to fire everything more frequently, helping to balance things out."
 }

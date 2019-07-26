@@ -3,7 +3,8 @@
         "items": [
             "unit_vehicle",    
             "unit_light",
-            "unit_wheels",   
+            "unit_wheels",
+            "unit_range_medium",
             "unit_speed_high",   
             "unit_release",       
             "unit_rare",

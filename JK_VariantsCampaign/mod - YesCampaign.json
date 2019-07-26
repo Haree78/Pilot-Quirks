@@ -20,6 +20,8 @@
 		{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
 		{ "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true },
 		{ "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": true },
-		{ "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": false }
+		{ "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": false },
+		{ "Type": "ChassisDef", "Path": "meleeFixes-chassisMerge", "AddToDB": false },
+		{ "Type": "MechDef", "Path": "meleeFixes-mechMerge", "AddToDB": false }
     ]
 }

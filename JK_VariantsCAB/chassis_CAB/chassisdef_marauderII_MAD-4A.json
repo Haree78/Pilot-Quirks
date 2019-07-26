@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 10900000,
+        "Cost": 10100000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
@@ -39,7 +39,7 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 125,
+    "MeleeDamage": 95,
     "MeleeInstability": 100,
     "MeleeToHitModifier": 0,
     "DFADamage": 125,
@@ -207,5 +207,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Ranged Assault",
-    "YangsThoughts": "Who looks at a Marauder and says to themselves 'that could use a few extra tons and slap on some JumpJets while you're at it'.  Those Dragoons are insane.  But, I gotta say, this is an improvement on the standard Marauder in just about every way - aside from still having heat issues."
+    "YangsThoughts": "Who looks at a Marauder and says to themselves 'that could be bigger and slap on some JumpJets while you're at it'.  Those Dragoons are insane.  But, I gotta say, this is an improvement on the standard Marauder in just about every way - aside from still having heat issues."
 }

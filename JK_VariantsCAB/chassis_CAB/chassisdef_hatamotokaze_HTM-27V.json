@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 7800000,
+        "Cost": 8500000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
@@ -39,7 +39,7 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": true,
-    "MeleeDamage": 100,
+    "MeleeDamage": 110,
     "MeleeInstability": 80,
     "MeleeToHitModifier": 0,
     "DFADamage": 100,
@@ -206,7 +206,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Sniper & Defender",
-    "YangsThoughts": "The HTM-27V is a solid support and sniper 'Mech, but you need to make sure your opponents don't close in on you, otherwise you're going to have a hell of a time defending yourself.  May as well opt for melee at that point ... which makes me wonder why no one has thought to give these giant mecha-Samurai swords.",
+    "YangsThoughts": "The HTM-27V is a solid support and sniper 'Mech, but you need to make sure your opponents don't close in on you, otherwise you're going to have a hell of a time defending yourself.  May as well opt for melee at that point ... which makes me wonder why no one has thought to give them 'Mech scale Samurai swords.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftArm",

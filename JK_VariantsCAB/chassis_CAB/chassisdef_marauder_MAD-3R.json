@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 7400000,
+        "Cost": 7100000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
@@ -39,7 +39,7 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 95,
+    "MeleeDamage": 70,
     "MeleeInstability": 75,
     "MeleeToHitModifier": 0,
     "DFADamage": 95,
@@ -197,5 +197,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Ranged Assault",
-    "YangsThoughts": "The Marauder packs blistering fire power, and does it in style.  It's great to see this mech in our mech bay."
+    "YangsThoughts": "The Marauder 3R packs a potent array of fire power and does it with style.  It is a true classic, and I'm happy to see one in our 'Mech Bays.  It can run a bit hot, so make sure its pilot is mindful of that."
 }

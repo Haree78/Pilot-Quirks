@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 1624000,
+    "Cost": 1800000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -89,7 +89,7 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {
@@ -205,5 +205,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Recon and Backstabber",
-  "YangsThoughts": "I swear, these Dragoons can make lemonade out of lemons, the FLE-16 makes a Locust look slow.  Though I would have swapped in a Small Laser in the CT in place of that Flamer."
+  "YangsThoughts": "I swear, these Dragoons make lemonade out of apples. They took the FLE-16 and made it into one of the fastest 'Mechs I've seen, making even a Locust look slow and did I mention it can jump?  Then they arm it better than most 20 ton 'Mechs out there.  Though I would have swapped in a Small Laser and a little more armor in place of that Flamer."
 }

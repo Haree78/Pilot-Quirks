@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 9630000,
+        "Cost": 8600000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
@@ -39,7 +39,7 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 80,
+    "MeleeDamage": 55,
     "MeleeInstability": 85,
     "MeleeToHitModifier": 0,
     "DFADamage": 105,
@@ -49,12 +49,7 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-			],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -89,7 +84,12 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
                 }
+			
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -111,6 +111,10 @@
             "Hardpoints": [
                 {
                     "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -211,5 +215,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Artillery and Fire Support",
-    "YangsThoughts": "The Longbow is one of the most well-known fire support 'Mechs in existence and is able to put a sky darkening barrage of up to fifty missiles down range. The 0W Variant is significantly faster out in the field but at the cost of being much easier to kill when it takes a hit."
+    "YangsThoughts": "Upgrading the engine on the LGB-0W gives it a nice speed boost, but at the cost of armor and its Medium Lasers.  Makes for a great fire support 'Mech, but if your opponent gets in close, you are going to be hard pressed to defend yourself.  Maybe I can use the old couplings to install some Small Lasers at least."
 }

@@ -3,7 +3,7 @@
         "items": [
             "unit_mech",
             "unit_assault",
-            "unit_indirectFire", 
+            "unit_indirectFire",
             "unit_range_medium",
             "unit_speed_low",
             "unit_armor_high",
