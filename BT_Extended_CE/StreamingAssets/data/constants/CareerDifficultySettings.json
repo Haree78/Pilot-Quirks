@@ -849,7 +849,7 @@
 			"ID": "diff_difficulty",
 			"Name": "Overall Difficulty",
 			"UIOrder": 3,
-			"Tooltip": "This setting controls the underlying difficulty of the game in addtion to what is available on this settings screen. Simulation is identical to Hard Difficulty, but adds in additonal elements to give a more hardcore immersive Company Commander experience.",
+			"Tooltip": "This setting controls the underlying difficulty of the game and reduces the X-Com effect, too hard early game, too easy late game.  Hard increases the difficulty in combat late game, including the AI using appropriate pilot skills, and lessening late game Resolve bonuses. Simulation is identical to Hard Difficulty, but adds in additonal elements to give a more hardcore immersive Company Commander experience.",
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
