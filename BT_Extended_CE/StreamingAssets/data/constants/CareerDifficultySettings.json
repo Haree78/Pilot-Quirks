@@ -154,7 +154,7 @@
                 },
                 {
                     "ID" : "diff_MC_easymed",
-                    "Name" : "4",
+                    "Name" : "4NH",
                     "TelemetryEventDesc": "",
                     "DifficultyValue" : 0,
                     "CareerScoreModifier" : 0.05,
@@ -168,7 +168,7 @@
                 },
                 {
                     "ID" : "diff_MC_med",
-                    "Name" : "5",
+                    "Name" : "5S",
                     "TelemetryEventDesc": "",
                     "DifficultyValue" : 1,
                     "CareerScoreModifier" : 0.1,
@@ -252,7 +252,7 @@
                 },
                 {
                     "ID" : "diff_CMD_med",
-                    "Name" : "Normal",
+                    "Name" : "Normal (N)",
                     "TelemetryEventDesc": "normal",
                     "DifficultyValue" : 0,
                     "CareerScoreModifier" : 0.05,
@@ -266,7 +266,7 @@
                 },
                 {
                     "ID" : "diff_CMD_hard",
-                    "Name" : "Hard",
+                    "Name" : "Hard (H/S)",
                     "TelemetryEventDesc": "hard",
                     "DifficultyValue" : 1,
                     "CareerScoreModifier" : 0.1,
@@ -308,7 +308,7 @@
                 },
                 {
                     "ID" : "diff_CMD_med",
-                    "Name" : "Normal",
+                    "Name" : "Normal (N)",
                     "TelemetryEventDesc": "normal",
                     "DifficultyValue" : 0,
                     "CareerScoreModifier" : 0.05,
@@ -322,7 +322,7 @@
                 },
                 {
                     "ID" : "diff_CMD_hard",
-                    "Name" : "Rare",
+                    "Name" : "Rare (H/S)",
                     "TelemetryEventDesc": "rare",
                     "DifficultyValue" : 1,
                     "CareerScoreModifier" : 0.1,
@@ -504,7 +504,7 @@
             "Options" : [
                 {
                     "ID" : "diff_PP_easy",
-                    "Name" : "Normal",
+                    "Name" : "Normal (S)",
                     "TelemetryEventDesc": "normal",
                     "DifficultyValue" : 0,
                     "CareerScoreModifier" : 0.05,
@@ -518,7 +518,7 @@
                 },
                 {
                     "ID" : "diff_PP_med",
-                    "Name" : "Slow",
+                    "Name" : "Slow (N/H)",
                     "TelemetryEventDesc": "slow",
                     "DifficultyValue" : 1,
                     "CareerScoreModifier" : 0.1,
@@ -849,7 +849,7 @@
 			"ID": "diff_difficulty",
 			"Name": "Overall Difficulty",
 			"UIOrder": 3,
-			"Tooltip": "This setting controls the underlying difficulty of the game and reduces the X-Com effect, too hard early game, too easy late game.  Hard increases the difficulty in combat late game, including the AI using appropriate pilot skills, and lessening late game Resolve bonuses. Simulation is identical to Hard Difficulty, but adds in additonal elements to give a more hardcore immersive Company Commander experience.",
+			"Tooltip": "This setting controls the underlying difficulty of the game and reduces the X-Com effect, too hard early game, too easy late game.  Hard increases the difficulty in combat late game, including the AI using appropriate pilot skills, and lessening late game Resolve bonuses. Simulation is identical to Hard Difficulty, but adds in additonal elements to give a more hardcore immersive Company Commander experience. Other settings in this menu are flagged with N/H/S values for suggested settings for the difficulty level.",
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
