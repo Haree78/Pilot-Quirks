@@ -128,7 +128,7 @@
         },
         {
             "ID" : "diff_mechConstruction",
-            "Name" : "Parts for 'Mech Assembly",
+            "Name" : "Parts for 'Mech Assembly\n4 - (N/H), 5 - (S)",
 			"TelemetryEventName": "",
             "UIOrder" : 2,
             "Tooltip" : "This setting controls the number of salvaged or purchased 'Mech parts you must acquire to assemble a new 'Mech. Increase this value to make new 'Mechs rarer and more difficult to obtain. <color=#F79B26>This setting is intended for veterans and those seeking a significant challenge.</color>",
@@ -154,7 +154,7 @@
                 },
                 {
                     "ID" : "diff_MC_easymed",
-                    "Name" : "4NH",
+                    "Name" : "4",
                     "TelemetryEventDesc": "",
                     "DifficultyValue" : 0,
                     "CareerScoreModifier" : 0.05,
@@ -168,7 +168,7 @@
                 },
                 {
                     "ID" : "diff_MC_med",
-                    "Name" : "5S",
+                    "Name" : "5",
                     "TelemetryEventDesc": "",
                     "DifficultyValue" : 1,
                     "CareerScoreModifier" : 0.1,
