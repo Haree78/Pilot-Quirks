@@ -144,8 +144,7 @@
 		 "dynamicDifficulty": true,
          "unitTagSet" : {
             "items" : [
-               "unit_mech",
-               "unit_jumpOK"
+               "unit_mech"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },

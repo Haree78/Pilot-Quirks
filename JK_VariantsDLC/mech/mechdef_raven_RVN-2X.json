@@ -1,18 +1,29 @@
 {
 	"MechTags": {
 		"items": [
-			"unit_mech",
-			"unit_release",
-			"unit_light",
-			"unit_lance_support",
-			"unit_role_scout"
+            "unit_mech",
+            "unit_dlc",
+            "unit_light", 
+            "unit_range_medium",
+            "unit_armor_high",
+            "unit_hot",
+            "unit_lance_support",
+            "unit_role_scout",
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
 		],
 		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_raven_RVN-2X",
 	"HeraldryID": null,
 	"Description": {
-		"Cost": 4960000,
+		"Cost": 3500000,
 		"Rarity": 5,
 		"Purchasable": true,
 		"Manufacturer": null,
@@ -23,7 +34,7 @@
 		"Details": "Many of the Ravens captured by the Federated Suns in the Fourth Succession War were refitted in 3030 to the 2X standard. This variant replaced the EW equipment with a Large Laser.<b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
 		"Icon": "uixTxrIcon_raven"
 	},
-	"simGameMechPartCost": 500000,
+	"simGameMechPartCost": 350000,
 	"Version": 1,
 	"Locations": [
 		{

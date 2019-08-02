@@ -2,18 +2,28 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_heavy",
-            "unit_lance_tank",
+            "unit_heavy", 
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_hot",
             "unit_lance_vanguard",
             "unit_role_brawler",
-            "unit_release"
+            "unit_release",
+            "Davion",
+            "Liao",
+            "Marik",
+            "Steiner",
+            "Kurita",
+            "MagistracyOfCanopus",
+            "TaurianConcordat",
+            "unit_common"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_ostsol_OTL-4D",
     "HeraldryID": null,
     "Description": {
-        "Cost": 6980000,
+        "Cost": 7100000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +34,7 @@
         "Details": "The Ostsol 4D uses an all-laser weapons array which is particularly geared to close-quarters fighting. A versatile 'Mech, the Ostsol can operate as part of heavy lances in order to provide close-range firepower or lead recon and raiding lances thanks to its fast speed for a heavy 'Mech.",
         "Icon": "uixTxrIcon_ostsol"
     },
-    "simGameMechPartCost": 700000,
+    "simGameMechPartCost": 710000,
     "Version": 1,
     "Locations": [
         {

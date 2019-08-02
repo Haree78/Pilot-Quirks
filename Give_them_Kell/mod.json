@@ -2,12 +2,14 @@
     "Name": "Give_them_Kell",
     "Enabled": true,
 	
-	"Version": "1.6.0.0",
-	"PackagedOn": "2019-06-04T16:45:00Z",
+	"Version": "1.6.2.1",
+	"PackagedOn": "2019-06-17T16:45:00Z",
 
     "Author": "HBS - with minor adjustments for Morgan Kell character and 'Mech by Justin Kase.  Thank you to Bloody Doves for his Archer mod and letting me link this to it, and to the illustrious LadyAlekto for the ECM mod for Morgan's Archer.",
 
     "DependsOn": [ "CommunityBundles" ],
+
+    "OptionallyDependsOn": [ "cFixes" ],
     
     "ConflictsWith": [],
 
@@ -15,6 +17,9 @@
 	{ "Type": "ContractOverride", "Path": "contracts" },
 	{ "Type": "HeatSinkDef", "Path": "heatsinks", "AddToDB": true },
     { "Type": "UpgradeDef", "Path": "upgrades" },
-	{ "Type": "MechDef", "Path": "mech", "AddToDB": true }
+    { "Type": "Sprite", "Path": "portraits" },
+    { "Type": "MovementCapabilitiesDef", "Path": "movement", "ShouldMergeJSON": false, "AddToDB": true },
+	{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
+    { "Type": "ChassisDef", "Path": "chassis", "ShouldMergeJSON": false, "AddToDB": true }
     ]
 }

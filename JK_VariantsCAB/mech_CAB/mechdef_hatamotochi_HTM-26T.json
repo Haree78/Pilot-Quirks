@@ -3,17 +3,27 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_assault",
+            "unit_assault", 
+            "unit_range_long",
+            "unit_armor_high",
+            "unit_hot",
+            "unit_lance_tank",
+            "unit_role_sniper",
             "unit_release",
-            "unit_lance_support",
-            "unit_role_sniper"
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_hatamotochi_HTM-26T",
     "HeraldryID": null,
     "Description": {
-        "Cost": 9650000,
+        "Cost": 9800000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +34,7 @@
         "Details": "A melding of the popular Star League era Thug and the poorly regarded Charger. The HTM-26T was first seen in 3039 and very little was known about it.  Armed with a pair of PPCs and a pair of SRM-6s, the Hatamoti-Chi can deliver a solid amount of damage at both short and long range, and can be devastating at mid-range.",
         "Icon": "uixTxrIcon_hatamoto"
     },
-    "simGameMechPartCost": 970000,
+    "simGameMechPartCost": 980000,
     "Version": 1,
     "Locations": [
         {

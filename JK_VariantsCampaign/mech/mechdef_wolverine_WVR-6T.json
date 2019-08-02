@@ -3,18 +3,25 @@
         "items": [
             "unit_mech",
             "unit_medium",
-            "unit_jumpOK",
-            "unit_lance_assassin",
+            "unit_jumpOK", 
+            "unit_range_Long",
+            "unit_armor_high",
             "unit_lance_vanguard",
             "unit_role_sniper",
-            "unit_release"
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "TaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_wolverine_WVR-6T",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4750000,
+        "Cost": 5800000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -25,7 +32,7 @@
         "Details": "A Taurian variant, the WVR-6T design was created to capitalize on the less expensive ballistic weapons that were readily available within the Concordat to reduce their reliance on Star League member states. The 6T was also meant to act as anti-pirate garrison 'Mech, utilizing its long range AC/5 and LRM-5 combo to engage raiders at a distance.  Additionally, the swap out of the Medium Laser for a Small Laser and the addition of two Machine Guns allow this Wolverine variant to better engage with the light vehicles and infantry common to raiding forces.",
         "Icon": "uixTxrIcon_wolverine"
     },
-    "simGameMechPartCost": 475000,
+    "simGameMechPartCost": 580000,
     "Version": 1,
     "Locations": [
         {

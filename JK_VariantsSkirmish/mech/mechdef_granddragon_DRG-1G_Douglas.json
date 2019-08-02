@@ -3,18 +3,27 @@
         "items": [
             "unit_mech",
             "unit_heavy",
-            "unit_indirectFire",
-            "unit_lance_tank",
+            "unit_indirectFire", 
+            "unit_range_long",
+            "unit_range_medium",
+            "unit_speed_high",
             "unit_lance_vanguard",
             "unit_role_brawler",
-            "unit_release"
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_granddragon_DRG-1G_Douglas",
     "HeraldryID": null,
     "Description": {
-        "Cost": 7030000,
+        "Cost": 6600000,
         "Rarity": 5,
         "Purchasable": false,
         "Manufacturer": null,
@@ -25,7 +34,7 @@
         "Details": "This Grand Dragon 1G model, was the custom 'Mech of Team Banzai MechWarrior Douglas Running-Elk. Simply known as the <b>Douglas</b>, Running-Elk preferred not to run at high temps and had the PPC removed and replaced by an AC/5. The LRM10 was downgraded to an LRM5 model and lastly, all but one Medium Laser was removed and an SRM6 placed in the left arm.",
         "Icon": "uixTxrIcon_dragon"
     },
-    "simGameMechPartCost": 690000,
+    "simGameMechPartCost": 660000,
     "Version": 1,
     "Locations": [
         {

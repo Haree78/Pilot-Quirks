@@ -2,17 +2,28 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_assault",
+            "unit_assault", 
+            "unit_range_long",
+            "unit_speed_low",
+            "unit_armor_low",
+            "unit_hot",
             "unit_lance_support",
-            "unit_role_sniper",
-            "unit_release"
+            "unit_role_scout",
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_daboku_DCMS-MX90-D",
     "HeraldryID": null,
     "Description": {
-        "Cost": 10760000,
+        "Cost": 9900000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -23,7 +34,7 @@
         "Details": "The result of a Draconis Combine Mustered Soldiery think tank tasked with gleaning information from the Helm Memory Core, the Daboku was unveiled in 3038 to little fanfare. A near-instant failure with flaws in almost every major system, the 'Mech was nonetheless hurried to the front lines for the War of 3039 where it became both a laughing stock and a virtual death sentence for Kuritan pilots.",
         "Icon": "uixTxrIcon_mauler"
     },
-    "simGameMechPartCost": 1080000,
+    "simGameMechPartCost": 990000,
     "Version": 1,
     "Locations": [
         {

@@ -2,17 +2,24 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_medium",
+            "unit_medium", 
+            "unit_range_long",
+            "unit_armor_low",
             "unit_lance_vanguard",
             "unit_role_sniper",
-            "unit_release"
+            "unit_release",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_clint_CLNT-1-2R",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3940000,
+        "Cost": 3900000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,

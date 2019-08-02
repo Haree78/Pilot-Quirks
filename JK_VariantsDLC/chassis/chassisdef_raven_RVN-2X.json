@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 2123540,
+    "Cost": 2700000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -61,22 +61,6 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },		
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },		
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
@@ -87,6 +71,10 @@
     {
       "Location": "LeftTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -117,14 +105,6 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },		
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],

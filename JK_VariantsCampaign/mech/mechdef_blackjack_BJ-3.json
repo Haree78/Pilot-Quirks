@@ -2,19 +2,30 @@
     "MinAppearanceDate" : "3042-01-01T00:00:00Z",
     "MechTags": {
         "items": [
-            "unit_jumpOK",
             "unit_mech",
             "unit_medium",
+            "unit_jumpOK", 
+            "unit_range_long",
+            "unit_range_medium",
+            "unit_speed_low",
+            "unit_armor_high",
+            "unit_hot",
             "unit_lance_assassin",
             "unit_role_sniper",
-            "unit_release"
+            "unit_release",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_blackjack_BJ-3",
     "HeraldryID": null,
     "Description": {
-        "Cost": 5730000,
+        "Cost": 6300000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": null,
@@ -25,7 +36,7 @@
         "Details": "Blackjack 3s are based on the experimental BJ-3Xs built by the Capellans on St. Ives in 3028, during the Fourth Succession War.  Utilizing re-discovered technology from the Star League Era, this Federated Suns version utilizes Double HeatSinks. With this superior heat dissipation, the BJ-3 was armed with two PPCs and four Medium Lasers, giving it a serious punch for its weight class.",
         "Icon": "uixTxrIcon_blackjack"
     },
-    "simGameMechPartCost": 573000,
+    "simGameMechPartCost": 630000,
     "Version": 1,
     "Locations": [
         {

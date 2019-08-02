@@ -3,17 +3,26 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_assault",
-            "unit_release",
+            "unit_assault", 
+            "unit_range_long",
+            "unit_armor_high",
             "unit_lance_support",
-            "unit_role_sniper"
+            "unit_role_sniper",
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_hatamotoku_HTM-27W",
     "HeraldryID": null,
     "Description": {
-        "Cost": 9650000,
+        "Cost": 9800000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +33,7 @@
         "Details": "The HTM-27W, known as the Hatamoto-Ku, trades out the original SRMs for an AC/5.  This gives the Ku the ability to pour on a lot of focussed fire at range.",
         "Icon": "uixTxrIcon_hatamoto"
     },
-    "simGameMechPartCost": 970000,
+    "simGameMechPartCost": 980000,
     "Version": 1,
     "Locations": [
         {

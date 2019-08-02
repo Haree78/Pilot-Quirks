@@ -2,17 +2,26 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_medium",
+            "unit_medium", 
+            "unit_range_long",
+            "unit_armor_high",
+            "unit_hot",
             "unit_lance_support",
             "unit_role_sniper",
-            "unit_release"
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_hermesII_HER-4K",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3840000,
+        "Cost": 4200000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -23,7 +32,7 @@
         "Details": "Also sometimes referred to as the Hermes III, this variant of the Hermes II was introduced a year after the original. It is a modification of the design built to remove its dependence on ammunition by replacing all of the weapons with two Large Lasers.  Exclusive to the Draconis combine, the Hermes II 4K features the Ostmann Industries upgraded Sensors and Tracking system.",
         "Icon": "uixTxrIcon_hermesII"
     },
-    "simGameMechPartCost": 380000,
+    "simGameMechPartCost": 420000,
     "Version": 1,
     "Locations": [
         {

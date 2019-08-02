@@ -2,17 +2,26 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_medium",
+            "unit_medium", 
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_armor_high",
             "unit_lance_vanguard",
             "unit_role_brawler",
-            "unit_release"
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_hermesII_HER-2M",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3840000,
+        "Cost": 4200000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -23,7 +32,7 @@
         "Details": "Also known as the Mercury, this variant of the Hermes II was introduced in 2802.  A larger engine was installed to bring the 'Mech's top speed up to 118.8 km/h, although this necessitated the removal of the autocannon, eliminating the 'Mech's long-range firepower. To make up for this, short-range firepower was increased with two additional medium lasers and two Machine Guns mounted in the right torso.",
         "Icon": "uixTxrIcon_hermesII"
     },
-    "simGameMechPartCost": 380000,
+    "simGameMechPartCost": 420000,
     "Version": 1,
     "Locations": [
         {

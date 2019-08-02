@@ -2,18 +2,27 @@
     "MechTags": {
         "items": [
             "unit_mech",
+            "unit_light", 
+            "unit_range_long",
+            "unit_speed_high",
+            "unit_armor_low",
+            "unit_lance_vanguard",
+            "unit_role_scout",
             "unit_release",
-            "unit_light",
-            "unit_lance_assassin",
-            "unit_role_sniper",
-            "BLACKLISTED"
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_locust_LCT-1D",
     "HeraldryID": null,
     "Description": {
-        "Cost": 1990000,
+        "Cost": 1700000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +33,7 @@
         "Details": "During the Davion-Kurita battle over Royal, the Federated Suns introduced a new class of Locust mounting a PPC.  In order to make enough space for the PPC, and still retain a bare minimum of armor, the engine was downgraded reducing the LCT-1D's speed to that of a Spider.  There were numerous problems with the integration of the targeting system and it was prone to overheating.  Worse yet, PPC was so integrated into the framework of the 'Mech, that when fired, it would destabilize the 'Mech.  Since it was difficult to separate the PPC from the frame, most have been scrapped for their parts to repair other Locust variants.  By the 31st century the model has become a relic mostly lost to time.",
         "Icon": "uixTxrIcon_locust"
     },
-    "simGameMechPartCost": 200000,
+    "simGameMechPartCost": 170000,
     "Version": 1,
     "Locations": [
         {

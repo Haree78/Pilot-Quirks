@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 1700000,
+        "Cost": 1500000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "",
@@ -39,7 +39,7 @@
     "Signature": 0,
     "Radius": 4,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 20,
+    "MeleeDamage": 25,
     "MeleeInstability": 20,
     "MeleeToHitModifier": 0,
     "DFADamage": 25,
@@ -59,10 +59,6 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -108,10 +104,6 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false

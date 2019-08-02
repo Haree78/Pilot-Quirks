@@ -3,17 +3,26 @@
         "items": [
             "unit_mech",
             "unit_heavy",
-            "unit_jumpOK",
+            "unit_jumpOK", 
+            "unit_range_medium",
+            "unit_armor_high",
             "unit_lance_assassin",
             "unit_role_brawler",
-            "unit_release"
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_guillotine_GLT-3N",
     "HeraldryID": null,
     "Description": {
-        "Cost": 9270000,
+        "Cost": 12800000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +33,7 @@
         "Details": "The Guillotine was originally designed in 2499 as a front-line BattleMech for the Terran Hegemony and was the Star League Defense Force's standard heavy 'Mech for generations. While its weaponry was ample for its era, as time went by the march of technology allowed for the development of larger 'Mechs which were significantly better armed. However few of these new 'Mechs could match the Guillotine in maneuverability or staying power, and so the 'Mech simply transition from the front-line shock role to that of a heavy raider.",
         "Icon": "uixTxrIcon_guillotine"
     },
-    "simGameMechPartCost": 930000,
+    "simGameMechPartCost": 1280000,
     "Version": 1,
     "Locations": [
         {

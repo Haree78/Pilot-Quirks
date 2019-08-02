@@ -2,19 +2,27 @@
   "MinAppearanceDate" : "3030-03-03T00:00:00Z",
   "MechTags": {
     "items": [
-      "unit_generic",
       "unit_mech",
-      "unit_release",
-      "unit_light",
+      "unit_light", 
+      "unit_range_medium",
+      "unit_speed_high",
       "unit_lance_vanguard",
-      "unit_role_scout"
+      "unit_role_scout",
+      "unit_release",
+      "NotDavion",
+      "NotLiao",
+      "NotMarik",
+      "NotSteiner",
+      "NotKurita",
+      "NotMagistracyOfCanopus",
+      "NotTaurianConcordat"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_flea_FLE-16",
   "HeraldryID": null,
   "Description": {
-    "Cost": 324800,
+    "Cost": 2100000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
@@ -25,7 +33,7 @@
     "Details": "A new variant built by Earthwerks Inc. exclusively for Wolf's Dragoons to replenish their loses in the 4th Succession War.  The FLE-16 variant combines incredible speed and a decent array of weapons, for a 20 ton 'Mech.",
     "Icon": "uixTxrIcon_flea"
   },
-  "simGameMechPartCost": 190000,
+  "simGameMechPartCost": 210000,
   "Version": 1,
   "Locations": [
     {

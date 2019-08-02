@@ -3,17 +3,25 @@
         "items": [
             "unit_mech",
             "unit_assault",
-            "unit_indirectFire",
+            "unit_indirectFire", 
+            "unit_range_long",
+            "unit_speed_low",
+            "unit_armor_high",
             "unit_lance_support",
             "unit_role_sniper",
-            "unit_release"
+            "unit_release",
+            "Davion",
+            "Marik",
+            "Steiner",
+            "MagistracyOfCanopus",
+            "TaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_longbow_LGB-7Q",
     "HeraldryID": null,
     "Description": {
-        "Cost": 10260000,
+        "Cost": 9700000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +32,7 @@
         "Details": "The Longbow is one of the most well-known fire support 'Mechs in existence. As a fire-support 'Mech the Longbow is a trusted and reliable machine that can be counted on to carry out the mission it is designed for. Combined, the LRM launchers can put a devastating barrage of up to fifty missiles down range.",
         "Icon": "uixTxrIcon_longbow"
     },
-    "simGameMechPartCost": 1030000,
+    "simGameMechPartCost": 970000,
     "Version": 1,
     "Locations": [
         {

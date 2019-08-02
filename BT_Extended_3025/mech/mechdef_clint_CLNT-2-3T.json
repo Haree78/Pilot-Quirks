@@ -1,19 +1,21 @@
 {
     "MechTags": {
         "items": [
-			"unit_jumpOK",
             "unit_mech",
             "unit_medium",
+            "unit_jumpOK", 
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_armor_low",
             "unit_lance_vanguard",
-            "unit_role_sniper",
-            "unit_release"
+            "unit_role_sniper"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_clint_CLNT-2-3T",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4050000,
+        "Cost": 4200000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +26,7 @@
         "Details": "The Clint was primarily designed as a cheap recon unit, with the capabilities of a well-armed, low-end medium weight 'Mech, and in this regard it serves well. With a top speed of 97.2 km/h and a jumping capability of one hundred and eighty meters, the Clint can easily keep up with other recon elements and maneuver through mountainous or urban terrain.",
         "Icon": "uixTxrIcon_clint"
     },
-    "simGameMechPartCost": 410000,
+    "simGameMechPartCost": 420000,
     "Version": 1,
     "Locations": [
         {

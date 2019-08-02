@@ -2,11 +2,11 @@
     "Name": "BT_Extended_3025",
     "Enabled": true,
 
-	"Version": "1.6.0.0",
+	"Version": "1.6.2.3",
 	"PackagedOn": "2019-06-04T16:45:00Z",
 	
-	"DependsOn": ["CommunityBundles"],
-	"OptionallyDependsOn": ["LC_SLDFRoyal_DLC", "LC_SLDFRoyal_Addon", "LC_SLDFRoyal_WR", "LC_SLDFRoyal_Unique", "BT_Extended_3025_Plus"],
+	"DependsOn": ["CommunityBundles", "JK_VariantsCampaign" ],
+	"OptionallyDependsOn": ["LC_SLDFRoyal_DLC", "LC_SLDFRoyal_Addon", "LC_SLDFRoyal_WR", "LC_SLDFRoyal_Unique", "BT_Extended_3025_Plus" ],
 
     "Manifest": [
 		{ "Type": "UpgradeDef", "Path": "upgrades", "ShouldMergeJSON": false  },

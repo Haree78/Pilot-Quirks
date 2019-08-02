@@ -2,17 +2,26 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_assault",
+            "unit_assault", 
+            "unit_range_long",
+            "unit_speed_low",
+            "unit_armor_high",
+            "unit_hot",
             "unit_lance_assassin",
             "unit_role_sniper",
-            "unit_release"
+            "unit_release",
+            "NotLiao",
+            "NotMarik",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_devastator_DVS-1D",
     "HeraldryID": null,
     "Description": {
-        "Cost": 12720000,
+        "Cost": 12400000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": null,
@@ -23,7 +32,7 @@
         "Details": "The Devastator remained lost to the Inner Sphere for centuries, until troops from the Federated Suns chanced upon the blueprints in a Star League base on the world of Hoff in 3023. A downgraded version of the 'Mech, the 1D, was prototyped in 3033 by the New Avalon Institute of Science, using technology available at the time.",
         "Icon": "uixTxrIcon_devastator"
     },
-    "simGameMechPartCost": 1270000,
+    "simGameMechPartCost": 1240000,
     "Version": 1,
     "Locations": [
         {

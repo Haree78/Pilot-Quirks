@@ -7,7 +7,11 @@
     "weight": 1,
     "scope": "MID_CAMPAIGN",
     "finalDifficulty": 0,
-    "shortDescription": "This will be a difficult fight, Commander. The Beasts of Balawat are former Kell Hounds; they've received some of the best training and equipment you'll find anywhere. But more than that, they've got something to prove.  Thank that senior tech of yours for getting my Archer ready for the field so quickly, it will be nice back in the saddle again.",
+    "representativeCastDefIDOverride" : null,
+    "missionSuccessStatementOverride" : null,
+    "badFaithStatementOverride" : null,
+    "goodFaithStatementOverride" : null,
+    "shortDescription": "This will be a difficult fight, Commander. The Beasts of Balawat are former Kell Hounds; they've received some of the best training and equipment you'll find anywhere. But more than that, they've got something to prove.  Thank that senior tech of yours for getting my Archer ready for the field so quickly, it will be nice to be back in the saddle again.",
     "longDescription": "If Kell is saying that this will be tough, I'm inclined to believe him. Get your war face on, Commander. This is gonna be a hell of a drop.",
     "salvagePotential": 16,
     "requirementList": [],
@@ -56,7 +60,9 @@
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [],
-            "OnFailureResults": []
+            "OnFailureResults": [],
+            "OnSuccessDialogueGUID" : null,
+            "OnFailureDialogueGUID" : null
         },
         {
             "objective": {
@@ -66,7 +72,9 @@
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [],
-            "OnFailureResults": []
+            "OnFailureResults": [],
+            "OnSuccessDialogueGUID" : null,
+            "OnFailureDialogueGUID" : null
         }
     ],
     "artilleryObjectiveList": [],
@@ -251,6 +259,7 @@
             ]
         }
     ],
+    "overwriteMissionCompleteWhenAutoComplete" : true,
     "overrideAutoCompleteDialogueId": null,
     "disableNegotations": false,
     "disableLanceConfiguration": false,
@@ -481,7 +490,7 @@
                     "items": [],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment": 0,
+                "lanceDifficultyAdjustment": 1,
                 "selectedLanceDefId": null,
                 "selectedLanceDifficulty": 0,
                 "unitSpawnPointOverrideList": [
@@ -628,7 +637,7 @@
                 "lanceTagSet": {
                     "items": [
                         "lance_type_support",
-                        "lance_type_notallvehicles"
+                        "lance_type_mech"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -809,5 +818,13 @@
         "faction": "INVALID_UNSET",
         "teamLeaderCastDefId": "castDef_TeamLeader_Current",
         "lanceOverrideList": []
+    },
+    "employersAllyTeam" : {
+        "encounterLayerData" : null,
+        "teamGuid" : "70af7e7f-39a8-4e81-87c2-bd01dcb01b5e",
+        "teamName" : "Employers Ally",
+        "faction" : "INVALID_UNSET",
+        "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
+        "lanceOverrideList" : []
     }
 }
