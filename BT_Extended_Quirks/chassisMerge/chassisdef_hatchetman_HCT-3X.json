@@ -3,8 +3,11 @@
     "Instructions": [
         {
             "JSONPath": "ChassisTags.items",
-            "Action": "ArrayAdd",
-            "Value": "mech_quirk_antiaircraft"
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_antiaircraft",
+				"mech_quirk_fullheadejection"
+			]
         }
     ]
 }
