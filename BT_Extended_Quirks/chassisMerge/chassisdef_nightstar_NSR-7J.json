@@ -10,6 +10,11 @@
 				"mech_quirk_variablerangetargeting",
 				"mech_quirk_difficulttomaintain"
 			]
+        },
+        {
+            "JSONPath": "Description.Cost",
+            "Action": "Replace",
+            "Value": 10450000
         }
     ]
 }

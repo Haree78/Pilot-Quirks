@@ -14,6 +14,11 @@
             "JSONPath": "MeleeToHitModifier",
             "Action": "Replace",
             "Value": -1
+        },
+        {
+            "JSONPath": "Description.Cost",
+            "Action": "Replace",
+            "Value": 8010000
         }
     ]
 }

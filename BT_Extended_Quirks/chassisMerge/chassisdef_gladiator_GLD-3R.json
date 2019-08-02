@@ -8,6 +8,11 @@
 				"mech_quirk_cowl",
 				"mech_quirk_badreputation"
 			]
+        },
+        {
+            "JSONPath": "Description.Cost",
+            "Action": "Replace",
+            "Value": 4410000
         }
     ]
 }

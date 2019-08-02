@@ -58,6 +58,7 @@
     "Manifest": [
 		{ "Type": "AbilityDef", "Path": "abilities", "ShouldMergeJSON": false  },
 		{ "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
-        { "Path": "chassisMerge", "Type": "AdvancedJSONMerge" }
+        { "Path": "chassisMerge", "Type": "AdvancedJSONMerge" },
+        { "Type": "MechDef", "Path": "mech", "ShouldMergeJSON": true, "AddToDB": false }
     ]
 }
