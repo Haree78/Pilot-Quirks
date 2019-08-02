@@ -1,20 +1,29 @@
 {
     "MechTags": {
         "items": [
-            "unit_jumpOK",
-            "unit_release",
             "unit_mech",
             "unit_medium",
-            "unit_ready",
+            "unit_jumpOK", 
+            "unit_range_long",
+            "unit_speed_low",
+            "unit_armor_high",
             "unit_lance_support",
-            "unit_role_sniper"
+            "unit_role_sniper",
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_vindicator_VND-1R_Vong",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4200000,
+        "Cost": 4900000,
         "Rarity": 5,
         "Purchasable": false,
         "Manufacturer": null,

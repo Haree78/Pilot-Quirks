@@ -1,21 +1,22 @@
 {
     "MechTags": {
         "items": [
-            "unit_indirectFire",
-            "unit_jumpOK",
-            "unit_release",
             "unit_mech",
-            "unit_medium",
-            "unit_ready",
-            "unit_lance_support",
-            "unit_role_sniper"
+            "unit_heavy",
+            "unit_jumpOK", 
+            "unit_range_long",
+            "unit_speed_high",
+            "unit_armor_high",
+            "unit_lance_vanguard",
+            "unit_role_brawler",
+            "unit_release"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_gladiator_GLD-3R",
     "HeraldryID": null,
     "Description": {
-        "Cost": 6260000,
+        "Cost": 6000000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -26,7 +27,7 @@
         "Details": "The first homegrown BattleMech produced by the Draconis Combine was the Gladiator. The Gladiator is considered a dishonored 'Mech following the Battle of Nox in 2475. The Gladiator 3R was a failed attempt to fill the long-range close-support role which would eventually be filled by the Archer.",
         "Icon": "uixTxrIcon_gladiator"
     },
-    "simGameMechPartCost": 630000,
+    "simGameMechPartCost": 600000,
     "Version": 1,
     "Locations": [
         {

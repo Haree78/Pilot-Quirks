@@ -1,19 +1,28 @@
 {
     "MechTags": {
         "items": [
-            "unit_jumpOK",
             "unit_mech",
-            "unit_release",
             "unit_light",
+            "unit_jumpOK", 
+            "unit_range_short",
+            "unit_speed_high",
             "unit_lance_vanguard",
-            "unit_role_scout"
+            "unit_role_scout",
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_wasp_WSP-1W",
     "HeraldryID": null,
     "Description": {
-        "Cost": 2070000,
+        "Cost": 2000000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +33,7 @@
         "Details": "Associated with Wolf's Dragoons and debuting in 3009, the 1W Wasp replaced all of the weapons with six small lasers, two each split between the right arm, right torso and left torso. While sacrificing long-range capability this gives the 1W superior close-range firepower.",
         "Icon": "uixTxrIcon_wasp"
     },
-    "simGameMechPartCost": 210000,
+    "simGameMechPartCost": 200000,
     "Version": 1,
     "Locations": [
         {

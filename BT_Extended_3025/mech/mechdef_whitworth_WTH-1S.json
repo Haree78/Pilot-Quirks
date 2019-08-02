@@ -1,20 +1,28 @@
 {
     "MechTags": {
         "items": [
-            "unit_jumpOK",
-            "unit_release",
             "unit_mech",
             "unit_medium",
-            "unit_ready",
+            "unit_jumpOK", 
+            "unit_range_medium",
+            "unit_speed_low",
+            "unit_armor_high",
             "unit_lance_support",
-            "unit_role_brawler"
+            "unit_role_brawler",
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_whitworth_WTH-1S",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3920000,
+        "Cost": 4100000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -25,7 +33,7 @@
         "Details": "The original production model of the Whitworth prior to its service in the Star League armies. The two LRM-10 missile launchers are replaced with two SRM-6 launchers and four additional heat sinks, allowing the MechWarrior better heat management capabilities. However since this loadout encourages a close combat approach for which the 'Mech is grossly ill-equipped, these were phased out and the variant remains extremely rare.",
         "Icon": "uixTxrIcon_whitworth"
     },
-    "simGameMechPartCost": 390000,
+    "simGameMechPartCost": 410000,
     "Version": 1,
     "Locations": [
         {

@@ -2,18 +2,22 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_release",
+            "BLACKLISTED",
             "unit_light",
+            "unit_jumpOK", 
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_armor_high",
             "unit_lance_vanguard",
             "unit_role_scout",
-            "BLACKLISTED"
+            "unit_release"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_stinger_STG-3Gb",
     "HeraldryID": null,
     "Description": {
-        "Cost": 1910000,
+        "Cost": 3500000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +28,7 @@
         "Details": "The Royal Stinger introduced in 2720 used a XL Engine and Endo Steel chassis, to be able to mount a battery of three medium lasers and one Small Laser. The heat-sinks were upgraded to Double Heat Sinks and the speed and jumping distance of the 'Mech were also been improved slightly.",
         "Icon": "uixTxrIcon_stinger"
     },
-    "simGameMechPartCost": 190000,
+    "simGameMechPartCost": 350000,
     "Version": 1,
     "Locations": [
         {

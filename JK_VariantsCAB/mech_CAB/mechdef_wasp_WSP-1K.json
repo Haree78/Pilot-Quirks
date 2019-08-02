@@ -1,20 +1,29 @@
 {
     "MechTags": {
         "items": [
-            "unit_jumpOK",
-            "unit_release",
             "unit_mech",
             "unit_light",
-            "unit_ready",
+            "unit_jumpOK", 
+            "unit_range_medium",
+            "unit_range_short",
+            "unit_speed_high",
             "unit_lance_vanguard",
-            "unit_role_scout"
+            "unit_role_scout",
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "Kurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_wasp_WSP-1K",
     "HeraldryID": null,
     "Description": {
-        "Cost": 2050000,
+        "Cost": 2100000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,

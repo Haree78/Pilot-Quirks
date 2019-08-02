@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 12200000,
+        "Cost": 14000000,
         "Rarity": 5,
         "Purchasable": false,
         "Manufacturer": "Unknown",
@@ -39,7 +39,7 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 140,
+    "MeleeDamage": 150,
     "MeleeInstability": 100,
     "MeleeToHitModifier": 0,
     "DFADamage": 125,
@@ -206,5 +206,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Command 'Mech, Juggernaut & Close Assault",
-    "YangsThoughts": "I've heard of these older refits and thankfully our Battalion never faced one. Facing a single Pilot in an Atlas is one thing, but going up against two pilots in one of these is something else altogether; an experienced Commander and MechWarrior is a force to be reckoned with. Its no wonder they were targeted so heavily targeted during the Early Succession Wars. The loss of ammo and medium lasers makes this design no less deadly."
+    "YangsThoughts": "I've heard of these older refits and thankfully our Battalion never faced one. Facing a single Pilot in an Atlas is one thing, but going up against two Pilots in one of these is something else altogether; an experienced Commander and MechWarrior is a force to be reckoned with. Its no wonder they were targeted so heavily targeted during the Early Succession Wars. The loss of ammo and medium lasers makes this design no less deadly."
 }

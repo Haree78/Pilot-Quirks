@@ -2,8 +2,8 @@
     "Name": "JK_VariantsSkirmish",
     "Enabled": false,
 
-	"Version": "1.6.2.1",
-	"PackagedOn": "2019-06-04T16:45:00Z",
+	"Version": "1.6.2.3",
+	"PackagedOn": "2019-07-29T16:45:00Z",
 
     "Description": "Adds 10 'Mech Variants - usable in Skirmish mode.",
     "Author": "GenTask's Unique Variants - modified for use with JK_Variants Mod",

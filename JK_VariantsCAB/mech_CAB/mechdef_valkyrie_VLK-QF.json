@@ -1,20 +1,29 @@
 {
     "MechTags": {
         "items": [
-            "unit_jumpOK",
-            "unit_indirectFire",
             "unit_mech",
-            "unit_release",
             "unit_light",
+            "unit_jumpOK",
+            "unit_indirectFire", 
+            "unit_range_long",
+            "unit_armor_high",
             "unit_lance_support",
-            "unit_role_sniper"
+            "unit_role_sniper",
+            "unit_release",
+            "Davion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_valkyrie_VLK-QF",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3140000,
+        "Cost": 2900000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -25,7 +34,7 @@
         "Details": "The QF model of the Valkyrie was first fielded in 2967, it trades in the medium laser for a Flamer. This allows the 'Mech to work in an incendiary role and also acts as an excellent deterrent to infantry attacks.",
         "Icon": "uixTxrIcon_valkyrie"
     },
-    "simGameMechPartCost": 310000,
+    "simGameMechPartCost": 290000,
     "Version": 1,
     "Locations": [
         {

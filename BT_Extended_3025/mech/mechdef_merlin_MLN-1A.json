@@ -1,21 +1,24 @@
 {
     "MechTags": {
         "items": [
-            "unit_jumpOK",
             "unit_mech",
             "unit_heavy",
-            "unit_indirectFire",
+            "unit_indirectFire", 
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_armor_high",
+            "unit_lance_tank",
+            "unit_role_sniper",
             "unit_release",
-            "unit_ready",
-            "unit_lance_assassin",
-            "unit_role_brawler"
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_merlin_MLN-1A",
     "HeraldryID": null,
     "Description": {
-        "Cost": 7140000,
+        "Cost": 6600000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -26,7 +29,7 @@
         "Details": "The Merlin first debuted in 3010 and was hailed as a technological marvel of engineering.  Mounting a PPC as its primary armament gives the Merlin the option to stay at a distance from its adversaries.  This is further supplemented with an LRM5 launcher.  If anything manages to get close enough in, the Merlin also mounts a pair of Medium Lasers and a Flamer.  It even has a Machine Gun to help dissuade infantry from getting too close.  The MLN-1A caries ten tons of armor, giving it reasonable protection, and eighteen heatsinks to help with the heat load.",
         "Icon": "uixTxrIcon_merlin"
     },
-    "simGameMechPartCost": 710000,
+    "simGameMechPartCost": 660000,
     "Version": 1,
     "Locations": [
         {

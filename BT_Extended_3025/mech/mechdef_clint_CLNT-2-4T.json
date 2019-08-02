@@ -2,17 +2,24 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_medium",
+            "unit_medium", 
+            "unit_range_long",
+            "unit_armor_low",
             "unit_lance_vanguard",
             "unit_role_sniper",
-            "unit_release"
+            "unit_release",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_clint_CLNT-2-4T",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3480000,
+        "Cost": 3700000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -23,7 +30,7 @@
         "Details": "This variant of the Clint carries two Autocannon/2s in place of the single AC/5, giving it one of the longest ranges possible on such a small chassis. It also bears a single Medium Laser as a secondary weapon. Like the 1-2R variant, the 2-4T also has no jumping capability.",
         "Icon": "uixTxrIcon_clint"
     },
-    "simGameMechPartCost": 350000,
+    "simGameMechPartCost": 370000,
     "Version": 1,
     "Locations": [
         {

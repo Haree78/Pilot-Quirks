@@ -1,30 +1,30 @@
 {
     "Description": {
-        "Cost": 5840000,
-        "Rarity": 1,
+        "Cost": 7100000,
+        "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Dervish",
-        "Id": "chassisdef_dervish_DV-6M",
-        "Name": "Dervish",
-        "Details": "The Dervish was among the first 'Mechs mass-produced by the Great Houses and has served as a workhorse for their armies since its introduction. While regarded by some as a poor man's Archer, the Dervish's speed and weaponry nevertheless allow it to provide quick fire support and free larger 'Mechs for other duties.",
-        "Icon": "uixTxrIcon_dervish"
+        "UIName": "Marauder",
+        "Id": "chassisdef_marauder_MAD-3R",
+        "Name": "Marauder",
+        "Details": "The Marauder was first built by General Motors in 2612 for use as an attack and direct fire support BattleMech. The first 'Mech to diverge from the traditional humanoid shape of previous machines, the Marauder was one of the most well-known 'Mechs in existence and originally meant to usher in a new generation of 'Mechs. Unfortunately, with the fall of the Star League, this new generation never quite materialized. On its own merits though, the Marauder was a devastatingly powerful 'Mech, outclassed only by larger machines like the Stalker and BattleMaster.",
+        "Icon": "uixTxrIcon_marauder"
     },
-    "MovementCapDefID": "movedef_dervish_DV-6M",
-    "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_dervish",
-    "PrefabIdentifier": "chrprfmech_dervishbase-001",
-    "PrefabBase": "dervish",
-    "Tonnage": 55,
-    "InitialTonnage": 27,
-    "weightClass": "MEDIUM",
-    "BattleValue": 6088000,
+    "MovementCapDefID": "movedef_marauder_MAD-3R",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_marauder",
+    "PrefabIdentifier": "chrprfmech_marauderhotd-001",
+    "PrefabBase": "marauder",
+    "Tonnage": 75,
+    "InitialTonnage": 32.5,
+    "weightClass": "HEAVY",
+    "BattleValue": 7124000,
     "Heatsinks": 0,
-    "TopSpeed": 80,
+    "TopSpeed": 64,
     "TurnRadius": 90,
-    "MaxJumpjets": 5,
-    "Stability": 130,
+    "MaxJumpjets": 4,
+    "Stability": 160,
     "StabilityDefenses": [
         0,
         0,
@@ -37,15 +37,15 @@
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
     "Signature": 0,
-    "Radius": 5,
+    "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 50,
-    "MeleeInstability": 55,
+    "MeleeDamage": 70,
+    "MeleeInstability": 75,
     "MeleeToHitModifier": 0,
-    "DFADamage": 70,
+    "DFADamage": 95,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 70,
-    "DFAInstability": 70,
+    "DFASelfDamage": 95,
+    "DFAInstability": 95,
     "Locations": [
         {
             "Location": "Head",
@@ -64,52 +64,51 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 90,
+            "MaxArmor": 120,
             "MaxRearArmor": -1,
-            "InternalStructure": 45
+            "InternalStructure": 60
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 130,
-            "MaxRearArmor": 65,
-            "InternalStructure": 65
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 180,
-            "MaxRearArmor": 90,
-            "InternalStructure": 90
+            "MaxArmor": 230,
+            "MaxRearArmor": 115,
+            "InternalStructure": 115
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 130,
-            "MaxRearArmor": 65,
-            "InternalStructure": 65
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
         },
         {
             "Location": "RightArm",
@@ -119,85 +118,84 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 90,
+            "MaxArmor": 120,
             "MaxRearArmor": -1,
-            "InternalStructure": 45
+            "InternalStructure": 60
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 130,
+            "MaxArmor": 160,
             "MaxRearArmor": -1,
-            "InternalStructure": 65
+            "InternalStructure": 80
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 130,
+            "MaxArmor": 160,
             "MaxRearArmor": -1,
-            "InternalStructure": 65
+            "InternalStructure": 80
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 15,
-            "z": 0
+            "y": 18,
+            "z": 1
         },
         {
             "x": 4,
-            "y": 15,
+            "y": 16,
             "z": 0
         },
         {
             "x": -4,
-            "y": 15,
+            "y": 16,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 15,
-            "z": 0
+            "y": 18,
+            "z": 1
         },
         {
             "x": 4,
-            "y": 15,
+            "y": 16,
             "z": 0
         },
         {
             "x": -4,
-            "y": 15,
+            "y": 16,
             "z": 0
         },
         {
             "x": 3,
-            "y": 5,
+            "y": 6,
             "z": 0
         },
         {
             "x": -3,
-            "y": 5,
+            "y": 6,
             "z": 0
         }
     ],
-    "VariantName": "DV-6M",
+    "VariantName": "MAD-3R",
     "ChassisTags": {
-        "items": [
-		],
+        "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Striker Cavalry",
-    "YangsThoughts": "Dervish 6Ms although lightly armored, are nimble because of Jump capability and come with decent weaponry. They suffer from problematic heat buildup when using all their features at once, so some caution is needed."
+    "StockRole": "Sniper & Ranged Assault",
+    "YangsThoughts": "The Marauder 3R packs a potent array of fire power and does it with style.  It is a true classic, and I'm happy to see one in our 'Mech Bays.  It can run a bit hot, so make sure its pilot is mindful of that."
 }

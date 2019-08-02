@@ -3,17 +3,27 @@
         "items": [
             "unit_mech",
             "unit_assault",
-            "unit_indirectFire",
+            "unit_indirectFire", 
+            "unit_range_long",
+            "unit_armor_low",
             "unit_lance_support",
             "unit_role_sniper",
-            "unit_release"
+            "unit_release",
+            "Davion",
+            "Liao",
+            "Marik",
+            "Steiner",
+            "Kurita",
+            "MagistracyOfCanopus",
+            "TaurianConcordat",
+            "unit_common"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_longbow_LGB-0W",
     "HeraldryID": null,
     "Description": {
-        "Cost": 12000000,
+        "Cost": 10000000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +34,7 @@
         "Details": "To add some speed to the Longbow, the OW variant removes two Medium Lasers and five and a half tons of armor. This allowed the Strand 255 Fusion Engine to be replaced with a larger Strand 340, increasing the top speed of the Longbow to 64 km/h, allowing the 'Mech to keep up with most heavy 'Mechs.",
         "Icon": "uixTxrIcon_longbow"
     },
-    "simGameMechPartCost": 1200000,
+    "simGameMechPartCost": 1000000,
     "Version": 1,
     "Locations": [
         {

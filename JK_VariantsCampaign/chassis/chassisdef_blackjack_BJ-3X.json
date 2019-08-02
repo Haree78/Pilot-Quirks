@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 3500000,
+        "Cost": 3600000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "",
@@ -206,7 +206,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support & Skirmisher",
-    "YangsThoughts": "Not a bad upgrade from the original Blackjack model, and those two PPCs give it a hell of a punch.  But these freezers are the real show stealers, not sure how they got them to work, but give me a little time with her and I'll figure it out.",
+    "YangsThoughts": "Not a bad upgrade from the original Blackjack model, and those two PPCs give it a hell of a punch - and I'm not just saying that out of pride for St. Ives.  But these freezers are the real show stealers, not sure how they got them to work, but give me a little time with her and I'll figure it out.",
     "FixedEquipment": [
 		{			
 			"MountedLocation": "LeftTorso",

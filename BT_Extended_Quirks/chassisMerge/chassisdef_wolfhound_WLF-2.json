@@ -6,6 +6,7 @@
             "Action": "ArrayConcat",
             "Value": [
 				"mech_quirk_easytomaintain",
+				"mech_quirk_fullheadejection",
 				"mech_quirk_goodreputation"
 			]
         }

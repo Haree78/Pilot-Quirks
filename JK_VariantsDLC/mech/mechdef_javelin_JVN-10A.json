@@ -1,23 +1,27 @@
 {
     "MechTags": {
         "items": [
-            "unit_jumpOK",
-            "unit_release",
             "unit_mech",
+            "unit_dlc",
             "unit_light",
+            "unit_jumpOK",
+            "unit_indirectFire", 
+            "unit_range_long",
+            "unit_speed_high",
             "unit_lance_support",
             "unit_role_sniper",
-            "unit_indirectFire",
-            "unit_dlc",
-			"unit_speed_high",
-			"unit_armor_low"
+            "unit_release",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_javelin_JVN-10A",
     "HeraldryID": null,
     "Description": {
-        "Cost": 2480000,
+        "Cost": 2900000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": null,
@@ -28,7 +32,7 @@
         "Details": "Not much is known about the JVN-10A, it appears to be a refit of the standard JVN-10N, but designed for long range support.  It has been seen in service with the Aurigan Coalition.",
         "Icon": "uixTxrIcon_javelin"
     },
-    "simGameMechPartCost": 310000,
+    "simGameMechPartCost": 290000,
     "Version": 1,
     "Locations": [
         {

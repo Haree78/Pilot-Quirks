@@ -1,18 +1,28 @@
 {
 	"MechTags": {
 		"items": [
-			"unit_mech",
-			"unit_release",
-			"unit_light",
-			"unit_lance_support",
-			"unit_role_scout"
+            "unit_mech",
+            "unit_dlc",
+            "unit_light", 
+            "unit_range_medium",
+            "unit_armor_high",
+            "unit_lance_support",
+            "unit_role_scout",
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
 		],
 		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_raven_RVN-4X",
 	"HeraldryID": null,
 	"Description": {
-		"Cost": 4960000,
+		"Cost": 3400000,
 		"Rarity": 5,
 		"Purchasable": true,
 		"Manufacturer": null,
@@ -23,7 +33,7 @@
 		"Details": "A Capellan variant of the original prototype, the -4X was an attempt to turn the chassis into a pure combat unit. It removes the EW equipment and is outfitted with five jump jets and two Machine Guns with a ton of ammunition. The armor was increased to the chassis' limit of seven tons.",
 		"Icon": "uixTxrIcon_raven"
 	},
-	"simGameMechPartCost": 500000,
+	"simGameMechPartCost": 340000,
 	"Version": 1,
 	"Locations": [
 		{

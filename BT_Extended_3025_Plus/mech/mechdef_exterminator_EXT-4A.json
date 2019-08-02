@@ -1,19 +1,29 @@
 {
     "MechTags": {
         "items": [
-            "unit_indirectFire",
             "unit_mech",
             "unit_heavy",
-            "unit_release",
+            "unit_jumpOK",
+            "unit_indirectFire", 
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_armor_high",
+            "unit_hot",
             "unit_lance_assassin",
-            "unit_role_brawler"
+            "unit_role_brawler",
+            "unit_release",
+            "NotDavion",
+            "Marik",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_exterminator_EXT-4A",
     "HeraldryID": null,
     "Description": {
-        "Cost": 7010000,
+        "Cost": 7900000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +34,7 @@
         "Details": "The Exterminator was originally designed to infiltrate enemy lines.  This variant only resembles that original mech and without it's original equipment for stealth the 4A is now used as a fast in class Skirmisher.",
         "Icon": "uixTxrIcon_exterminator"
     },
-    "simGameMechPartCost": 700000,
+    "simGameMechPartCost": 790000,
     "Version": 1,
     "Locations": [
         {

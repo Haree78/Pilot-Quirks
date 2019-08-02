@@ -2,18 +2,26 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_assault",
-            "unit_release",
-            "unit_ready",
+            "unit_assault", 
+            "unit_range_long",
+            "unit_speed_low",
+            "unit_lance_tank",
             "unit_role_sniper",
-            "unit_lance_tank"
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_annihilator_ANH-1E",
     "HeraldryID": null,
     "Description": {
-        "Cost": 12980000,
+        "Cost": 12000000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": null,
@@ -21,10 +29,10 @@
         "UIName": "Annihilator ANH_1E",
         "Id": "mechdef_annihilator_ANH-1E",
         "Name": "Annihilator",
-        "Details": "Where the original Annihilator 1A carries four powerful autocannons, the 1E instead opts for an entirely energy weapon configuration. With four PPCs, the ANH-1E has a brutal and incredibly lethal punch while the four Medium Lasers are retained for in-close protection.  Every spare bit of space is packed with Heatsinks and overall armor protection has been increased.",
+        "Details": "Where the original Annihilator 1A carries four powerful AutoCannons, the 1E instead opts for an entirely energy weapon configuration. With four PPCs, the ANH-1E has a brutal and incredibly lethal punch while the four Medium Lasers are retained for in-close protection.  Every spare bit of space is packed with Heatsinks and overall armor protection has been increased.",
         "Icon": "uixTxrIcon_annihilator"
     },
-    "simGameMechPartCost": 1300000,
+    "simGameMechPartCost": 1200000,
     "Version": 1,
     "Locations": [
         {

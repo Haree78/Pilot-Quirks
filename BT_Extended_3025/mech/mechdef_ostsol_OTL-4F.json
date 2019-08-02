@@ -2,18 +2,25 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_heavy",
-            "unit_lance_support",
+            "unit_heavy", 
+            "unit_range_long",
+            "unit_speed_high",
             "unit_lance_vanguard",
             "unit_role_sniper",
-            "unit_release"
+            "unit_release",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_ostsol_OTL-4F",
     "HeraldryID": null,
     "Description": {
-        "Cost": 6980000,
+        "Cost": 6700000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +31,7 @@
         "Details": "The Ostsol 4F is considered a poor man's Marauder or Warhammer, the PPC array can quickly overload the sixteen heat sinks. Though, on its own merits, the variant is a good long-range direct fire support 'Mech which uses its top speed of 86.4 kph to dictate combat ranges against most heavier 'Mechs.",
         "Icon": "uixTxrIcon_ostsol"
     },
-    "simGameMechPartCost": 700000,
+    "simGameMechPartCost": 670000,
     "Version": 1,
     "Locations": [
         {

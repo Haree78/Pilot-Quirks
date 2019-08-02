@@ -1,22 +1,24 @@
 {
     "MechTags": {
         "items": [
-            "unit_indirectFire",
-            "unit_jumpOK",
-            "unit_release",
             "unit_mech",
             "unit_medium",
-            "unit_ready",
+            "unit_jumpOK",
+            "unit_indirectFire", 
+            "unit_range_medium",
+            "unit_hot",
             "unit_lance_support",
-            "unit_lance_vanguard",
-            "unit_role_sniper"
+            "unit_role_sniper",
+            "unit_release",
+            "Davion",
+            "Steiner"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_dervish_DV-6M",
     "HeraldryID": null,
     "Description": {
-        "Cost": 6750000,
+        "Cost": 5900000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -27,7 +29,7 @@
         "Details": "The Dervish was among the first 'Mechs mass-produced by the Great Houses and has served as a workhorse for their armies since its introduction. While regarded by some as a poor man's Archer, the Dervish's speed and weaponry nevertheless allow it to provide quick fire support and free larger 'Mechs for other duties.",
         "Icon": "uixTxrIcon_dervish"
     },
-    "simGameMechPartCost": 670000,
+    "simGameMechPartCost": 590000,
     "Version": 1,
     "Locations": [
         {

@@ -1,20 +1,28 @@
 {
     "MechTags": {
         "items": [
-            "unit_jumpOK",
-            "unit_release",
             "unit_mech",
             "unit_medium",
-            "unit_ready",
+            "unit_jumpOK", 
+            "unit_range_medium",
+            "unit_armor_low",
             "unit_lance_vanguard",
-            "unit_role_brawler"
+            "unit_role_brawler",
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_vulcan_VT-BL",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4910000,
+        "Cost": 4200000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": null,
@@ -25,7 +33,7 @@
         "Details": "The Vulcan VT-BL, better known as the 'Bloodlust', is a special variant of the Vulcan that focuses on its strengths as an anti-infantry 'Mech. Its weaponry consists of two Machine Guns in the Left Arm, with a Small Laser and another Machine Gun in the Right Arm. The Head, Right and Left Torsos each carry a SRM-4, while four tons of ammo help keep them sufficiently supplied. Like all known variants of the Canon versions, the Bloodlust is jump capable.",
         "Icon": "uixTxrIcon_vulcan"
     },
-    "simGameMechPartCost": 490000,
+    "simGameMechPartCost": 420000,
     "Version": 1,
     "Locations": [
         {

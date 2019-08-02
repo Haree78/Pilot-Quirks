@@ -144,6 +144,12 @@
 		 "dynamicDifficulty": true,
          "unitTagSet" : {
             "items" : [
+               "unit_mech"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
                "unit_noncombatant",
                "unit_rare",
                "unit_very_rare",
@@ -154,12 +160,6 @@
                "unit_era_2750",
                "unit_era_2900",
                "unit_clan"
-            ],
-            "tagSetSourceFile" : "Tags/UnitTags"
-         },
-         "excludedUnitTagSet" : {
-            "items" : [
-               "unit_noncombatant"
             ],
 			"tagSetSourceFile" : "Tags/UnitTags"
 		 },

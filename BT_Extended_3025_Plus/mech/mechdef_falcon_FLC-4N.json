@@ -1,11 +1,14 @@
 {
     "MechTags": {
         "items": [
-            "unit_jumpOK",
             "unit_mech",
             "unit_light",
+            "unit_jumpOK", 
+            "unit_range_short",
+            "unit_speed_high",
+            "unit_armor_high",
             "unit_lance_vanguard",
-            "unit_role_brawler",
+            "unit_role_scout",
             "unit_release"
         ],
         "tagSetSourceFile": ""
@@ -13,7 +16,7 @@
     "ChassisID": "chassisdef_falcon_FLC-4N",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3140000,
+        "Cost": 3000000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +27,7 @@
         "Details": "While originally sporting a weapons array similar to the Locust, Stinger and Wasp it was charged to defeat, the Falcon's six tons of StarGuard Type II armor provides it with vastly superior protection.",
         "Icon": "uixTxrIcon_spider"
     },
-    "simGameMechPartCost": 310000,
+    "simGameMechPartCost": 300000,
     "Version": 1,
     "Locations": [
         {

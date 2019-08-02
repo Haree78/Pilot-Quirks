@@ -2,17 +2,26 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_medium",
-            "unit_lance_support",
+            "unit_medium", 
+            "unit_range_long",
+            "unit_range_short",
+            "unit_armor_high",
+            "unit_lance_vanguard",
             "unit_role_sniper",
-            "unit_release"
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_sentinel_STN-3KA",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3840000,
+        "Cost": 3900000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -23,7 +32,7 @@
         "Details": "The Sentinel was one of many designs to suffer from the technological decline of the recent Succession Wars, with Defiance first losing the ability to manufacture its advanced weapon systems before discontinuing production entirely in 3014 due to lack of both parts and interest. Despite this, with a powerful targeting and communications package, the Sentinel is ideal for long-range patrols or mobile observation. The 3KA Sentinel is an uncommon field refit of the 3K. This variant replaces the autocannon with a large laser, adds more armor and three extra heat sinks.",
         "Icon": "uixTxrIcon_cicada"
     },
-    "simGameMechPartCost": 380000,
+    "simGameMechPartCost": 390000,
     "Version": 1,
     "Locations": [
         {

@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 7050500,
+        "Cost": 6000000 ,
         "Rarity": 3,
         "Purchasable": false,
         "Manufacturer": "Custom",
@@ -215,5 +215,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher & Assassin",
-    "YangsThoughts": "The personal ride of MechWarrior Jenny Templeton of the Chesterton Reserves. This custom variant of the Catapult C1, the <b>Butterbee</b>, replaces the standard arm-mounted LRM-15s with two SRM-6 missile launchers in each arm, giving it deadly close combat capability.\n\n<b>Faction:</b> Chesterton Reserves (Capellan Confederation), Unknown Regiment\n\n<b>Rarity:</b> Custom, Status Unknown"
+    "YangsThoughts": "The personal ride of MechWarrior Jenny Templeton of the Chesterton Reserves. This custom variant of the Catapult C1, the <b>Butterbee</b>, replaces the standard arm-mounted LRM-15s with two SRM-6 missile launchers in each arm, giving it deadly close combat capability."
 }

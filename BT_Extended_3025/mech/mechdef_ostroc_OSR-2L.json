@@ -1,10 +1,12 @@
 {
     "MechTags": {
         "items": [
-            "unit_indirectFire",
             "unit_mech",
             "unit_heavy",
-            "unit_lance_tank",
+            "unit_indirectFire", 
+            "unit_range_long",
+            "unit_speed_high",
+            "unit_hot",
             "unit_lance_vanguard",
             "unit_role_sniper",
             "unit_release"
@@ -14,7 +16,7 @@
     "ChassisID": "chassisdef_ostroc_OSR-2L",
     "HeraldryID": null,
     "Description": {
-        "Cost": 6520000,
+        "Cost": 7000000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": null,
@@ -25,7 +27,7 @@
         "Details": "The 2L variant of the Ostroc introduced in 2884 is modified for long range combat. The SRM-4 launcher has been replaced with an LRM-5 launcher, increasing the 'Mechs long-range damage capabilities slightly by sacrificing some of its close range firepower.",
         "Icon": "uixTxrIcon_ostroc"
     },
-    "simGameMechPartCost": 650000,
+    "simGameMechPartCost": 700000,
     "Version": 1,
     "Locations": [
         {

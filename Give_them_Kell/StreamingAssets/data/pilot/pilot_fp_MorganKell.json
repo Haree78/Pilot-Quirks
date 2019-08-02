@@ -2,12 +2,12 @@
     "Description": {
         "Id": "pilot_fp_MorganKell",
         "Name": "Morgan Kell",
-        "FirstName": "Morgan Kell",
-        "LastName": "NONE",
+        "FirstName": "Morgan",
+        "LastName": "Kell",
         "Callsign": "Morgan Kell",
         "Gender": "Male",
         "Faction": "KellHounds",
-        "Age": 30,
+        "Age": 39,
         "Details": "NONE",
         "Icon": "guiTxrPort_MorganK_utr"
     },
@@ -48,8 +48,11 @@
 		"TraitDefOverheatAddThirty",
         "TraitDefHealthAddOne",
         "TraitDefHealthAddTwo",
-		"TraitDefMinRangeReduce45",        
+		"TraitDefMinRangeReduce45",
 		"TraitDefMinRangeReduce90",
+        "TraitDefEvasiveChargeAddTwo",
+        "TraitDefRefireReduceOne",
+        "TraitDefRefireReduceTwo",
         "TraitDefCalledShotMaster"
     ],
     "AIPersonality": "Undefined",

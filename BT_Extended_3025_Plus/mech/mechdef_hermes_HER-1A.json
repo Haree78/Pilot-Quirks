@@ -2,7 +2,10 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_light",
+            "unit_light", 
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_armor_low",
             "unit_lance_vanguard",
             "unit_role_scout",
             "unit_release"
@@ -12,7 +15,7 @@
     "ChassisID": "chassisdef_hermes_HER-1A",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3140000,
+        "Cost": 3000000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -23,7 +26,7 @@
         "Details": "The Succession Wars would bring the Hermes out of storage to fight again, after being mothballed by the SLDF, this time in service to the Successor States as company and battalion-level scouts. The 1A Hermes is the downgraded refit of the 1S Hermes, the armor has been reduced by half, but otherwise there were no sacrifices in either speed or weaponry.",
         "Icon": "uixTxrIcon_hermes"
     },
-    "simGameMechPartCost": 310000,
+    "simGameMechPartCost": 300000,
     "Version": 1,
     "Locations": [
         {

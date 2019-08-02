@@ -3,17 +3,20 @@
         "items": [
             "unit_mech",
             "unit_heavy",
-            "unit_jumpOK",
+            "unit_jumpOK", 
+            "unit_range_medium",
             "unit_lance_assassin",
             "unit_role_brawler",
-            "unit_release"
+            "unit_release",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_guillotine_GLT-4P",
     "HeraldryID": null,
     "Description": {
-        "Cost": 9410000,
+        "Cost": 8300000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +27,7 @@
         "Details": "This variant of the Guillotine 4L model was introduced in 2833. While few pilots were willing to tamper with the original design, this refit replaces the Large Laser with a PPC at the expense of two tons of armor. Results with this variant have been mixed.",
         "Icon": "uixTxrIcon_guillotine"
     },
-    "simGameMechPartCost": 940000,
+    "simGameMechPartCost": 830000,
     "Version": 1,
     "Locations": [
         {

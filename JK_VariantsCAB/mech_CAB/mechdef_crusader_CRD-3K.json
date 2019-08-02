@@ -1,19 +1,27 @@
 {
     "MechTags": {
         "items": [
-            "unit_indirectFire",
             "unit_mech",
             "unit_heavy",
-            "unit_release",
+            "unit_indirectFire", 
+            "unit_range_medium",
+            "unit_speed_low",
+            "unit_armor_high",
             "unit_lance_tank",
-            "unit_role_brawler"
+            "unit_role_brawler",
+            "unit_release",
+            "NotLiao",
+            "NotMarik",
+            "Kurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_crusader_CRD-3K",
     "HeraldryID": null,
     "Description": {
-        "Cost": 7760000,
+        "Cost": 7700000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +32,7 @@
         "Details": "Another variant of the Crusader concentrating on lessening its heat burden, the 3K was introduced by House Kurita in 2765. It downsized the LRM launchers to LRM-10 models and removed the machine guns to make room for an additional six heat sinks.",
         "Icon": "uixTxrIcon_crusader"
     },
-    "simGameMechPartCost": 780000,
+    "simGameMechPartCost": 770000,
     "Version": 1,
     "Locations": [
         {

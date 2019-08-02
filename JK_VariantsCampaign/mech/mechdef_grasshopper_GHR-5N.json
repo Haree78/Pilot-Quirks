@@ -4,17 +4,21 @@
         "items": [
             "unit_mech",
             "unit_heavy",
-            "unit_jumpOK",
+            "unit_jumpOK", 
+            "unit_range_medium",
+            "unit_armor_high",
             "unit_lance_assassin",
             "unit_role_brawler",
-            "unit_release"
+            "unit_release",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_grasshopper_GHR-5N",
     "HeraldryID": null,
     "Description": {
-        "Cost": 8310000,
+        "Cost": 8800000,
         "Rarity": 5,
         "Purchasable": false,
         "Manufacturer": null,

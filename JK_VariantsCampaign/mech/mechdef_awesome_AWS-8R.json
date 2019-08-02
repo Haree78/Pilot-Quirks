@@ -1,19 +1,23 @@
 {
     "MechTags": {
         "items": [
-            "unit_indirectFire",
             "unit_mech",
             "unit_assault",
-            "unit_release",
+            "unit_indirectFire", 
+            "unit_range_long",
+            "unit_speed_low",
+            "unit_armor_high",
             "unit_lance_support",
-            "unit_role_sniper"
+            "unit_role_sniper",
+            "unit_release",
+            "Marik"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_awesome_AWS-8R",
     "HeraldryID": null,
     "Description": {
-        "Cost": 9650000,
+        "Cost": 9500000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -24,7 +28,7 @@
         "Details": "The AWS-8R replaces the more expensive PPCs with a Large Laser and paired LRM-15s.  While this variant can still dish out a similar amount of damage, it suffers from its dependency on a limited supply of ammunition.",
         "Icon": "uixTxrIcon_awesome"
     },
-    "simGameMechPartCost": 970000,
+    "simGameMechPartCost": 950000,
     "Version": 1,
     "Locations": [
         {

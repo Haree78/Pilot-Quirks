@@ -1,19 +1,29 @@
 {
     "MechTags": {
         "items": [
-            "unit_heavy",
-            "unit_indirectFire",
-            "unit_release",
             "unit_mech",
+            "unit_heavy",
+            "unit_indirectFire", 
+            "unit_range_medium",
+            "unit_speed_low",
+            "unit_hot",
             "unit_lance_tank",
-            "unit_role_brawler"
+            "unit_role_brawler",
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_orion_ON1-V-DC",
     "HeraldryID": null,
     "Description": {
-        "Cost": 9300000,
+        "Cost": 11500000,
         "Rarity": 4,
         "Purchasable": false,
         "Manufacturer": null,
@@ -24,7 +34,7 @@
         "Details": "Command Console refit built in 2913 - Standard refits usually installed the Command Console on a ON1-V, requiring the removal of one ton of SRM, LRM, and AC ammunition. The loss of ammunition reduces its capability to maintain fire for long, but a Commander will typically not be located at the head of a formation.",
         "Icon": "uixTxrIcon_orion"
     },
-    "simGameMechPartCost": 920000,
+    "simGameMechPartCost": 1150000,
     "Version": 1,
     "Locations": [
         {

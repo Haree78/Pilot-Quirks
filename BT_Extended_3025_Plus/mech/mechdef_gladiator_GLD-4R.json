@@ -1,20 +1,27 @@
 {
     "MechTags": {
         "items": [
-            "unit_jumpOK",
-            "unit_release",
             "unit_mech",
-            "unit_medium",
-            "unit_ready",
-            "unit_lance_assassin",
-            "unit_role_brawler"
+            "unit_heavy",
+            "unit_jumpOK",
+            "unit_indirectFire", 
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_armor_high",
+            "unit_hot",
+            "unit_lance_vanguard",
+            "unit_role_brawler",
+            "unit_release",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_gladiator_GLD-4R",
     "HeraldryID": null,
     "Description": {
-        "Cost": 6260000,
+        "Cost": 6100000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -25,7 +32,7 @@
         "Details": "The first homegrown BattleMech produced by the Draconis Combine was the Gladiator. The Gladiator is considered a dishonored 'Mech following the Battle of Nox in 2475. The Gladiator 4R was an attempt to revive the mech that failed, production lines were closed down in 2495.",
         "Icon": "uixTxrIcon_gladiator"
     },
-    "simGameMechPartCost": 630000,
+    "simGameMechPartCost": 610000,
     "Version": 1,
     "Locations": [
         {

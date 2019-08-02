@@ -2,19 +2,27 @@
     "MinAppearanceDate" : "3035-01-19T00:00:00Z",
     "MechTags": {
         "items": [
-            "unit_release",
             "unit_mech",
-            "unit_medium",
-            "unit_ready",
+            "unit_medium", 
+            "unit_range_medium",
+            "unit_armor_high",
             "unit_lance_assassin",
-            "unit_role_brawler"
+            "unit_role_brawler",
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_kintaro_KTO-20",
     "HeraldryID": null,
     "Description": {
-        "Cost": 6270000,
+        "Cost": 6600000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": null,
@@ -25,7 +33,7 @@
         "Details": "A slightly downgraded version of the Star League era Kintaro KTO-19, the KTO-20 is equipped with Ferro-Fiberous armor, allowing it to have max out its armor values and Double HeatSinks to help keep the KTO-20 in the fight longer.  The only real difference from the SLDF version is that it mounts a Large Laser in place of the lost tech NARC launcher..",
         "Icon": "uixTxrIcon_kintaro"
     },
-    "simGameMechPartCost": 630000,
+    "simGameMechPartCost": 660000,
     "Version": 1,
     "Locations": [
         {
