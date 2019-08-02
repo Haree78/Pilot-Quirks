@@ -73,7 +73,7 @@
       "k": "Int_RecentTargetThresholdPhases",
       "v": {
         "type": "Int",
-        "intVal": 1
+        "intVal": 11
       }
     },
     {
@@ -1139,7 +1139,7 @@
       "k": "Float_EvasiveToHitFloor",
       "v": {
         "type": "Float",
-        "floatVal": 30.0
+        "floatVal": 25.0
       }
     },
     {
