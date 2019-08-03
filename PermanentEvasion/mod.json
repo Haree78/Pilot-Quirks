@@ -1,16 +1,16 @@
 {
-  "Name": "PermanentEvasion",
-  "Enabled": true,
+    "Name": "PermanentEvasion",
+    "Enabled": true,
 
-  "Version": "v2.0",
-  "Description": "Let's mechs keep their evasion pips when beeing fired at.",
-  "Author": "Morphyum, donZappo, Redferne",
-  "Website": "https://github.com/Red1812/PermanentEvasion",
-  "Contact": "",
+    "Version": "v2.0",
+    "Description": "Let's mechs keep their evasion pips when beeing fired at.",
+    "Author": "Morphyum, donZappo, Redferne",
+    "Website": "https://github.com/Red1812/PermanentEvasion",
+    "Contact": "",
 
-  "DLL": "PermanentEvasion.dll",
-  
-  "Settings": {
+    "DLL": "PermanentEvasion.dll",
+
+    "Settings": {
 		"PercentageToKeepPips": 0,
 		"AcePilotBonusPercentage": 40,
 		"LightKeepPipsCount": 0,
@@ -31,5 +31,7 @@
 		"Movement120KeepPipsCount": 3,
 		"Movement95KeepPipsCount": 2,
 		"UseMovement": true
-	}
+        "JumpBonusPip": 1,
+        "LinkedToAcePilot": true
+    }
 }
