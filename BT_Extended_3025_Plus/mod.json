@@ -2,7 +2,7 @@
     "Name": "BT_Extended_3025_Plus",
     "Enabled": true,
 
-	"Version": "1.6.2.3",
+	"Version": "1.6.2.4",
 	"PackagedOn": "2019-06-04T16:45:00Z",
 	
 	"DependsOn": ["CommunityBundles"],

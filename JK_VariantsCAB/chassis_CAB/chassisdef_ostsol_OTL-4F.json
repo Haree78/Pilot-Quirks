@@ -1,21 +1,21 @@
 {
     "Description": {
         "Cost": 5900000,
-        "Rarity": 5,
+        "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Ostroc",
-        "Id": "chassisdef_ostroc_OSR-2L",
-        "Name": "Ostroc",
-        "Details": "The 2L variant of the Ostroc introduced in 2884 is modified for long range combat. The SRM-4 launcher has been replaced with an LRM-5 launcher, increasing the 'Mechs long-range damage capabilities slightly by sacrificing some of its close range firepower.",
-        "Icon": "uixTxrIcon_ostroc"
+        "UIName": "Ostsol",
+        "Id": "chassisdef_ostsol_OTL-4F",
+        "Name": "Ostsol",
+        "Details": "The Ostsol 4F is considered a poor man's Marauder or Warhammer, the PPC array can quickly overload the sixteen heat sinks. Though, on its own merits, the variant is a good long-range direct fire support 'Mech which uses its top speed of 86.4 kph to dictate combat ranges against most heavier 'Mechs.",
+        "Icon": "uixTxrIcon_ostsol"
     },
-    "MovementCapDefID": "movedef_ostroc_OSR-2C",
+    "MovementCapDefID": "movedef_ostsol_OTL-4D",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_incubus",
-    "PrefabIdentifier": "chrprfmech_incubusbase-001",
-    "PrefabBase": "incubus",
+    "HardpointDataDefID": "hardpointdatadef_ostsol",
+    "PrefabIdentifier": "chrprfmech_ostsolhotd-001",
+    "PrefabBase": "ostsol",
     "Tonnage": 60,
     "InitialTonnage": 31,
     "weightClass": "HEAVY",
@@ -79,6 +79,10 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -100,7 +104,7 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -194,13 +198,12 @@
             "z": 0
         }
     ],
-    "VariantName": "OSR-2L",
+    "VariantName": "OTL-4F",
     "ChassisTags": {
         "items": [
-			"mr-resize-1.35-1.35-1.55"
 		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Fire Support",
-    "YangsThoughts": "I could have made this modification to the 2C model myself but here is the ready made long range variant of the Ostroc."
+    "YangsThoughts": "Boss, despite only having two weapons, the OTL-4F's twin PPCs are going to overheat it in any sort of sustained firefight - unless you're lucky enough to be on an ice word, in a river of liquid nitrogen, while eating a snowcone... hmmm, I wonder if we have any of that syrup stuff in the galley."
 }

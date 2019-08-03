@@ -1,21 +1,21 @@
 {
     "Description": {
-        "Cost": 5800000,
+        "Cost": 6000000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Ostroc",
-        "Id": "chassisdef_ostroc_OSR-2C",
-        "Name": "Ostroc",
-        "Details": "The Ostroc is a heavy 'Mech, weighing in at the lower end of its weight class, originally designed to act as an urban combatant.  Fast for its size, well-armored and boasting good medium- and short-range firepower, the Ostroc was capable as a heavy scout/raider.",
-        "Icon": "uixTxrIcon_ostroc"
+        "UIName": "Ostsol",
+        "Id": "chassisdef_ostsol_OTL-4D",
+        "Name": "Ostsol",
+        "Details": "The Ostsol 4D uses an all-laser weapons array which is particularly geared to close-quarters fighting. A versatile 'Mech, the Ostsol can operate as part of heavy lances in order to provide close-range firepower or lead recon and raiding lances thanks to its fast speed for a heavy 'Mech.",
+        "Icon": "uixTxrIcon_ostsol"
     },
-    "MovementCapDefID": "movedef_ostroc_OSR-2C",
+    "MovementCapDefID": "movedef_ostsol_OTL-4D",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_incubus",
-    "PrefabIdentifier": "chrprfmech_incubusbase-001",
-    "PrefabBase": "incubus",
+    "HardpointDataDefID": "hardpointdatadef_ostsol",
+    "PrefabIdentifier": "chrprfmech_ostsolhotd-001",
+    "PrefabBase": "ostsol",
     "Tonnage": 60,
     "InitialTonnage": 31,
     "weightClass": "HEAVY",
@@ -89,7 +89,20 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 200,
@@ -99,10 +112,6 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -194,13 +203,12 @@
             "z": 0
         }
     ],
-    "VariantName": "OSR-2C",
+    "VariantName": "OTL-4D",
     "ChassisTags": {
         "items": [
-			"mr-resize-1.35-1.35-1.55"
 		],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Sniper & Fire Support",
-    "YangsThoughts": "The Ostroc is a heavy 'Mech, weighing in at the lower end of its weight class, originally designed to act as an urban combatant.  Fast for its size, well-armored and boasting good medium- and short-range firepower, the Ostroc is a capable heavy scout/raider."
+    "StockRole": "Skirmisher & Brawler",
+    "YangsThoughts": "The Ostsol 4D is a great 'Mech for a merc outfit like ours Commander as it doesn't rely on ammo, so no need to worry about resupply costs.  It also has an impressive array of firepower.  But the pilot is going to have to watch their heat.  We could probably swap out a Medium Laser or two for extra Heat Sinks."
 }

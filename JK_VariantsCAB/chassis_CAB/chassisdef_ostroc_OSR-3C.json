@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 5900000,
+        "Cost": 5800000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
@@ -13,9 +13,9 @@
     },
     "MovementCapDefID": "movedef_ostroc_OSR-2C",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_incubus",
-    "PrefabIdentifier": "chrprfmech_incubusbase-001",
-    "PrefabBase": "incubus",
+    "HardpointDataDefID": "hardpointdatadef_ostroc",
+    "PrefabIdentifier": "chrprfmech_ostrochotd-001",
+    "PrefabBase": "ostroc",
     "Tonnage": 60,
     "InitialTonnage": 31,
     "weightClass": "HEAVY",
@@ -77,7 +77,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -197,10 +197,9 @@
     "VariantName": "OSR-3C",
     "ChassisTags": {
         "items": [
-			"mr-resize-1.35-1.35-1.55"
 		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Fire Support",
-    "YangsThoughts": "The 3C variant looks to improve the long-range direct firepower of the Ostroc. The two medium lasers and the SRM-4 have been removed in order to add a third large laser mounted in the right torso."
+    "YangsThoughts": "The OSR-3C is a variant that really could have benefitted from the 'ol Star League coolers, but without those double capacity heat sinks, the 3C makes a great punishment duty 'Mech on a Martian biome...  Why are you looking at me like that?"
 }

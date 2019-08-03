@@ -21,7 +21,7 @@
     "ChassisID": "chassisdef_cicada_CDA-2B",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4300000,
+        "Cost": 4100000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -32,7 +32,7 @@
         "Details": "A swap out of the 2A's Small Laser and half a ton of armor for a Flamer, this 'Mech can be quickly maneuvered in to heat up an oppoent that is already having issues.",
         "Icon": "uixTxrIcon_cicada"
     },
-    "simGameMechPartCost": 430000,
+    "simGameMechPartCost": 410000,
     "Version": 1,
     "Locations": [
         {

@@ -5,33 +5,28 @@
             "unit_heavy", 
             "unit_range_long",
             "unit_speed_high",
+            "unit_hot",
             "unit_lance_vanguard",
             "unit_role_sniper",
-            "unit_release",
-            "NotLiao",
-            "NotMarik",
-            "NotSteiner",
-            "NotKurita",
-            "NotMagistracyOfCanopus",
-            "NotTaurianConcordat"
+            "unit_release"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_ostsol_OTL-4F",
+    "ChassisID": "chassisdef_ostroc_OSR-3C",
     "HeraldryID": null,
     "Description": {
-        "Cost": 6700000,
+        "Cost": 6800000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Ostsol OTL-4F",
-        "Id": "mechdef_ostsol_OTL-4F",
-        "Name": "Ostsol",
-        "Details": "The Ostsol 4F is considered a poor man's Marauder or Warhammer, the PPC array can quickly overload the sixteen heat sinks. Though, on its own merits, the variant is a good long-range direct fire support 'Mech which uses its top speed of 86.4 kph to dictate combat ranges against most heavier 'Mechs.",
-        "Icon": "uixTxrIcon_ostsol"
+        "UIName": "Ostroc OSR-3C",
+        "Id": "mechdef_ostroc_OSR-3C",
+        "Name": "Ostroc",
+        "Details": "The 3C variant looks to improve the long-range direct firepower of the Ostroc. Introduced in 2876, the two medium lasers and the SRM-4 have been removed in order to add a third large laser mounted in the right torso.",
+        "Icon": "uixTxrIcon_ostroc"
     },
-    "simGameMechPartCost": 670000,
+    "simGameMechPartCost": 680000,
     "Version": 1,
     "Locations": [
         {
@@ -110,10 +105,21 @@
     "inventory": [
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -143,7 +149,18 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -154,28 +171,6 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightLeg",
             "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",

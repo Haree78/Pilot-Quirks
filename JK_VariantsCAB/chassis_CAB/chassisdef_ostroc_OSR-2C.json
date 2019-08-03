@@ -1,21 +1,21 @@
 {
     "Description": {
-        "Cost": 5900000,
+        "Cost": 5800000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Ostsol",
-        "Id": "chassisdef_ostsol_OTL-4D",
-        "Name": "Ostsol",
-        "Details": "The Ostsol 4D uses an all-laser weapons array which is particularly geared to close-quarters fighting. A versatile 'Mech, the Ostsol can operate as part of heavy lances in order to provide close-range firepower or lead recon and raiding lances thanks to its fast speed for a heavy 'Mech.",
-        "Icon": "uixTxrIcon_ostsol"
+        "UIName": "Ostroc",
+        "Id": "chassisdef_ostroc_OSR-2C",
+        "Name": "Ostroc",
+        "Details": "The Ostroc is a heavy 'Mech, weighing in at the lower end of its weight class, originally designed to act as an urban combatant.  Fast for its size, well-armored and boasting good medium- and short-range firepower, the Ostroc was capable as a heavy scout/raider.",
+        "Icon": "uixTxrIcon_ostroc"
     },
-    "MovementCapDefID": "movedef_ostsol_OTL-4D",
+    "MovementCapDefID": "movedef_ostroc_OSR-2C",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_incubus",
-    "PrefabIdentifier": "chrprfmech_incubusbase-001",
-    "PrefabBase": "incubus",
+    "HardpointDataDefID": "hardpointdatadef_ostroc",
+    "PrefabIdentifier": "chrprfmech_ostrochotd-001",
+    "PrefabBase": "ostroc",
     "Tonnage": 60,
     "InitialTonnage": 31,
     "weightClass": "HEAVY",
@@ -77,10 +77,6 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
@@ -104,7 +100,7 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
@@ -198,13 +194,12 @@
             "z": 0
         }
     ],
-    "VariantName": "OTL-4D",
+    "VariantName": "OSR-2C",
     "ChassisTags": {
         "items": [
-			"mr-resize-1.35-1.50-1.35"
 		],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Skirmisher & Brawler",
-    "YangsThoughts": "The Ostsol 4D uses an all-laser weapons array which is particularly geared to close-quarters fighting. A versatile 'Mech, the Ostsol can operate as part of heavy lances in order to provide close-range firepower or lead recon and raiding lances thanks to its fast speed for a heavy 'Mech."
+    "StockRole": "Sniper & Fire Support",
+    "YangsThoughts": "The Ostroc is a pretty good heavy scout, but isn't really meant to tangle with your opponent's heavies.  But it isn't a bad harasser or anchor for a medium class scout lance."
 }
