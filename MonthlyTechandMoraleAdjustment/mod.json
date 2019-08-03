@@ -2,11 +2,17 @@
     "Name": "Monthly Tech Adjustment",
     "Enabled": true,
 
-    "Version": "2.1",
+    "Version": "3.0",
     "Description": "Adjust MechTech, MechSkill, and make Morale change temporary every financial report.",
     "Author": "donZappo",
-    "Website": "https://forum.paradoxplaza.com/forum/index.php?threads/modpack-dz_consolidated_company_commander.1099514/",
     "Contact": "",
 
-    "DLL": "MonthlyTechandMoraleAdjustment.dll"
+    "DLL": "MonthlyTechandMoraleAdjustment.dll",
+	
+	"Settings": {
+		"AdjustTechs" : true,
+		"MechTechScale" : 1000,
+		"QuirksEnabled" : true,
+		"FontSize" : 14,
+	}
 }
