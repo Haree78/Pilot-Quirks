@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 10800000,
+        "Cost": 10900000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
@@ -77,6 +77,10 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Missile",
                     "Omni": false

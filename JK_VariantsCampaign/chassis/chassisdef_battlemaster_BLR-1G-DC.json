@@ -214,5 +214,18 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Command 'Mech, Heavy Brawler, & Close Assault",
-    "YangsThoughts": "Thankfully I never faced one of these during my stint with the Second St. Ives Lancers on Kittery. The Fedrats, after all, preferred installing Command Consoles on the BattleMaster, but from my understanding these were relegated to training duties by the late Third Succession War. The loss of only one heat sink and two Medium Lasers is not too bad for a trade-off."
+    "YangsThoughts": "Thankfully I never faced one of these during my stint with the Second St. Ives Lancers on Kittery. The Fedrats, after all, preferred installing Command Consoles on the BattleMaster, but from my understanding these were relegated to training duties by the late Third Succession War. The loss of only one heat sink and two Medium Lasers is not too bad for a trade-off.",
+    "fixedEquipment" : [
+        {
+            "MountedLocation" : "Head",
+            "ComponentDefID" : "Gear_Cockpit_CommandConsole",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        }
+    ]
 }

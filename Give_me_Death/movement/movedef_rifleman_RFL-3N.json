@@ -1,7 +1,7 @@
 {
    "Description" : {
-      "Id" : "movedef_archer_ARC-2R",
-      "Name" : "MovementCapabilitiesDef for Archer ARC-2R",
+      "Id" : "movedef_rifleman_RFL-3N",
+      "Name" : "MovementCapabilitiesDef for Rifleman_RFL-3N",
       "Details" : "",
       "Icon" : ""
    },

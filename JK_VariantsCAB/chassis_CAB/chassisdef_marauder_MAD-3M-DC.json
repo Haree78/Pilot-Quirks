@@ -197,5 +197,18 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Ranged Assault",
-    "YangsThoughts": "Not a bad idea to slam a Command Console into a Marauder, it certainly has the space for it.  Not sure how I feel about the downgrade from an AC5 to an AC2, I guess the extra range might encourage a headstrong Commander to hang back a bit... er.. no offense Commander."
+    "YangsThoughts": "Not a bad idea to slam a Command Console into a Marauder, it certainly has the space for it.  Not sure how I feel about the downgrade from an AC5 to an AC2, I guess the extra range might encourage a headstrong Commander to hang back a bit... er.. no offense Commander.",
+    "fixedEquipment" : [
+        {
+            "MountedLocation" : "Head",
+            "ComponentDefID" : "Gear_Cockpit_CommandConsole",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        }
+    ]
 }

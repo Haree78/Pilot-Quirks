@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 500000,
-        "Rarity" : 5,
+        "Rarity" : 99,
         "Purchasable" : false,
         "Manufacturer" : "Doering Electronics",
         "Model" : "Unknown",

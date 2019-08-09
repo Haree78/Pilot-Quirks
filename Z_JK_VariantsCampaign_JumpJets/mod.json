@@ -4,8 +4,8 @@
 
     "OptionallyDependsOn": [ "cfixes", "BattletechPerformanceFix", "CommunityBundles", "LC_SLDFRoyal_DLC", "LC_SLDFRoyal_Addon", "LC_SLDFRoyal_WR", "LC_SLDFRoyal_Unique", "BT_Extended_3025" , "BT_Extended_3025_Plus", "JK_VariantsCAB", "JK_VariantsStarLeague", "JK_VariantsDLC", "JK_VariantsCampaign" ],
 
-	"Version": "1.6.2.3",
-	"PackagedOn": "2019-07-29T16:45:00Z",
+	"Version": "1.6.2.5",
+	"PackagedOn": "2019-08-08T16:45:00Z",
 
     "Description": "Edits 320+ 'Mechs to have lore based Jump Jet limitations",
     "Author": "Sondra1408 & Haree78 & Justin Kase & Don Zappo",

@@ -23,7 +23,7 @@
     "ChassisID": "chassisdef_atlas_AS7-D-K",
     "HeraldryID": null,
     "Description": {
-        "Cost": 13000000,
+        "Cost": 13100000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": null,
@@ -34,7 +34,7 @@
         "Details": "A very rare Combine variant, the AS7-D-K swaps out the standard LRM-20 for paired LRM-10s.  What is unusual about this, is that the Combine techs chose to modify the firing tubes and ammunition feeds to allow the launchers to be placed in both side torsos.  Due to the cramped space available in the Right Torso, the AC20 ammunition needed to be moved to the left side, utilizing a similar feed system as the new LRM launcher.",
         "Icon": "uixTxrIcon_atlas"
     },
-    "simGameMechPartCost": 1300000,
+    "simGameMechPartCost": 1310000,
     "Version": 1,
     "Locations": [
         {
