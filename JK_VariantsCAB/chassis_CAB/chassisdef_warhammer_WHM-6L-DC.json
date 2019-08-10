@@ -210,5 +210,18 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & Close Assault",
-    "YangsThoughts": "Removing any excess weapons from the 6L can only be a good thing for the Hot-Hammer, especially if you have a 2nd person ridging shotgun with you!"
+    "YangsThoughts": "Removing any excess weapons from the 6L can only be a good thing for the Hot-Hammer, especially if you have a 2nd person riding shotgun with you!",
+    "fixedEquipment" : [
+        {
+            "MountedLocation" : "Head",
+            "ComponentDefID" : "Gear_Cockpit_CommandConsole",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        }
+    ]
 }

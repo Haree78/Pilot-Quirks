@@ -104,12 +104,7 @@
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 150,
@@ -205,7 +200,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Skirmisher and Brawler",
-    "YangsThoughts": "The Exterminator 4D is built for assassintion. Most notably this mech has an extralight engine with double heat sinks, giving it a speed faster than many medium 'Mechs, and the ability to shoot without cooling down. The 4D also has an Anti Missile System as stock.",
+    "YangsThoughts": "The Exterminator 4D is built for assassination. Most notably this mech has an extralight engine with double heat sinks, giving it a speed faster than many medium 'Mechs, and the ability to shoot without cooling down. The 4D also has an Anti Missile System as stock.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",

@@ -210,5 +210,18 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & Close Assault",
-    "YangsThoughts": "Those Dracs sure love their PPCs.  The 6R is a real classic, and adding in a Command Console is just icing on the cake."
+    "YangsThoughts": "Those Dracs sure love their PPCs.  The 6R is a real classic, and adding in a Command Console is just icing on the cake.",
+    "fixedEquipment" : [
+        {
+            "MountedLocation" : "Head",
+            "ComponentDefID" : "Gear_Cockpit_CommandConsole",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        }
+    ]
 }

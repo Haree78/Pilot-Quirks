@@ -110,17 +110,6 @@
     ],
     "inventory": [
         {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Gear_Cockpit_CommandConsole",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
             "SimGameUID": null,
