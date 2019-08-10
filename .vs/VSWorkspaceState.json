@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BT_Extended_CE\\StreamingAssets\\data",
-    "\\BT_Extended_CE\\StreamingAssets\\data\\constants",
-    "\\BT_Extended_CE\\StreamingAssets\\data\\shipUpgrades",
-    "\\BT_Extended_CE\\StreamingAssets\\data\\simGameConstants",
     "\\GalaxyAtWar"
   ],
-  "SelectedNode": "\\GalaxyAtWar\\mod.json",
+  "SelectedNode": "\\GalaxyAtWar",
   "PreviewInSolutionExplorer": false
 }
