@@ -42,6 +42,12 @@
 		"pilot_spacer_InjuryTimeReduction" : 0.9,
 		"pilot_wealthy_CostFactor" : 0.9,
 		"pilot_rebellious_ResolveMalus" : 2,
+
+		"Tier1" : 5,
+        "Tier2" : 15,
+        "Tier3" : 30,
+        "Tier4" : 50,
+        "pilot_drops_for_8_pilot" : 50,
 		
 		"TagIDToNames" : {
 			"pilot_assassin" : "Assassin",
