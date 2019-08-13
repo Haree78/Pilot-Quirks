@@ -2,7 +2,7 @@
 	"Story": {
 		"MaxContractsPerSystem" : 8,
 		"ContractRenewalPerWeek" : 0.5,
-		"ContractSuccessReduction" : 1.0,
+		"ContractSuccessReduction" : 0,
 		"MaxBreadcrumbsPerSystem" : 3,
 		"MissionsForFirstBreadcrumb" : 1,
 		"MissionsForAdditionalBreadcrumb" : 2,
