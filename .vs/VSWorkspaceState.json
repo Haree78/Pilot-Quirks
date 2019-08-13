@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\GalaxyAtWar"
+    "\\GalaxyAtWar",
+    "\\Pilot_Quirks"
   ],
-  "SelectedNode": "\\GalaxyAtWar",
+  "SelectedNode": "\\Pilot_Quirks\\mod.json",
   "PreviewInSolutionExplorer": false
 }
