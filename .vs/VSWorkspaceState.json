@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\GalaxyAtWar",
+    "\\BT_Extended_Overides",
+    "\\BT_Extended_Overides\\StreamingAssets",
+    "\\BT_Extended_Overides\\StreamingAssets\\data",
+    "\\BT_Extended_Overides\\StreamingAssets\\data\\SimGameConstants",
+    "\\LootMagnet",
     "\\Pilot_Quirks"
   ],
-  "SelectedNode": "\\Pilot_Quirks\\mod.json",
+  "SelectedNode": "\\BT_Extended_Overides\\StreamingAssets\\data\\SimGameConstants\\SimGameConstants.json",
   "PreviewInSolutionExplorer": false
 }

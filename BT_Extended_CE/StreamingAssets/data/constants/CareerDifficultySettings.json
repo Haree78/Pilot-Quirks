@@ -958,7 +958,7 @@
                         {
                             "ConstantType": "Story",
                             "ConstantName": "MaxMechWarriorsPerPod",
-                            "ConstantValue": "6",
+                            "ConstantValue": "8",
                         },
                         {
                             "ConstantType": "Story",
