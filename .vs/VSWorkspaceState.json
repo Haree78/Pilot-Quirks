@@ -1,13 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BT_Extended_Overides",
+    "\\BT_Extended_CE",
+    "\\BT_Extended_CE\\StreamingAssets",
+    "\\BT_Extended_CE\\StreamingAssets\\data",
+    "\\BT_Extended_CE\\StreamingAssets\\data\\constants",
     "\\BT_Extended_Overides\\StreamingAssets",
     "\\BT_Extended_Overides\\StreamingAssets\\data",
-    "\\BT_Extended_Overides\\StreamingAssets\\data\\SimGameConstants",
+    "\\BT_Extended_Overides\\StreamingAssets\\data\\constants",
     "\\LootMagnet",
     "\\Pilot_Quirks"
   ],
-  "SelectedNode": "\\BT_Extended_Overides\\StreamingAssets\\data\\SimGameConstants\\SimGameConstants.json",
+  "SelectedNode": "\\BT_Extended_CE\\StreamingAssets\\data\\constants\\CareerDifficultySettings.json",
   "PreviewInSolutionExplorer": false
 }
