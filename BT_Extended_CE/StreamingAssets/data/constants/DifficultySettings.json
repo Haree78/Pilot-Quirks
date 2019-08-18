@@ -1,0 +1,946 @@
+{
+    "difficultyList" : [
+        {
+            "ID" : "diff_ironMan",
+            "Name" : "Ironman Mode",
+			"UIOrder" : 0,
+            "TelemetryEventName": "",
+            "Tooltip" : "Ironman Mode restricts you to only one save file. All consequences, including 'Mech loss, MechWarrior death, and failed missions are <i>permanent</i>. <color=#F79B26>Running out of funds <i>or</i> failing any Priority Mission will result in campaign loss. This setting is intended for veterans and those seeking a significant challenge.</color>",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : true,
+            "StartOnly" : true,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_IM_off",
+                    "Name" : "Off",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "IronManMode",
+                            "ConstantValue" : "False"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_IM_on",
+                    "Name" : "On",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 3,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "IronmanMode",
+                            "ConstantValue" : "True"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_equipNewMech",
+            "Name" : "Unequipped 'Mechs",
+			"UIOrder" : 1,
+            "TelemetryEventName": "",
+            "Tooltip" : "When this setting is enabled, new 'Mechs you acquire through salvage will not come with equipped weapons or components, and will need to be customized from scratch.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : true,
+            "StartOnly" : true,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_EMS_off",
+                    "Name" : "Off",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "EquipMechOnSalvage",
+                            "ConstantValue" : "True"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_EMS_on",
+                    "Name" : "On",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "EquipMechOnSalvage",
+                            "ConstantValue" : "False"
+                        }
+                    ]
+                }
+			]
+        },
+        {
+            "ID" : "diff_mechConstruction",
+            "Name" : "Parts for 'Mech Assembly",
+			"UIOrder" : 2,
+            "TelemetryEventName": "",
+            "Tooltip" : "This setting controls the number of salvaged or purchased 'Mech parts you must acquire to assemble a new 'Mech. Increase this value to make new 'Mechs rarer and more difficult to obtain. <color=#F79B26>This setting is intended for veterans and those seeking a significant challenge.</color>",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : false,
+            "StartOnly" : true,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_MC_easy",
+                    "Name" : "3",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "DefaultMechPartMax",
+                            "ConstantValue" : "3"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MC_easymed",
+                    "Name" : "4",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "DefaultMechPartMax",
+                            "ConstantValue" : "4"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MC_med",
+                    "Name" : "5",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "DefaultMechPartMax",
+                            "ConstantValue" : "5"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MC_medhard",
+                    "Name" : "6",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "DefaultMechPartMax",
+                            "ConstantValue" : "6"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MC_hard",
+                    "Name" : "7",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "DefaultMechPartMax",
+                            "ConstantValue" : "7"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MC_vhard",
+                    "Name" : "8",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 3,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "DefaultMechPartMax",
+                            "ConstantValue" : "8"
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "ID" : "diff_skipPrologue",
+            "Name" : "Skip Prologue",
+			"UIOrder" : 0,
+            "TelemetryEventName": "",
+            "Tooltip" : "Skip the prologue of the Campaign. <color=#F79B26>This will bypass the tutorial and some early game missions</color>.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : true,
+            "StartOnly" : true,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_PSKIP_off",
+                    "Name" : "Off",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "SkipTutorial",
+                            "ConstantValue" : "False"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_PSKIP_on",
+                    "Name" : "On",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "SkipTutorial",
+                            "ConstantValue" : "True"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_contractDifficulty",
+            "Name" : "Enemy Force Strength",
+			"UIOrder" : 3,
+            "TelemetryEventName": "enemy_force_strength",
+            "Tooltip" : "This setting modifies the overall strength of enemy forces. At higher difficulties, you will encounter heavier 'Mechs. <color=#F79B26>This setting does not apply to campaign story missions.</color>",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : false,
+            "StartOnly" : false,
+            "DefaultIndex" : 1,
+            "Options" : [
+                {
+                    "ID" : "diff_CMD_easy",
+                    "Name" : "Easy",
+                    "TelemetryEventDesc": "easy",
+                    "DifficultyValue" : -1,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "ContractDifficultyMod",
+                            "ConstantValue" : "-1"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_CMD_med",
+                    "Name" : "Normal",
+                    "TelemetryEventDesc": "normal",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "ContractDifficultyMod",
+                            "ConstantValue" : "0"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_CMD_hard",
+                    "Name" : "Hard",
+                    "TelemetryEventDesc": "hard",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "ContractDifficultyMod",
+                            "ConstantValue" : "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_advancedPilots",
+            "Name" : "Advanced MechWarriors",
+			"UIOrder" : 4,
+            "TelemetryEventName": "advanced_mech_warriors",
+            "Tooltip" : "In the later parts of the game, new MechWarriors in the Hiring Hall will often have better stats and skills than in the early parts of the game. Modify this setting to change the frequency of new MechWarriors having these improvements.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : false,
+            "StartOnly" : false,
+            "DefaultIndex" : 1,
+            "Options" : [
+                {
+                    "ID" : "diff_CMD_easy",
+                    "Name" : "Often",
+                    "TelemetryEventDesc": "often",
+                    "DifficultyValue" : -1,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "ContractDifficultyMod",
+                            "ConstantValue" : "0.12"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_CMD_med",
+                    "Name" : "Normal",
+                    "TelemetryEventDesc": "normal",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "ContractDifficultyMod",
+                            "ConstantValue" : "0.08"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_CMD_hard",
+                    "Name" : "Rare",
+                    "TelemetryEventDesc": "rare",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "ContractDifficultyMod",
+                            "ConstantValue" : "0.04"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_mechDestruction",
+            "Name" : "'Mech Destruction",
+			"UIOrder" : 5,
+            "TelemetryEventName": "mech_destruction",
+            "Tooltip" : "When active, this setting will cause any 'Mech disabled by the destruction of its center torso to be lost permanently. <color=#F79B26>This setting is intended for veterans and those seeking a significant challenge.</color>",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : true,
+            "StartOnly" : false,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_MD_off",
+                    "Name" : "Off",
+                    "TelemetryEventDesc": "0",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "1"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MD_on",
+                    "Name" : "On",
+                    "TelemetryEventDesc": "1",
+                    "DifficultyValue" : 2,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_contractPayment",
+            "Name" : "Contract Payment",
+			"UIOrder" : 6,
+            "TelemetryEventName": "contract_payment",
+            "Tooltip" : "This setting controls the amount of C-Bills paid by contracts across the entire game. Adjust this setting to make the economic gameplay more or less forgiving. <color=#F79B26>This setting does not apply to campaign story missions.</color>",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : false,
+            "StartOnly" : false,
+            "DefaultIndex" : 1,
+            "Options" : [
+                {
+                    "ID" : "diff_CP_easy",
+                    "Name" : "Generous",
+                    "TelemetryEventDesc": "generous",
+                    "DifficultyValue" : -1,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Finances",
+                            "ConstantName" : "ContractPricePerDifficulty",
+                            "ConstantValue" : "200000"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_CP_med",
+                    "Name" : "Normal",
+                    "TelemetryEventDesc": "normal",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Finances",
+                            "ConstantName" : "ContractPricePerDifficulty",
+                            "ConstantValue" : "180000"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_CP_hard",
+                    "Name" : "Stingy",
+                    "TelemetryEventDesc": "stingy",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Finances",
+                            "ConstantName" : "ContractPricePerDifficulty",
+                            "ConstantValue" : "150000"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_baseSalvage",
+            "Name" : "Salvage",
+			"UIOrder" : 7,
+            "TelemetryEventName": "salvage",
+            "Tooltip" : "This setting changes the amount of salvage you may obtain from negotiation. Adjust this setting to make the economic gameplay more or less forgiving.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : false,
+            "StartOnly" : false,
+            "DefaultIndex" : 1,
+            "Options" : [
+                {
+                    "ID" : "diff_BS_high",
+                    "Name" : "Generous",
+                    "TelemetryEventDesc": "generous",
+                    "DifficultyValue" : -1,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Finances",
+                            "ConstantName" : "ContractFloorSalvageBonus",
+                            "ConstantValue" : "4"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_BS_med",
+                    "Name" : "Normal",
+                    "TelemetryEventDesc": "normal",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Finances",
+                            "ConstantName" : "ContractFloorSalvageBonus",
+                            "ConstantValue" : "2"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_BS_low",
+                    "Name" : "Stingy",
+                    "TelemetryEventDesc": "hard",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Finances",
+                            "ConstantName" : "ContractFloorSalvageBonus",
+                            "ConstantValue" : "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_pilotProgression",
+            "Name" : "MechWarrior Progression",
+			"UIOrder" : 8,
+            "TelemetryEventName": "mech_warrior_progression",
+            "Tooltip" : "This setting controls the amount of experience MechWarriors gain after each mission. Change this setting to adjust the rate at which MechWarriors improve their stats and gain new skills.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : false,
+            "StartOnly" : false,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_PP_easy",
+                    "Name" : "Normal",
+                    "TelemetryEventDesc": "normal",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "BaseXPGainPerMission",
+                            "ConstantValue" : "400"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_PP_med",
+                    "Name" : "Slow",
+                    "TelemetryEventDesc": "slow",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "BaseXPGainPerMission",
+                            "ConstantValue" : "200"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_PP_hard",
+                    "Name" : "Very Slow",
+                    "TelemetryEventDesc": "very_slow",
+                    "DifficultyValue" : 2,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "BaseXPGainPerMission",
+                            "ConstantValue" : "100"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_lethality",
+            "Name" : "Lethality",
+			"UIOrder" : 9,
+            "TelemetryEventName": "lethality",
+            "Tooltip" : "When this setting is enabled, MechWarriors that are incapacitated in combat will always be killed.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : true,
+            "StartOnly" : false,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_LTH_off",
+                    "Name" : "Normal",
+                    "TelemetryEventDesc": "0",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "IncapacitatedDeathChance",
+                            "ConstantValue" : "0.9"
+                        },
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "GutsDeathReduction",
+                            "ConstantValue" : "0.05"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_LTH_on",
+                    "Name" : "Lethal",
+                    "TelemetryEventDesc": "1",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "IncapacitatedDeathChance",
+                            "ConstantValue" : "1.05"
+                        },
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "GutsDeathReduction",
+                            "ConstantValue" : "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_rareItems",
+            "Name" : "No Rare Salvage",
+			"UIOrder" : 10,
+            "TelemetryEventName": "no_rare_salvage",
+            "Tooltip" : "This setting controls whether \"+\" and \"++\" items can be found as salvage after a battle. If this setting is enabled, only basic items will be found.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : true,
+            "StartOnly" : false,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_RI_off",
+                    "Name" : "Off",
+                    "TelemetryEventDesc": "0",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "RareWeaponChance",
+                            "ConstantValue" : "-3"
+                        },
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "RareUpgradeChance",
+                            "ConstantValue" : "-5"
+                        },
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "VeryRareWeaponChance",
+                            "ConstantValue" : "-4"
+                        },
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "VeryRareUpgradeChance",
+                            "ConstantValue" : "-6"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_RI_on",
+                    "Name" : "On",
+                    "TelemetryEventDesc": "1",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "RareWeaponChance",
+                            "ConstantValue" : "-10"
+                        },
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "RareUpgradeChance",
+                            "ConstantValue" : "-10"
+                        },
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "VeryRareWeaponChance",
+                            "ConstantValue" : "-10"
+                        },
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "VeryRareUpgradeChance",
+                            "ConstantValue" : "-10"
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+			"ID": "diff_Starter",
+			"Name": "Starter Mech",
+			"UIOrder": 3,
+			"Tooltip": "Select your starter Mech.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 8,
+			"Options": [
+				{
+					"ID": "diff_start_locust",
+					"Name": "Locust",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_locust_LCT-1V"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_commando",
+					"Name": "Commando",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_commando_COM-2D"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_spider",
+					"Name": "Spider",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_spider_SDR-5V"
+						}
+					]
+				},				
+				{
+					"ID": "diff_start_urbie",
+					"Name": "Urban Mech",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_urbanmech_UM-R60"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_firestarter",
+					"Name": "Firestarter",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_firestarter_FS9-H"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_jenner",
+					"Name": "Jenner",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_jenner_JR7-D"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_panther",
+					"Name": "Panther",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_panther_PNT-9R"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_cicada",
+					"Name": "Cicada",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_cicada_CDA-2A"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_blackjack",
+					"Name": "Blackjack",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_blackjack_BJ-1"
+						}
+					]
+				},		
+				{
+					"ID": "diff_start_vindicator",
+					"Name": "Vindicator",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_vindicator_VND-1R"
+						}
+					]
+				},
+			]
+		},
+		{
+			"ID": "diff_difficulty",
+			"Name": "Overall Difficulty",
+			"UIOrder": 3,
+			"Tooltip": "This setting controls the underlying difficulty of the game and reduces the X-Com effect, too hard early game, too easy late game.  Hard increases the difficulty in combat late game, including the AI using appropriate pilot skills, and lessening late game Resolve bonuses. Simulation is identical to Hard Difficulty, but adds in additonal elements to give a more hardcore immersive Company Commander experience. Other settings in this menu are flagged with N/H/S values for suggested settings for the difficulty level.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 0,
+			"Options": [
+				{
+					"ID": "diff_Normal",
+					"Name": "Normal",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingMedTechSkill",
+							"ConstantValue": "6"
+						},
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "ContractDifficultyVariance",
+                            "ConstantValue": "1",
+                        },
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "MaxMechWarriorsPerPod",
+                            "ConstantValue": "8",
+                        },
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "MechReadyTime",
+                            "ConstantValue": "6000",
+                        },
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "StartingMorale",
+                            "ConstantValue": "25",
+                        },
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "StartingMechTechSkill",
+                            "ConstantValue": "3000",
+                        },
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "MaximumDebt",
+                            "ConstantValue": "0",
+                        }
+					]
+				},
+				{
+					"ID": "diff_Hard",
+					"Name": "Hard",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingMedTechSkill",
+							"ConstantValue": "6"
+						},
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "ContractDifficultyVariance",
+                            "ConstantValue": "2",
+                        },
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "MaxMechWarriorsPerPod",
+                            "ConstantValue": "8",
+                        },
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "MechReadyTime",
+                            "ConstantValue": "6000",
+                        },
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "StartingMorale",
+                            "ConstantValue": "25",
+                        },
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "StartingMechTechSkill",
+                            "ConstantValue": "3000",
+                        },
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "MaximumDebt",
+                            "ConstantValue": "21",
+                        }
+					]
+				},
+				{
+					"ID": "diff_Simulation",
+					"Name": "Simulation",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingMedTechSkill",
+							"ConstantValue": "4"
+						},
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "ContractDifficultyVariance",
+                            "ConstantValue": "2",
+                        },
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "MaxMechWarriorsPerPod",
+                            "ConstantValue": "8",
+                        },
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "MechReadyTime",
+                            "ConstantValue": "30000",
+                        },
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "StartingMorale",
+                            "ConstantValue": "20",
+                        },
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "StartingMechTechSkill",
+                            "ConstantValue": "2500",
+                        },
+                        {
+                            "ConstantType": "Story",
+                            "ConstantName": "MaximumDebt",
+                            "ConstantValue": "42",
+                        }
+					]
+				}
+			]				
+		},
+    ]
+}
