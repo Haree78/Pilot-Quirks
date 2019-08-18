@@ -204,6 +204,7 @@
     "VariantName": "MSK-7A",
     "ChassisTags": {
         "items": [
+			"mr-resize-1.05-1.05-1.05"
 		],
         "tagSetSourceFile": ""
     },

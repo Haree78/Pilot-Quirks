@@ -31,7 +31,7 @@
         "UIName": "Ostwar OWR-2M",
         "Id": "mechdef_ostwar_OWR-2M",
         "Name": "Ostwar",
-        "Details": "The original 'WalkerPod' the Ostwar is an ancient design from the earliest days of BattleMechs and was hugely popular with the Free Worlds League and Capellan Confederation in its time.  These days they are all but extinct due to attrition and the ability to use parts from the Ostwar on the more popular (and available) Ostroc and Ostsol models, occasional still seen on backwater worlds or in pirate forces.  The Ostwar was distinguishable from its successors by its two paddle like hands which housed SRM-4 launchers.  Two Medium Lasers and an LRM-20 rounded out its compliment.  While reasonably well armed, it is very slow for its size and loadout.",
+        "Details": "The original 'WalkerPod' the Ostwar is an ancient design from the earliest days of BattleMechs and was hugely popular with the Free Worlds League and Capellan Confederation in its time.  These days they are all but extinct due to attrition and the ability to use parts from the Ostwar on the more popular (and available) Ostroc and Ostsol models, occasionally still seen on backwater worlds or in pirate forces.  The Ostwar was distinguishable from its successors by its two paddle like hands which housed SRM-4 launchers.  Two Medium Lasers and an LRM-20 rounded out its compliment.  While reasonably well armed, it is very slow for its size and loadout.",
         "Icon": "uixTxrIcon_ostwar"
     },
     "simGameMechPartCost": 690000,

@@ -8,7 +8,7 @@
         "UIName": "Vulcan",
         "Id": "chassisdef_vulcan_VL-2T",
         "Name": "Vulcan",
-        "Details": "The Vulcan is lightly armored at only five tons, though this is typically sufficient when facing infantry forces and its narrow profile makes it a harder target to hit. A cruising speed of 64.8 km/h is enhanced with by six jump jets mounted in the rear of the Vulcan's torso, specially vented to reduce heat build-up in the rear, giving it a jumping range of 180 meters.",
+        "Details": "The Vulcan is lightly armored at only five tons, though this is typically sufficient when facing infantry forces, while its narrow profile makes it harder to hit. With a cruising speed of 64.8 km/h, it is enhanced with by six jump jets mounted in the rear of the Vulcan's torso which are specially vented to reduce heat build-up in the rear, giving it a jumping range of 180 meters.",
         "Icon": "uixTxrIcon_vulcan"
     },
     "MovementCapDefID": "movedef_vulcan",
@@ -204,5 +204,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Close Support & Anti Personnel",
-    "YangsThoughts": "The Vulcan is lightly armored at only five tons, though this is typically sufficient when facing infantry forces and its narrow profile makes it a harder target to hit. A cruising speed of 64.8 km/h is enhanced with by six jump jets mounted in the rear of the Vulcan's torso, specially vented to reduce heat build-up in the rear, giving it a jumping range of 180 meters."
+    "YangsThoughts": "Ah, the 'Scarecrow', this 'Mech is an example of function dictating form.  It was designed primarily as an anti-infantry unit, which it does a reasonably good job at.  The 2T is pretty mobile and it can engage at most ranges.  Problem is, it is doesn't really have the armaments for facing anything larger than a light 'Mech.  Other than being an annoyance.  Might have been better to call it the 'Gnat'."
 }
