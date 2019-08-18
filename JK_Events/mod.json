@@ -1,0 +1,16 @@
+{
+    "Name": "JK_Events",
+    "Enabled": true,
+
+	"Version": "1.6.2.1",
+	"PackagedOn": "2019-08-12T16:45:00Z",
+
+    "Author": "Justin Kase",
+
+    "DependsOn": [],
+    "ConflictsWith": [],
+
+    "Manifest": [
+        { "Type": "SimGameEventDef", "Path": "events" }
+]
+}
