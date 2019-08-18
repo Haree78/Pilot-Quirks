@@ -1,0 +1,10 @@
+{
+    "TargetID": "SimpleBattle_CleanOutTheMercs",
+    "Instructions": [
+        {
+            "JSONPath": "targetTeam.faction",
+            "Action": "Replace",
+            "Value": "HostileMercenaries"
+        }
+    ]
+}

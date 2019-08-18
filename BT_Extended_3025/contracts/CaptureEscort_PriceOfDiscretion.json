@@ -1,0 +1,10 @@
+{
+    "TargetID": "CaptureEscort_PriceOfDiscretion",
+    "Instructions": [
+        {
+            "JSONPath": "targetTeam.faction",
+            "Action": "Replace",
+            "Value": "HostileMercenaries"
+        }
+    ]
+}

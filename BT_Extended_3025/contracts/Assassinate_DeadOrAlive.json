@@ -1,0 +1,15 @@
+{
+    "TargetID": "Assassinate_DeadOrAlive",
+    "Instructions": [
+        {
+            "JSONPath": "$.objectiveList[?(@.objective.EncounterObjectGuid== '650245ff-89b6-4c0f-9b72-31db69cf109c')].title",
+            "Action": "Replace",
+            "Value": "Destroy Supporting Mercenary Forces"
+        },
+        {
+            "JSONPath": "targetTeam.faction",
+            "Action": "Replace",
+            "Value": "HostileMercenaries"
+        }
+    ]
+}
