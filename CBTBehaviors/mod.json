@@ -1,9 +1,9 @@
 {
     "Name": "CBTBehaviors",
     "Enabled": true,
-    "Version": "1.0.dZ",
+    "Version": "1.1.dZ",
     "Description": "",
-    "Author": "IceRaptor",
+    "Author": "IceRaptor modified by donZappo",
     "Website": "https://github.com/IceRaptor/BTModSkeleton",
     "Contact": "",
     "DLL": "CBTBehaviors.dll",
