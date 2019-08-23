@@ -5,9 +5,12 @@
             "JSONPath": "ChassisTags.items",
             "Action": "ArrayConcat",
             "Value": [
+				"mech_quirk_badreputation",
 				"mech_quirk_easytomaintain",
 				"mech_quirk_improvedlifesupport",
-				"mech_quirk_nominimalarms"
+				"mech_quirk_noeject",
+				"mech_quirk_nominimalarms",
+				"mech_quirk_weaklegs"
 			]
         }
     ]
