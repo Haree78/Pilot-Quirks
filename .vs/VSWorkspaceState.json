@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\GalaxyAtWar",
-    "\\GalaxyAtWar\\StreamingAssets\\Data",
-    "\\GalaxyAtWar\\StreamingAssets\\Data\\simGameConstants",
     "\\LootMagnet",
     "\\Pilot_Quirks"
   ],
-  "SelectedNode": "\\GalaxyAtWar",
+  "SelectedNode": "\\Pilot_Quirks",
   "PreviewInSolutionExplorer": false
 }
