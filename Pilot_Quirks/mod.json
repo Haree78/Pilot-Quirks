@@ -2,7 +2,7 @@
     "Name": "Pilot Quirks",
     "Enabled": true,
 
-    "Version": "3.1",
+    "Version": "3.2",
     "Description": "Adds pilot abilities based upon what tags they have.",
     "Author": "don Zappo",
     "Website": "",
@@ -48,6 +48,12 @@
         "Tier3" : 30,
         "Tier4" : 50,
         "pilot_drops_for_8_pilot" : 50,
+
+		"MechBonding" : true,
+
+		"RTCompatible" : false,
+		"pilot_criminal_StealPercent" : 0,
+		"pilot_criminal_StealAmount" : 0,
 		
 		"TagIDToNames" : {
 			"pilot_assassin" : "Assassin",

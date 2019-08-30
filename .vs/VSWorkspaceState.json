@@ -2,9 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\GalaxyAtWar",
-    "\\LootMagnet",
-    "\\Pilot_Quirks"
+    "\\Pilot_Quirks",
+    "\\Repair Tonnage and Finances",
+    "\\Repair Tonnage and Finances\\StreamingAssets",
+    "\\Repair Tonnage and Finances\\StreamingAssets\\data",
+    "\\Repair Tonnage and Finances\\StreamingAssets\\data\\events"
   ],
-  "SelectedNode": "\\Pilot_Quirks",
+  "SelectedNode": "\\Repair Tonnage and Finances\\StreamingAssets\\data\\events",
   "PreviewInSolutionExplorer": false
 }
