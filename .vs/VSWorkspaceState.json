@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Pilot_Quirks",
-    "\\Repair Tonnage and Finances\\StreamingAssets",
-    "\\Repair Tonnage and Finances\\StreamingAssets\\data",
-    "\\Repair Tonnage and Finances\\StreamingAssets\\data\\events"
+    "\\PanicSystem",
+    "\\Pilot_Quirks"
   ],
-  "SelectedNode": "\\Pilot_Quirks",
+  "SelectedNode": "\\PanicSystem",
   "PreviewInSolutionExplorer": false
 }
