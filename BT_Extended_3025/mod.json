@@ -9,12 +9,15 @@
 	"OptionallyDependsOn": ["LC_SLDFRoyal_DLC", "LC_SLDFRoyal_Addon", "LC_SLDFRoyal_WR", "LC_SLDFRoyal_Unique", "BT_Extended_3025_Plus" ],
 
     "Manifest": [
+		{ "Type": "CastDef", "Path": "cast_new" },
+		{ "Type": "HeraldryDef", "Path": "heraldry_new" },
+		{ "Type": "PilotDef", "Path": "pilot_new" },
+        { "Type": "Sprite", "Path": "castSprites" },
 		{ "Type": "UpgradeDef", "Path": "upgrades", "ShouldMergeJSON": false  },
         { "Type": "ChassisDef", "Path": "chassis" },
         { "Type": "HardpointDataDef", "Path": "hardpoints" },
         { "Type": "MechDef", "Path": "mech" },
         { "Type": "MovementCapabilitiesDef", "Path": "movement" },
-        { "Type": "Sprite", "Path": "portraits" },
 		{ "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": false },
 		{ "Type": "ItemCollectionDef", "Path": "itemCollectionsE3025", "AddToDB": true },
 		{ "Type": "WeaponDef", "Path": "weapon", "AddToDB": true },
