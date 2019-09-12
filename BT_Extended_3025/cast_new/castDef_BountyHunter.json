@@ -1,0 +1,23 @@
+{
+   "id" : "castDef_BountyHunter",
+   "internalName" : "BountyHunter",
+   "firstName" : "Bounty",
+   "lastName" : "Hunter",
+   "callsign" : "Bounty Hunter",
+   "rank" : "Bounty Hunter",
+   "gender" : "NonBinary",
+   "faction" : "HostileMercenaries",
+   "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "../../Mods/BT_Extended_3025/castSprites/guiTxrPort_BountyHunter_utr.png"
+   },
+   "emotePotraitList" : [
+      
+   ]
+}
