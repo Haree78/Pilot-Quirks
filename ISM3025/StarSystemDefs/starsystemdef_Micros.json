@@ -46,7 +46,7 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -5,
+  "JumpDistance": 5,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,

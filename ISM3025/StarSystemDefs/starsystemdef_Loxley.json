@@ -55,7 +55,7 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -4,
+  "JumpDistance": 4,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,

@@ -50,7 +50,7 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -14,
+  "JumpDistance": 14,
   "Owner": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,

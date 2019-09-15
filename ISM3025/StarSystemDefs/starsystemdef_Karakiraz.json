@@ -50,7 +50,7 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -10,
+  "JumpDistance": 10,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,

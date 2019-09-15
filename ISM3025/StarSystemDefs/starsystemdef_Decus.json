@@ -52,7 +52,7 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -3,
+  "JumpDistance": 3,
   "Owner": "Liao",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
