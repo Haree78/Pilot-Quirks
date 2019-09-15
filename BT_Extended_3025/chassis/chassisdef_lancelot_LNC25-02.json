@@ -13,9 +13,9 @@
     },
     "MovementCapDefID": "movedef_lancelot_LNC25-02",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_blackjack",
-    "PrefabIdentifier": "chrPrfMech_blackjackBase-001",
-    "PrefabBase": "blackjack",
+    "HardpointDataDefID": "hardpointdatadef_lancelot",
+    "PrefabIdentifier": "chrprfmech_lancelotbase-001",
+    "PrefabBase": "lancelot",
     "Tonnage": 60,
     "InitialTonnage": 23.5,
     "weightClass": "HEAVY",
@@ -203,7 +203,7 @@
     "VariantName": "LNC25-02",
     "ChassisTags": {
         "items": [
-			"mr-resize-1.10-1.20-1.10"
+			"mr-resize-0.90-1.00-1.00"
 		],
         "tagSetSourceFile": ""
     },
