@@ -9,7 +9,7 @@
         340,
         510
     ],
-    "AmmoCategory" : "AC20",
+    "ammoCategoryID" : "AC20",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 69,
     "Damage" : 100,

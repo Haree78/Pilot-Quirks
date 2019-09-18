@@ -9,7 +9,7 @@
         120,
         120
     ],
-    "AmmoCategory" : "MG",
+    "ammoCategoryID" : "MG",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 0,
     "Damage" : 3,

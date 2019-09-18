@@ -9,7 +9,7 @@
         360,
         660
     ],
-    "AmmoCategory" : "GAUSS",
+    "ammoCategoryID" : "GAUSS",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 3,
     "Damage" : 75,
