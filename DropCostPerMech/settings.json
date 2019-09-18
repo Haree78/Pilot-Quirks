@@ -1,9 +1,0 @@
-{
-    "percentageOfMechCost" : 0.0025,
-    "CostByTons" : true,
-    "cbillsPerTon" : 550,
-    "someFreeTonnage" : true,
-    "freeTonnageAmount" : 80,
-	"NewAlgorithm" : true,
-	"IsCampaign" : true,
-}
