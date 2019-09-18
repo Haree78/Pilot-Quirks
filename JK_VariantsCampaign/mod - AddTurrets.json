@@ -18,6 +18,8 @@
 		{ "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
 		{ "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
 		{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
+		{ "Type": "TurretDef", "Path": "turret", "AddToDB": true },
+		{ "Type": "TurretChassisDef", "Path": "turretChassis", "AddToDB": true },
 		{ "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true },
 		{ "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": true },
 		{ "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": false },

@@ -7,7 +7,7 @@
         "Manufacturer" : "Generic",
         "Model" : "NAIS Experimental",
         "UIName" : "Heat Sink (X)",
-        "Id" : "Gear_HeatSink_NAIS",
+        "Id" : "Gear_HeatSink_DHS_NAIS",
         "Name" : "NAIS Heat Sink (X)",
         "Details" : "A prototype version of the old Star League Double Heat Sink developed by NAIS.  They provide additional efficiency to the standard engine mounted Heat Sinks, though with an increased bulkiness. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",
         "Icon" : "uixSvgIcon_equipment_Heatsink"

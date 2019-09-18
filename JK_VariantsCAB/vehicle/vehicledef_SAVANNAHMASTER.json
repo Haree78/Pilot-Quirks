@@ -3,7 +3,7 @@
    "Description" : {
       "Id" : "vehicledef_SAVANNAHMASTER",
       "Name" : "Savannah Master",
-      "Details" : "",
+      "Details" : "Primarily a light recon unit, and armed with just a single Medium Laser, the Savannah Master relies on its superior mobility to keep it safe.",
       "Icon" : "",
       "Cost" : 993,
       "Rarity" : 3,

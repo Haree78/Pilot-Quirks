@@ -3,7 +3,7 @@
    "Description" : {
       "Id" : "vehicledef_CONDOR_FLAMER",
       "Name" : "Condor Flamer",
-      "Details" : "",
+      "Details" : "A recent variant produced by Red Devil Industries, the Condor Flamer variant sacrifices the long ranged firepower of the Autocannon 5 to amp up the close in and anti-personnel capabilities.  In addition to the three Medium Lasers, two Machine Guns and two Flamers, they were also able to increase the armor.",
       "Icon" : "",
       "Cost" : 993,
       "Rarity" : 3,

@@ -3,7 +3,7 @@
    "Description" : {
       "Id" : "vehicledef_DRILLSON",
       "Name" : "Drillson",
-      "Details" : "",
+      "Details" : "Entering service in 3025, the Drillson is another example of the LCAF's preference for heavy vehicles.  At the upper weight limit for a hover vehicle, the 50 ton Drillson is armed with a Large Laser and LRM-10 for long ranged punch and two SRM-2s and two Machine Guns for close in assault.",
       "Icon" : "",
       "Cost" : 993,
       "Rarity" : 3,

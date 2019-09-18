@@ -30,6 +30,42 @@
                     "op" : "Equal",
                     "val" : 0,
                     "valueConstant" : null
+                },
+                {
+                    "obj" : "Employer.Steiner",
+                    "op" : "Equal",
+                    "val" : 0,
+                    "valueConstant" : null
+                },
+                {
+                    "obj" : "Employer.Davion",
+                    "op" : "Equal",
+                    "val" : 0,
+                    "valueConstant" : null
+                },
+                {
+                    "obj" : "Employer.Kurita",
+                    "op" : "Equal",
+                    "val" : 0,
+                    "valueConstant" : null
+                },
+                {
+                    "obj" : "Employer.Marik",
+                    "op" : "Equal",
+                    "val" : 0,
+                    "valueConstant" : null
+                },
+                {
+                    "obj" : "Employer.MagistracyOfCanopus",
+                    "op" : "Equal",
+                    "val" : 0,
+                    "valueConstant" : null
+                },
+                {
+                    "obj" : "Employer.TaurianConcordat",
+                    "op" : "Equal",
+                    "val" : 0,
+                    "valueConstant" : null
                 }
             ]
         }

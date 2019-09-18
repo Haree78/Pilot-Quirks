@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 8800000,
+        "Cost": 8700000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
@@ -62,10 +62,6 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -77,10 +73,6 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
@@ -115,6 +107,10 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -128,6 +124,14 @@
             "Hardpoints": [
                 {
                     "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -206,5 +210,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Heavy Cavalry",
-    "YangsThoughts": "The Highlander 733C sacrifices some of the 733's long range ability to give it a more specialized close assault load-out."
+    "YangsThoughts": "The Highlander 733C sacrifices some of the 733's long range ability to give it a more specialized close assault load-out.  Though I am kind of surprised they didn't add in some Machine Guns or Small Lasers to really give it that extra punch in melee."
 }
