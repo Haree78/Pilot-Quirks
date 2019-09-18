@@ -1,0 +1,23 @@
+{
+    "Name": "FullXotlTables",
+    "Enabled": true,
+	
+    "Version": "1.7.0.0",
+
+    "Author": "Haree78",
+	
+	"DLL": "FullXotlTables.dll",
+
+    "Settings": 
+	{
+		"RespectUnitLanceRole" : true,
+		"RespectUnitAIRole" : true,
+		"RespectUnitTraits" : true,
+
+        "IgnoreRepetitionOnce" : true,
+        "CommonMechFlattenFactor" : 1.0,
+        "CommonMechFlattenFloor" : 50
+    },
+	
+    "Manifest": []
+}
