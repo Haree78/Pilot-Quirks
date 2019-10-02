@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_mauler_MAL-1R",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_notorsotwist"
+        }
+    ]
+}

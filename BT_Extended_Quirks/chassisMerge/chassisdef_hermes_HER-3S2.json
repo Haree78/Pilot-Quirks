@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_hermes_HER-3S2",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_notorsotwist"
+        }
+    ]
+}

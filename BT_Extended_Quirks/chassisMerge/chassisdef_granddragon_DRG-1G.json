@@ -9,6 +9,11 @@
 				"mech_quirk_narrowlowprofile",
 				"mech_quirk_stable"
 			]
+        },
+        {
+            "JSONPath": "Stability",
+            "Action": "Replace",
+            "Value": 200
         }
     ]
 }

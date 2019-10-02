@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_cicada_CDA-3M",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_nominimalarms",
+				"mech_quirk_notorsotwist"
+			]
+        }
+    ]
+}

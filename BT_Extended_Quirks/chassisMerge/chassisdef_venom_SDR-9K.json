@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_venom_SDR-9K",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_nimblejumper",
+				"mech_quirk_difficultejection"
+			]
+        }
+    ]
+}

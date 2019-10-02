@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_panther_PNT-10K",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_improvedtargetingshort",
+				"mech_quirk_nimblejumper"
+			]
+        }
+    ]
+}

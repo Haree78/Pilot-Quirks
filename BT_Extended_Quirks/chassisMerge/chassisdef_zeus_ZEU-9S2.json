@@ -1,0 +1,18 @@
+{
+    "TargetID": "chassisdef_zeus_ZEU-9S2",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_barrelfist",
+				"mech_quirk_easytomaintain"
+			]
+        },
+        {
+            "JSONPath": "MeleeToHitModifier",
+            "Action": "Replace",
+            "Value": -1
+        }
+    ]
+}

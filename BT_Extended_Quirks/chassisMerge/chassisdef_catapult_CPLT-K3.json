@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_catapult_CPLT-K3",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_nominimalarms",
+				"mech_quirk_weakheadarmor1"
+			]
+        }
+    ]
+}

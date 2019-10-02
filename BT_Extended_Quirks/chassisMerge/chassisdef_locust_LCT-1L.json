@@ -9,6 +9,11 @@
 				"mech_quirk_nominimalarms",
 				"mech_quirk_weaklegs"
 			]
+        },
+        {
+            "JSONPath": "DFASelfDamage",
+            "Action": "Replace",
+            "Value": 50
         }
     ]
 }

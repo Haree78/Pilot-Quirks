@@ -1,0 +1,19 @@
+{
+    "TargetID": "chassisdef_granddragon_DRG-5K",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_extendedtorsotwist",
+				"mech_quirk_narrowlowprofile",
+				"mech_quirk_stable"
+			]
+        },
+        {
+            "JSONPath": "Stability",
+            "Action": "Replace",
+            "Value": 200
+        }
+    ]
+}

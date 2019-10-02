@@ -1,0 +1,15 @@
+{
+    "TargetID": "chassisdef_enforcer_ENF-5D",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_barrelfist"
+        },
+        {
+            "JSONPath": "MeleeToHitModifier",
+            "Action": "Replace",
+            "Value": -1
+        }
+    ]
+}

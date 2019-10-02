@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_quickdraw_QKD-5K",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_hyperextendingactuators",
+				"mech_quirk_exposedactuators"
+			]
+        }
+    ]
+}

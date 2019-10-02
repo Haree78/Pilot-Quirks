@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_axman_AXM-2N",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_protectedactuators",
+				"mech_quirk_fullheadejection"
+			]
+        }
+    ]
+}

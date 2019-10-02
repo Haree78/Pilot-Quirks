@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_huronwarrior_HUR-WO-R4L",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_improvedsensors"
+        }
+    ]
+}

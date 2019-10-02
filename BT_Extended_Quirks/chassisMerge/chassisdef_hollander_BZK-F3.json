@@ -1,0 +1,24 @@
+{
+    "TargetID": "chassisdef_hollander_BZK-F3",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_stabilized_RightTorso",
+				"mech_quirk_reinforcedlegs",
+				"mech_quirk_unbalanced"
+			]
+        },
+        {
+            "JSONPath": "DFASelfDamage",
+            "Action": "Replace",
+            "Value": 22
+        },
+        {
+            "JSONPath": "Stability",
+            "Action": "Replace",
+            "Value": 80
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "TargetID": "chassisdef_locust_LCT-3D",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_narrowlowprofile",
+				"mech_quirk_nominimalarms",
+				"mech_quirk_weaklegs"
+			]
+        },
+        {
+            "JSONPath": "DFASelfDamage",
+            "Action": "Replace",
+            "Value": 50
+        }
+    ]
+}

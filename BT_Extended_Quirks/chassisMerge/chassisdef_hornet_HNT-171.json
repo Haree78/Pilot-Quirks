@@ -1,0 +1,14 @@
+{
+    "TargetID": "chassisdef_hornet_HNT-171",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_narrowlowprofile",
+				"mech_quirk_nominimalarms",
+				"mech_quirk_notorsotwist"
+			]
+        }
+    ]
+}

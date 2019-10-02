@@ -1,0 +1,10 @@
+{
+    "TargetID": "chassisdef_victor_VTR-9D",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_rugged1"
+        }
+    ]
+}

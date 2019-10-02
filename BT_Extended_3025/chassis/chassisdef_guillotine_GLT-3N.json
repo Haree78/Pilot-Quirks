@@ -220,19 +220,7 @@
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftArm",
-            "ComponentDefID" : "Gear_EndoSteel_2_Slot",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
-        },
-        {
-            "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Gear_EndoSteel_2_Slot",
+            "ComponentDefID" : "Gear_EndoSteel_4_Slot",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",
             "HardpointSlot" : -1,
@@ -256,7 +244,7 @@
         },
         {
             "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_EndoSteel_2_Slot",
+            "ComponentDefID" : "Gear_EndoSteel_1_Slot",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",
             "HardpointSlot" : -1,
@@ -268,7 +256,7 @@
         },
         {
             "MountedLocation" : "RightArm",
-            "ComponentDefID" : "Gear_EndoSteel_2_Slot",
+            "ComponentDefID" : "Gear_EndoSteel_3_Slot",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",
             "HardpointSlot" : -1,

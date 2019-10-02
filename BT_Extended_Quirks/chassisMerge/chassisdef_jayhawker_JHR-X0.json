@@ -6,7 +6,8 @@
             "Action": "ArrayConcat",
             "Value": [
 				"mech_quirk_narrowlowprofile",
-				"mech_quirk_stabilized_CT_LargeLaser"
+				"mech_quirk_stabilized_CT_LargeLaser",
+				"mech_quirk_poorlifesupport"
 			]
         }
     ]

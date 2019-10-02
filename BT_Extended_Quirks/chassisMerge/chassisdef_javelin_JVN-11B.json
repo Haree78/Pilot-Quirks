@@ -1,0 +1,15 @@
+{
+    "TargetID": "chassisdef_javelin_JVN-11B",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayAdd",
+            "Value": "mech_quirk_unbalanced"
+        },
+        {
+            "JSONPath": "Stability",
+            "Action": "Replace",
+            "Value": 80
+        }
+    ]
+}

@@ -4,7 +4,7 @@
 	
     "DependsOn": [],
 	
-    "OptionallyDependsOn": [ "BT_Extended_Overrides", "PermanentEvasion", "Repair Tonnage and Finances" ],
+    "OptionallyDependsOn": [ "BT_Extended_Overrides", "PermanentEvasion", "Repair Tonnage and Finances", "BT_Extended_3050" ],
 	
     "Version": "1.6.2.6",
 

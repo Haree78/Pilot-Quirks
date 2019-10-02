@@ -1,0 +1,14 @@
+{
+    "TargetID": "chassisdef_longbow_LGB-7V",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_antiaircraft",
+				"mech_quirk_searchlight_CT",
+				"mech_quirk_nominimalarms"
+			]
+        }
+    ]
+}

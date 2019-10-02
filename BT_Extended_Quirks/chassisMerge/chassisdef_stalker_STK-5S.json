@@ -1,0 +1,13 @@
+{
+    "TargetID": "chassisdef_stalker_STK-5S",
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items",
+            "Action": "ArrayConcat",
+            "Value": [
+				"mech_quirk_combatcomputer",
+				"mech_quirk_nominimalarms"
+			]
+        }
+    ]
+}

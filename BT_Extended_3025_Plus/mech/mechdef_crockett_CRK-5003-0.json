@@ -2,7 +2,8 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_assault", 
+            "unit_assault",
+			"unit_jumpOK",
             "unit_range_long",
             "unit_speed_low",
             "unit_armor_high",
