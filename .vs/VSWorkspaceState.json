@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\StabilePiloting"
   ],
-  "SelectedNode": "\\PanicSystem",
+  "SelectedNode": "\\StabilePiloting",
   "PreviewInSolutionExplorer": false
 }
