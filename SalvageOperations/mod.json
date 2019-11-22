@@ -2,7 +2,7 @@
     "Name": "SalvageOperations",
     "DLL": "SalvageOperations.dll",
 
-    "Version": "3.0",
+    "Version": "4.0-alpha",
     "Description": "Changes how mech salvage works.",
     "Author": "mpstark",
 	"Modified By": "gnivler and donZappo",

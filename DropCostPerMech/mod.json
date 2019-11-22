@@ -2,7 +2,7 @@
     "Name": "DropCostPerMech",
     "Enabled": true,
 
-    "Version": "v3.1.dZ",
+    "Version": "v4.0.dZ-alpha",
     "Description": "Calculates and subtracts drop costs per mech selected for a mission. - Modified by don Zappo",
     "Author": "Morphyum",
     "Website": "https://github.com/donZappo/DropCostPerMech",
