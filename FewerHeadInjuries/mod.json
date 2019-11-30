@@ -1,17 +1,13 @@
-{
+﻿{
     "Name": "FewerHeadInjuries",
-    "Enabled": false,
-    "Version": "1.12",
+    "Enabled": true,
+    "Version": "1.2",
     "Description": "injuries based on damage done to head",
-    "Author": "gnivler",
+    "Author": "btmodders",
 
     "DLL": "FewerHeadInjuries.dll",
-        /* formula is armourpercent * (guts+pilot) * base */
+
     "Settings": {
 
-        "GutsMultiplier": 0.5,
-        "PilotMultiplier": 0.5,
-        "BaseMultiplier": 1,
-        
-    }
+        }
 }
