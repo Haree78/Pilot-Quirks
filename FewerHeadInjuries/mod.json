@@ -1,6 +1,6 @@
 {
     "Name": "FewerHeadInjuries",
-    "Enabled": true,
+    "Enabled": false,
     "Version": "1.12",
     "Description": "injuries based on damage done to head",
     "Author": "gnivler",

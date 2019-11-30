@@ -1,7 +1,7 @@
 {
     "Name": "ISM3025",
     "DLL": "ISM3025.dll",
-    "Enabled": true,
+    "Enabled": false,
 
     "Settings": {
         "MapWidth": 200,
