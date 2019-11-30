@@ -1,6 +1,6 @@
 {
     "Name": "LootMagnet",
-    "Enabled": true,
+    "Enabled": false,
     "Version": "3.0-dZ",
     "Description": "Groups salvage of a similar type into a single pick. Provides lore-based employer shenanigans.",
     "Author": "IceRaptor",
