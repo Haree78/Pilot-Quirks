@@ -1,39 +1,7 @@
-﻿# ModTek
+# ModTek
 
 ModTek is a modding system for HBS's BATTLETECH PC that allows modders to package their mods in a self-contained manner without overwritting game files. ModTek is run at game startup and initializies other mods that conform to the [mod.json format](https://github.com/BattletechModders/ModTek/wiki/The-mod.json-format). In this way, it allows for the dynamic loading of mods at runtime with dependancies resolved and load order enforced, without having to edit the dreaded `VersionManifest.csv`. It also provides for incrementatal patching of stock game files that are easy to remove, version, and persist through patches.
 
-## Notes on dynamic enums 
-  dynamic enums handled outside manifest array. By DataAddendumEntries
-  name - name of type. Supporting types BattleTech.FactionEnumeration, BattleTech.WeaponCategoryEnumeration, BattleTech.WeaponCategoryEnumeration, BattleTech.AmmoCategoryEnumeration, BattleTech.ContractTypeEnumeration
-  path - path to file relative to mod root folder. Examples for content at BattleTech_Data\StreamingAssets\data\enums\ . You should note ID should be unique and it is YOUR responsibility as modder. 
-  
-  example:
-```
-  "DataAddendumEntries":[
-    {
-      "name": "BattleTech.FactionEnumeration",
-      "path": "Faction.json"
-    },
-    {
-      "name": "BattleTech.WeaponCategoryEnumeration",
-      "path": "WeaponCategory.json"
-    }
-  ]
-```
-
-## Enabling and disabling
-  ModTek 0.7.6+ can be disabled or enabled with fancy build-in mods menu.
-  If ModTek enabled "MODS ENABLED" check box will be always enabled.
-  To disable ModTek you should find mod named "ModTek" in list and disable it. 
-  After restart game will use build-in mod loader.
-  To enable ModTek you should find mod named "ModTek" in list and enable it. 
-  After restart game will use ModTek.
-
-### Enabling and disabling contorol
-  Moder can define two fields at mod.json
-  * Hidden - default false. If true mod not appears in mods list, but its state still can be changed while automated dependency resolving.
-  * Locked - default false. If true mod appears in mod list but user can't change it state manually but state still can be changed while automated dependency resolving.
-  
 ## Installing
 
 ModTek 0.6.* and forward integrates BTML so installing is even easier than it used to be.
