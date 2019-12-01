@@ -1,9 +1,9 @@
-{
+﻿{
     "Name": "JK_VariantsDLC",
     "Enabled": true,
 
-	"Version": "1.6.2.5",
-	"PackagedOn": "2019-07-29T16:45:00Z",
+	"Version": "1.8.0.0",
+	"PackagedOn": "2019-09-27T16:45:00Z",
 
     "Description": "Adds DLC content 'Mech Variants - currently 8 'Mech Variants, 6 Vehicle Variants and 2 Upgrades - usable in both Skirmish and Campaign modes.",
     "Website": "https://www.nexusmods.com/battletech/mods/18",

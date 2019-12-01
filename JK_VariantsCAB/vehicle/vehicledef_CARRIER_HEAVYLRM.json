@@ -1,145 +1,191 @@
-{
-   "Version" : 1,
-   "Description" : {
-      "Id" : "vehicledef_CARRIER_HEAVYLRM",
-      "Name" : "Heavy LRM Carrier",
-      "Details" : "",
-      "Icon" : "",
-      "Cost" : 993,
-      "Rarity" : 4,
-      "Purchasable" : false
-   },
-   "ChassisID" : "vehiclechassisdef_CARRIER_HEAVYLRM",
-   "VehicleTags": {
-      "items": [
-         "unit_vehicle",
-         "unit_assault",
-         "unit_tracks",
-         "unit_vehicle_carrier"
-      ],
-      "tagSetSourceFile": ""
-   },
-   "Locations" : [
-		{
-			"Location" : "Front",
-			"CurrentArmor" :70,
-			"CurrentInternalStructure" : 40,
-			"AssignedArmor" : 70,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Left",
-			"CurrentArmor" : 60,
-			"CurrentInternalStructure" : 40,
-			"AssignedArmor" : 60,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Right",
-			"CurrentArmor" : 60,
-			"CurrentInternalStructure" : 40,
-			"AssignedArmor" : 60,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Rear",
-			"CurrentArmor" : 60,
-			"CurrentInternalStructure" : 40,
-			"AssignedArmor" : 60,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Turret",
-			"CurrentArmor" : 70,
-			"CurrentInternalStructure" : 40,
-			"AssignedArmor" : 70,
-			"DamageLevel" : "Functional"
-		}
-   ],
-   "inventory" : [
-      {
-         "ComponentDefID" : "Weapon_LRM_LRM20_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Turret",
-		 "HardpointSlot" : 0,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_LRM_LRM20_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Turret",
-		 "HardpointSlot" : 1,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_LRM_LRM20_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Turret",
-		 "HardpointSlot" : 2,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_LRM_LRM20_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Turret",
-		 "HardpointSlot" : 3,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : -1,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : -1,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : -1,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : -1,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : -1,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : -1,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : -1,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : -1,
-		 "DamageLevel" : "Functional"
-      }
-   ]
+﻿{
+  "Version": 1,
+  "Description": {
+    "Id": "vehicledef_CARRIER_HEAVYLRM",
+    "Name": "Heavy LRM Carrier",
+    "Details": "",
+    "Icon": "",
+    "Cost": 993,
+    "Rarity": 4,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_CARRIER_HEAVYLRM",
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_vehicle_carrier",
+      "unit_assault",
+      "unit_tracks",
+      "unit_range_long",
+      "unit_speed_low",
+      "unit_armor_low",
+      "unit_release",
+      "MagistracyOfCanopus",
+      "TaurianConcordat",
+      "unit_rare",
+      "unit_very_rare_Davion",
+      "unit_rare_Liao",
+      "unit_very_rare_Marik",
+      "unit_very_rare_Steiner",
+      "unit_very_rare_Kurita",
+      "unit_common_MagistracyOfCanopus",
+      "unit_uncommon_TaurianConcordat",
+      "unit_none_AuriganDirectorate",
+      "unit_none_AuriganRestoration",
+      "unit_none_ComStar",
+      "unit_none_MercenaryReviewBoard",
+      "unit_very_rare_DuchyOfAndurien",
+      "unit_rare_AuriganMercenaries",
+      "unit_none_AuriganPirates",
+      "unit_uncommon_Locals",
+      "unit_none_Betrayers",
+      "unit_common_MajestyMetals",
+      "unit_none_KellHounds",
+      "unit_none_GrayDeathLegion",
+      "unit_none_FlakJackals",
+      "unit_none_LocalsBrockwayRefugees",
+      "unit_none_SelfEmployed",
+      "unit_none_MasonsMarauders",
+      "unit_none_SteelBeast",
+      "unit_none_RazorbackMercs",
+      "unit_none_RedHareRegiment",
+      "unit_none_EmeraldDawn",
+      "unit_rare_SianTriumphant",
+      "unit_rare_BlackCalderaDefense",
+      "unit_rare_BlackCalderaDefense_Hidden",
+      "unit_rare_SecuritySolutionsInc",
+      "unit_rare_PaladinProtectionLLC",
+      "unit_rare_HouseNakano",
+      "unit_rare_HouseKhulan",
+      "unit_none_ProfHorvat",
+      "unit_none_EdCorbu",
+      "unit_rare_HostileMercenaries",
+      "unit_rare_NoFaction"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 70,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 70,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 70,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 70,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 3,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3058-01-01T00:00:00Z"
 }

@@ -1,0 +1,82 @@
+﻿{
+    "Description": {
+        "Id": "3025-05-15",
+        "Name": "ComStar News Bureau",
+        "Details": "Fighting continues between minor powers in the [[DM.BaseDescriptionDefs[LoreRimwardPeriphery],Rimward Periphery]], while it appears [[DM.BaseDescriptionDefs[LoreLiaoCCAF],Capellan forces]] have increased raiding activity on [[DM.Factions[faction_Davion],Federated Suns]] systems near the [[DM.BaseDescriptionDefs[LorePeriphery],Periphery]] borders.\r\n\r\n\r\n\r\nTwo new 'Mech variant have been spotted in the field.  Throughout the [[DM.BaseDescriptionDefs[LoreSteinerLCAF],LCAF]] a new version of their beloved [[DM.MechDefs[mechdef_commando_COM-3A],Commando]] has been seen and it seems like it is causing quite a stir.\r\n\r\n\r\n\r\nMeanwhile, the neighboring [[DM.BaseDescriptionDefs[LoreKuritaDCMS],DCMS]] has unveiled the [[DM.MechDefs[mechdef_hermesII_HER-4K],Hermes III]], which appears to be thanks to the fruit born of the [[DM.BaseDescriptionDefs[LoreKapteynAccords],Concord of Kapteyn]].",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "[[DM.BaseDescriptionDefs[LoreMercHatchysHelpers],Hatchy's Helpers]] have been dispatched to the [[DM.BaseDescriptionDefs[LoreRimwardPeriphery],Rimward Frontier]] region to assist with an apparent Periphery Pox outbreak.  ComStar has aided the Helpers by providing priority [[DM.BaseDescriptionDefs[LoreHPG],HPG]] access routing for any reported outbreaks.  A cure is still being searched for.\r\n\r\n\r\n\r\nPlease report cases to any local [[DM.BaseDescriptionDefs[LoreComStarAdept],ComStar Adept]].\r\n\r\n\r\n\r\n\r\n\r\nThis has been the CNB May broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

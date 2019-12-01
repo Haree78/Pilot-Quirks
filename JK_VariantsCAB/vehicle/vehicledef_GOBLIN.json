@@ -1,81 +1,127 @@
-{
-   "Version" : 1,
-   "Description" : {
-      "Id" : "vehicledef_GOBLIN",
-      "Name" : "Goblin",
-      "Details" : "",
-      "Icon" : "",
-      "Cost" : 973,
-      "Rarity" : 1,
-      "Purchasable" : false
-   },
-   "ChassisID" : "vehiclechassisdef_GOBLIN",
-   "VehicleTags": {
-      "items": [
-         "unit_vehicle",
-         "unit_medium",
-         "unit_tracks"
-      ],
-      "tagSetSourceFile": ""
-   },
-   "Locations" : [
-		{
-			"Location" : "Front",
-			"CurrentArmor" : 150,
-			"CurrentInternalStructure" : 25,
-			"AssignedArmor" : 150,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Left",
-			"CurrentArmor" : 120,
-			"CurrentInternalStructure" : 25,
-			"AssignedArmor" : 120,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Right",
-			"CurrentArmor" : 120,
-			"CurrentInternalStructure" : 25,
-			"AssignedArmor" : 120,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Rear",
-			"CurrentArmor" : 100,
-			"CurrentInternalStructure" : 25,
-			"AssignedArmor" : 100,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Turret",
-			"CurrentArmor" : 150,
-			"CurrentInternalStructure" : 25,
-			"AssignedArmor" : 150,
-			"DamageLevel" : "Functional"
-		}
-   ],
-   "inventory" : [
-      {
-         "ComponentDefID" : "Weapon_MachineGun_MachineGun_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
-         "HardpointSlot" : 0,
-         "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_MG_Half",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-         "HardpointSlot" : -1,
-         "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_Laser_LargeLaser_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Turret",
-         "HardpointSlot" : 0,
-         "DamageLevel" : "Functional"
-      }
-   ]
+﻿{
+  "Version": 1,
+  "Description": {
+    "Id": "vehicledef_GOBLIN",
+    "Name": "Goblin",
+    "Details": "",
+    "Icon": "",
+    "Cost": 973,
+    "Rarity": 1,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_GOBLIN",
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_medium",
+      "unit_tracks",
+      "unit_range_long",
+      "unit_speed_low",
+      "unit_release",
+      "Davion",
+      "NotMarik",
+      "NotSteiner",
+      "unit_rare",
+      "unit_common_Davion",
+      "unit_very_rare_Liao",
+      "unit_none_Marik",
+      "unit_ext_rare_Steiner",
+      "unit_rare_Kurita",
+      "unit_rare_MagistracyOfCanopus",
+      "unit_rare_TaurianConcordat",
+      "unit_rare_AuriganDirectorate",
+      "unit_rare_AuriganRestoration",
+      "unit_rare_ComStar",
+      "unit_very_rare_MercenaryReviewBoard",
+      "unit_none_DuchyOfAndurien",
+      "unit_rare_AuriganMercenaries",
+      "unit_rare_AuriganPirates",
+      "unit_rare_Locals",
+      "unit_rare_Betrayers",
+      "unit_none_MajestyMetals",
+      "unit_none_KellHounds",
+      "unit_none_GrayDeathLegion",
+      "unit_none_FlakJackals",
+      "unit_rare_LocalsBrockwayRefugees",
+      "unit_very_rare_SelfEmployed",
+      "unit_none_MasonsMarauders",
+      "unit_none_SteelBeast",
+      "unit_none_RazorbackMercs",
+      "unit_none_RedHareRegiment",
+      "unit_none_EmeraldDawn",
+      "unit_very_rare_SianTriumphant",
+      "unit_rare_BlackCalderaDefense",
+      "unit_rare_BlackCalderaDefense_Hidden",
+      "unit_rare_SecuritySolutionsInc",
+      "unit_rare_PaladinProtectionLLC",
+      "unit_rare_HouseNakano",
+      "unit_rare_HouseKhulan",
+      "unit_rare_ProfHorvat",
+      "unit_very_rare_EdCorbu",
+      "unit_rare_HostileMercenaries",
+      "unit_rare_NoFaction"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2500-01-01T00:00:00Z"
 }

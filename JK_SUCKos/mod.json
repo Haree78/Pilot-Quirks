@@ -1,8 +1,11 @@
-{
+﻿{
     "Name": "JK_SUCKos",
     "Enabled": true,
-	"Version": "1.6.2.5",
+    
+	"Version": "1.8.0.0",
 	"PackagedOn": "2019-08-08T16:45:00Z",
+    
+    "OptionallyDependsOn": [ "ISM3025" ],
     
     "Description": "Adjusts star system coordinates for all systems in HBS game to match Sarna coordinates.  Also adjusts 2 HBS created systems to allow for jump routes to remain consistent.",
     "Author": "Justin Kase",

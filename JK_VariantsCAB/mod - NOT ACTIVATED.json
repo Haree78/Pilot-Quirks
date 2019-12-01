@@ -1,11 +1,11 @@
-{
+﻿{
     "Name": "JK_VariantsCAB",
     "Enabled": false,
 
     "DependsOn": [ "JK_VariantsCampaign" ],
 
-	"Version": "1.6.2.5",
-	"PackagedOn": "2019-08-08T16:45:00Z",
+	"Version": "1.7.1.1",
+	"PackagedOn": "2019-09-27T16:45:00Z",
     
     "OptionallyDependsOn": [ "CommunityBundles" ],
 

@@ -1,0 +1,208 @@
+﻿{
+    "Description": {
+        "Cost": 3300000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Vulcan",
+        "Id": "chassisdef_vulcan_VL-2T",
+        "Name": "Vulcan",
+        "Details": "The Vulcan is lightly armored at only five tons, though this is typically sufficient when facing infantry forces, while its narrow profile makes it harder to hit. With a cruising speed of 64.8 km/h, it is enhanced with by six jump jets mounted in the rear of the Vulcan's torso which are specially vented to reduce heat build-up in the rear, giving it a jumping range of 180 meters.",
+        "Icon": "uixTxrIcon_vulcan"
+    },
+    "MovementCapDefID": "movedef_vulcan",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_vulcan",
+    "PrefabIdentifier": "chrprfmech_vulcanbase-001",
+    "PrefabBase": "vulcan",
+    "Tonnage": 40,
+    "InitialTonnage": 21.5,
+    "weightClass": "MEDIUM",
+    "BattleValue": 4252000,
+    "Heatsinks": 0,
+    "TopSpeed": 120,
+    "TurnRadius": 90,
+    "MaxJumpjets": 6,
+    "Stability": 130,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 40,
+    "MeleeInstability": 40,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 40,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 40,
+  "DFAInstability": 40,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }				
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 100,
+            "MaxRearArmor": 50,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+			],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 120,
+            "MaxRearArmor": 60,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }			
+			],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 100,
+            "MaxRearArmor": 50,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 13,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0
+        }
+    ],
+    "VariantName": "VL-2T",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Close Support & Anti Personnel",
+    "YangsThoughts": "Ah, the 'Scarecrow', this 'Mech is an example of function dictating form.  It was designed primarily as an anti-infantry unit, which it does a reasonably good job at.  The 2T is pretty mobile and it can engage at most ranges.  Problem is, it is doesn't really have the armaments for facing anything larger than a light 'Mech.  Other than being an annoyance.  Might have been better to call it the 'Gnat'."
+}

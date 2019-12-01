@@ -1,4 +1,4 @@
-{
+﻿{
   "Description": {
     "Cost": 2700000,
     "Rarity": 5,
@@ -11,11 +11,11 @@
     "Details": "Many of the Ravens captured by the Federated Suns in the Fourth Succession War were refitted in 3030 to the 2X standard. This variant replaced the EW equipment with a Large Laser.",
     "Icon": "uixTxrIcon_raven"
   },
-  "MovementCapDefID" : "movedef_raven_RVN-1X",
-  "PathingCapDefID" : "pathingdef_light",
-  "HardpointDataDefID" : "hardpointdatadef_raven",
-  "PrefabIdentifier" : "chrPrfMech_ravenBase-001",
-  "PrefabBase" : "raven",
+  "MovementCapDefID": "movedef_raven_RVN-1X",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_raven",
+  "PrefabIdentifier": "chrPrfMech_ravenBase-001",
+  "PrefabBase": "raven",
   "Tonnage": 35,
   "InitialTonnage": 12.5,
   "weightClass": "LIGHT",
@@ -23,7 +23,7 @@
   "Heatsinks": 0,
   "TopSpeed": 210,
   "TurnRadius": 90,
-  "MaxJumpjets": 8,
+  "MaxJumpjets": 0,
   "Stability": 100,
   "StabilityDefenses": [
     0,
@@ -49,9 +49,7 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
@@ -60,8 +58,7 @@
     },
     {
       "Location": "LeftArm",
-      "Hardpoints": [
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 8,
       "MaxArmor": 60,
@@ -92,8 +89,7 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 110,
@@ -124,7 +120,7 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },		
+        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -138,9 +134,7 @@
     },
     {
       "Location": "LeftLeg",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 80,
@@ -149,9 +143,7 @@
     },
     {
       "Location": "RightLeg",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 80,
@@ -161,52 +153,51 @@
   ],
   "LOSSourcePositions": [
     {
-        "x" : 0,
-        "y" : 10,
-        "z" : 3
+      "x": 0,
+      "y": 10,
+      "z": 3
     },
     {
-        "x" : 1,
-        "y" : 9,
-        "z" : -2
+      "x": 1,
+      "y": 9,
+      "z": -2
     },
     {
-        "x" : -1,
-        "y" : 9,
-        "z" : -2
+      "x": -1,
+      "y": 9,
+      "z": -2
     }
-],
-"LOSTargetPositions" : [
+  ],
+  "LOSTargetPositions": [
     {
-        "x" : 0,
-        "y" : 10,
-        "z" : 3
+      "x": 0,
+      "y": 10,
+      "z": 3
     },
     {
-        "x" : 1,
-        "y" : 9,
-        "z" : -2
+      "x": 1,
+      "y": 9,
+      "z": -2
     },
     {
-        "x" : -1,
-        "y" : 9,
-        "z" : -2
+      "x": -1,
+      "y": 9,
+      "z": -2
     },
     {
-        "x" : 1,
-        "y" : 5,
-        "z" : -1
+      "x": 1,
+      "y": 5,
+      "z": -1
     },
     {
-        "x" : -1,
-        "y" : 5,
-        "z" : -1
+      "x": -1,
+      "y": 5,
+      "z": -1
     }
-],
+  ],
   "VariantName": "RVN-2X",
   "ChassisTags": {
-    "items": [
-    ],
+    "items": [],
     "tagSetSourceFile": ""
   },
   "StockRole": "Very Fast Scout",

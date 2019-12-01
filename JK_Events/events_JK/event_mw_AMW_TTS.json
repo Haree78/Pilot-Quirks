@@ -1,0 +1,535 @@
+﻿{
+    "Description" : {
+        "Id" : "event_mw_AMW_TTS",
+        "Name" : "AMechWarrior's Dreams",
+        "Details" : "While going over monthly finances in your quarters, you are interrupted by a knock at the door.  Relieved to be distracted from the tedium of being a spreadsheet warrior you answer the door and are greeted by [[TGT_MW,{TGT_MW.Callsign}]].\r\n\r\n\"Hey Commander {COMMANDER.LastName}, I think I might be on to something.\"\r\n\r\nYou nod your head to [[TGT_MW,{TGT_MW.Callsign}]] and say, \"What have you and Yang been up to [[TGT_MW,{TGT_MW.LastName}]]?\"\r\n\r\nTaking out a datapad, he turns it to you. \"I was poking through the salvage that we recovered from those drones at Nautilus Base and I think I can combine that with a TTS system to make a hybrid more capable than a standard TTS.\"\r\n\r\n\"You have my attention, go on\", you respond.\r\n\r\nHe picks up in an excited tone. \"The principles are quite simple, and the simulations I have run seem to verify the numbers, by combining components from a TTS with the Drone brain, we should be able to multi-thread targeting allowing for a system that grants bonuses to all weapons types in an asynchronous fashion, which, at that speed, would appear simultaneous to our eyes.  I would just need to purchase the right TTS and be given access to use some of the scrap from the Nautilus mission.\r\n\r\nYou hold up your hand cutting him off, \"I can see where this is going, bottom line, how many C-Bills are we talking?\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] begins to rub the back of his neck, \"If we want to do it right, I would need to buy a certain TTS system to integrate it with, it's the most similar heritage to whatever contractor built the drones.  Alternatively, I could try to use what we have onboard, along with a few minor expenses and do it on the cheap.\"",
+        "Icon" : "uixTxrSpot_CommandersQuarters.dds"
+    },
+    "Scope" : "MechWarrior",
+    "Weight" : 10,
+    "Requirements" : {
+        "Scope" : "MechWarrior",
+        "RequirementTags" : {
+            "tagSetSourceFile" : "Tags/PilotNameTags",
+            "items" : [
+                "name_AMechWarrior"
+            ]
+        },
+        "ExclusionTags" : {
+            "tagSetSourceFile" : "Tags/PilotTags",
+            "items" : [
+                "event_mw_AMW_TTS"
+            ]
+        },
+        "RequirementComparisons" : [
+            {
+                "obj" : "Injuries",
+                "op" : "Equal",
+                "val" : 0,
+                "valueConstant" : "0"
+            }
+        ]
+    },
+    "AdditionalRequirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : null,
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : [],
+                "tagSetSourceFile" : "Tags/CompanyTags"
+            },
+            "RequirementComparisons" : [
+                {
+                    "obj" : "Funds",
+                    "op" : "GreaterThanOrEqual",
+                    "val" : 400000,
+                    "valueConstant" : "400000"
+                },                {
+                    "obj" : "NextStoryMilestone",
+                    "op" : "GreaterThan",
+                    "val" : 420,
+                    "valueConstant" : "420"
+                }
+            ]
+        }
+    ],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "We can't afford the cost right now.",
+                "Details" : "Non-participation option",
+                "Icon" : ""
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Nothing happens",
+                        "Details" : "Glancing back over your shoulder at the financial reports you left only moments ago, you sigh in resignation, \"I'm sorry [[TGT_MW,{TGT_MW.Callsign}]], we just don't have the spare funds at the moment for your pet project.\"\r\n\r\nLooking a little crestfallen, but still resolute, \"I understand Commander, if you don't mind me continuing to work on it, maybe I can find some outside investors or save up enough to do it on my own.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 80,
+                    "Results" : [
+                        {
+                            "Scope" : "MechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "event_mw_AMW_TTS"
+                                ],
+                                "tagSetSourceFile" : "Tags/PilotTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                },
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_1",
+                        "Name" : "Nothing happens",
+                        "Details" : "Glancing back over your shoulder at the financial reports you left only moments ago, you sigh in resignation, \"I'm sorry [[TGT_MW,{TGT_MW.Callsign}]], we just don't have the spare funds at the moment for your pet project.\"\r\n\r\nLooking crestfallen, yet resolute, \"I understand Commander, if you don't mind me continuing to work on it, maybe I can find some outside investors or save up enough to do it on my own.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 20,
+                    "Results" : [
+                        {
+                            "Scope" : "MechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "pilot_morale_low"
+                                ],
+                                "tagSetSourceFile" : "Tags/PilotTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : true,
+                            "ResultDuration" : 45
+                        },
+                        {
+                            "Scope" : "MechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "event_mw_AMW_TTS"
+                                ],
+                                "tagSetSourceFile" : "Tags/PilotTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "Give {TGT_MW.Obj} the minimum funds needed.",
+                "Details" : "[\u00A2100,000]",
+                "Icon" : ""
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "Eureka",
+                        "Details" : "A few days later, [[TGT_MW,{TGT_MW.Callsign}]] appears at your quarters again.  \"Commander, with some help from Dr. Murad and Yang, I think we got this working.  It is a bulkier than a standard TTS as we needed to use the casing from the Drone, but it is able to interface with all weapon systems on a 'Mech, with the exception of the close in weapons like Machine Guns.  Yang and Murad documented it all, so we can make more, but only if we can find more Drone components.\"\r\n\r\n\"Excellent work [[TGT_MW,{TGT_MW.Callsign}]], I can't wait to field test this.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 15,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Item.UpgradeDef.Gear_TargetingTrackingSystem_AMW_J11",
+                                    "value" : "1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-100000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "MechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "event_mw_AMW_TTS"
+                                ],
+                                "tagSetSourceFile" : "Tags/PilotTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                },
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_1",
+                        "Name" : "Eureka",
+                        "Details" : "A few days later, [[TGT_MW,{TGT_MW.Callsign}]] appears at your quarters again.  \"Commander, even with Dr. Murad and Yang jumping in, we couldn't get this to work and it was a total loss.  The ideas are sound, but the tech we salvaged from the drone couldn't be integrated with what we had to work with.\"\r\n\r\n\"Well, you can't win them all [[TGT_MW,{TGT_MW.Callsign}]], it was.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 75,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-100000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "MechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "event_mw_AMW_TTS"
+                                ],
+                                "tagSetSourceFile" : "Tags/PilotTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                },
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_2",
+                        "Name" : "Success, sort of",
+                        "Details" : "A few days later, [[TGT_MW,{TGT_MW.Callsign}]] appears at your quarters again.  \"Good evening Commander, unfortunately the Drone brain was more damaged than we thought, and we weren't able to get it working.\"\r\n\r\n\"So, we basically blew that \u00A2100k?\"\r\n\r\n\"Actually, I do have good news there, while we couldn't achieve everything I hoped for, we still managed to cobble together a reasonable TTS system, just not all that I hoped it would be.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 10,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Item.UpgradeDef.Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII",
+                                    "value" : "1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-100000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "MechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "event_mw_AMW_TTS"
+                                ],
+                                "tagSetSourceFile" : "Tags/PilotTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_2",
+                "Name" : "Give {TGT_MW.Obj} the funds needed.",
+                "Details" : "[\u00A2400,000]",
+                "Icon" : ""
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_2_0",
+                        "Name" : "Success, new TTS",
+                        "Details" : "A few days later, [[TGT_MW,{TGT_MW.Callsign}]] appears at your quarters again.  \"Commander, with some help from Dr. Murad and Yang, I think we got this working.  It is a bulkier than a standard TTS as we needed to use the casing from the Drone, but it is able to interface with all weapon systems on a 'Mech, with the exception of the close in weapons like Machine Guns.  Yang and Murad documented it all, so we can make more, but only if we can find more Drone components.\"\r\n\r\n\"Excellent work [[TGT_MW,{TGT_MW.Callsign}]], I can't wait to field test this.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 95,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Item.UpgradeDef.Gear_TargetingTrackingSystem_AMW_J11",
+                                    "value" : "1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-400000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "MechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "event_mw_AMW_TTS"
+                                ],
+                                "tagSetSourceFile" : "Tags/PilotTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "MechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "pilot_morale_high"
+                                ],
+                                "tagSetSourceFile" : "Tags/PilotTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : true,
+                            "ResultDuration" : 45
+                        }
+                    ]
+                },
+                {
+                    "Description" : {
+                        "Id" : "outcome_2_1",
+                        "Name" : "Success, sort of",
+                        "Details" : "A few days later, [[TGT_MW,{TGT_MW.Callsign}]] appears at your quarters again.  \"Good evening Commander, unfortunately the Drone brain was more damaged than we thought, and we weren't able to get it working.\"\r\n\r\n\"So, we basically blew that \u00A2400k?\"\r\n\r\n\"Actually, I do have good news there, while we couldn't achieve everything I hoped for, we still managed to cobble together a reasonable TTS system, just not all that I hoped it would be.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 5,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Item.UpgradeDef.Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII",
+                                    "value" : "1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-400000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "MechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "event_mw_AMW_TTS"
+                                ],
+                                "tagSetSourceFile" : "Tags/PilotTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "NORMAL"
+}

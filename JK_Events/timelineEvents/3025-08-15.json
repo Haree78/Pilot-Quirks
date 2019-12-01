@@ -1,0 +1,82 @@
+﻿{
+    "Description": {
+        "Id": "3025-08-15",
+        "Name": "ComStar News Bureau",
+        "Details": "The [[DM.SystemDefs[starsystemdef_Udibi],Udibi]] system was raided by [[DM.BaseDescriptionDefs[LoreDCMSSorensonsSabres],Sorenson's Sabres]], an elite unit in the [[DM.BaseDescriptionDefs[LoreKuritaDCMS],DCMS]], throwing [[DM.BaseDescriptionDefs[LoreDavionAFFS],AFFS]] into immediate action to counter the assault.\r\n\r\n\r\n\r\nFighting continues to be fierce on [[DM.SystemDefs[starsystemdef_Galtor],Galtor III]], with the [[DM.BaseDescriptionDefs[LoreDavionAFFS],AFFS]] losing ground to the Combine forces on all fronts.\r\n\r\n\r\n\r\nHowever, not all was bleak for the Federated Suns as they managed to retake the recently occupied worlds of [[DM.SystemDefs[starsystemdef_Redfield],Redfield]] and [[DM.SystemDefs[starsystemdef_SteinsFolly],Stein's Folly]], pushing the [[DM.BaseDescriptionDefs[LoreLiaoCCAF],CCAF]] back into [[DM.Factions[faction_Liao],Capellan]] space.\r\n\r\n\r\n\r\nIn a daring raid last month, the [[DM.BaseDescriptionDefs[LoreMarikFWLM],FWLM]] assaulted the [[DM.SystemDefs[starsystemdef_Clinton],Clinton system]], home base of the mysterious [[DM.BaseDescriptionDefs[LoreMercSnordsIrregulars],Snord's Irregulars]].  The attacking forces were soundly defeated and driven out of system and it is unclear what their goals were, though it is speculated that it may have had to do with the long standing feud between House Marik and the Irregulars.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "The [[DM.BaseDescriptionDefs[LoreComStarExplorerCorps],ComStar Explorer Corps]] celebrates its 66th anniversary this month.  Tasked with the divine duty to search out wayward elements of humanity lost in the centuries of war, the Explorer Corps plumb the depths of the [[DM.BaseDescriptionDefs[LoreDeepPeriphery],Deep Periphery]] ever seeking.\r\n\r\n\r\n\r\nIf you are interested in a life of adventure in service to your fellow man, you may reach out to us through normal channels at your local ComStar facility.\r\n\r\n\r\n\r\n\r\n\r\nThis has been the CNB August broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

@@ -1,0 +1,82 @@
+﻿{
+    "Description": {
+        "Id": "3025-02-15",
+        "Name": "ComStar News Bureau",
+        "Details": "Minor border flare-ups are still occurring, including a recent attack on the [[DM.Factions[faction_Steiner],Lyran]] world [[DM.SystemDefs[starsystemdef_Zaniah],Zaniah]] by [[DM.BaseDescriptionDefs[LoreMarikFWLM],Free Worlds League forces]].  The enigmatic [[DM.BaseDescriptionDefs[LoreMercSnordsIrregulars],Snord's Irregulars]] were sent to relieve the beleaguered Lyran forces on Zaniah driving off the invading forces.  Civilian casualties over the course of the raid were high as the [[DM.Factions[faction_Marik],Free Worlds League]] forces primary raid targets were all in major population centers.  ComStar extends their prayers to those impacted by the senseless violence.\r\n\r\n\r\n\r\n[[DM.BaseDescriptionDefs[LoreCorpSLLewisInc],S.L. Lewis Inc.]] has begun shipping their first production run of [[DM.VehicleDefs[vehicledef_SAVANNAHMASTER].Description,Savannah Master]] hover scout vehicles, with the Lyran Commonwealth being the primary investor.   These small craft barely qualify as a combat vehicle with very little armor and only a single Medium Laser, though they do move at an impressive speed.\r\n\r\n\r\n\r\nPirate raids continue while the [[DM.BaseDescriptionDefs[LoreGreatHouses],Great Houses]] are preoccupied with their own goals.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "ComStar has begun an initiative to help repair water treatment facilities on several [[DM.BaseDescriptionDefs[LorePeriphery],Periphery]] worlds to provide clean and pure water for those populations.  If you are interested in aiding your fellow man, we encourage you to reach out to your local [[DM.BaseDescriptionDefs[LoreComStarAdept],Adept]].\r\n\r\n\r\n\r\nIf anyone has further information on the actions of [[DM.BaseDescriptionDefs[LoreMercSnordsIrregulars],Snord's Irregulars]] on Zaniah, we would be interested in those details.\r\n\r\n\r\n\r\n\r\n\r\nThis has been the CNB February broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

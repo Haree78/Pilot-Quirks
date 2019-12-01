@@ -1,0 +1,82 @@
+﻿{
+    "Description": {
+        "Id": "3025-04-15",
+        "Name": "ComStar News Bureau",
+        "Details": "Seems the old Terran tradition of April Fools' held true for the [[DM.BaseDescriptionDefs[LoreFWLMRegulanHussars],Regulan Hussars]], as their raid on [[DM.SystemDefs[starsystemdef_Cavanaugh],Cavanaugh]] was thwarted at every turn with bad luck and poor execution.  If not for the actions of the [[DM.BaseDescriptionDefs[LoreFWLMRollingThunder],Rolling Thunder Company]], it is likely the unit would have met their end.\r\n\r\n\r\n\r\n[[DM.BaseDescriptionDefs[LoreCorpRedDevilInd],Red Devil Industries]], located on [[DM.SystemDefs[starsystemdef_Pandora],Pandora]] in the [[DM.Factions[faction_Steiner],Lyran Commonwealth]], have unveiled a new variant of the venerable [[DM.MechDefs[mechdef_battlemaster_BLR-1S],BattleMaster]] design, this new variant focuses more on acting in a missile support role.  This will surely pose a new threat to both their neighbors - truly Pandora's Box has been opened once again.\r\n\r\n\r\n\r\nThere have been continued reports of increased pirate activity along the [[DM.BaseDescriptionDefs[LoreCorewardPeriphery],Coreward Periphery]] borders of the Lyran Commonwealth and [[DM.Factions[faction_Kurita],Draconis Combine]].",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "ComStar is initiating literacy programs on rural worlds, free pamphlets of the Blessed Blake's writings are available at your nearest ComStar relay station along with classes.\r\n\r\n\r\n\r\nCases of Periphery Pox have been reported in the [[DM.BaseDescriptionDefs[LoreRimwardPeriphery],Rimward Periphery]] region, be vigilant and may the light of Blake guide your way!\r\n\r\n\r\n\r\n\r\n\r\nThis has been the CNB April broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

@@ -1,0 +1,16 @@
+﻿{
+    "Name": "BT_Extended_3025_PlusVee",
+    "Enabled": true,
+
+	"Version": "1.8.0.0",
+	"PackagedOn": "2019-06-04T16:45:00Z",
+	
+	"DependsOn": [ "JK_VariantsCampaign" ],
+
+    "Manifest": [
+        { "Type": "MovementCapabilitiesDef", "Path": "movement" },
+		{ "Type": "PathingCapabilitiesDef", "Path": "pathing", "AddToDB": true },
+		{ "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true },
+		{ "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": true }
+    ]
+}

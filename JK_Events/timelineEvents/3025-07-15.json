@@ -1,0 +1,82 @@
+﻿{
+    "Description": {
+        "Id": "3025-07-15",
+        "Name": "ComStar News Bureau",
+        "Details": "Following up on their gains in the [[DM.BaseDescriptionDefs[LoreCapellanMarch],Capellan March]], the [[DM.BaseDescriptionDefs[LoreLiaoCCAF],CCAF]] forces (joined by the [[DM.BaseDescriptionDefs[LoreCCAFDeathCommandos],Death Commandos]]) conquered [[DM.SystemDefs[starsystemdef_SteinsFolly],Stein's Folly]].  Once again, the [[DM.BaseDescriptionDefs[LoreDavionAFFS],AFFS]] appear to have been caught flat footed.\r\n\r\n\r\n\r\nIt seems the [[DM.Factions[faction_Davion],Federated Suns]] can't catch a break, the [[DM.Factions[faction_Kurita],Draconis Combine]] launched a massive assault on [[DM.SystemDefs[starsystemdef_Galtor],Galtor III]] last month, with a combined effort by several [[DM.BaseDescriptionDefs[LoreKuritaDCMS],DCMS]] units.  From all reports, it sounds like the local AFFS troops are outmatched and outnumbered.\r\n\r\n\r\n\r\nAn unusual report has come in about a radical [[DM.MechDefs[mechdef_charger_CGR-1A1],Charger]] variant which was developed by a master technician in the [[DM.BaseDescriptionDefs[LoreMercHRB],Hat-in-the-Ring]] mercenary unit.  The so-called '[[DM.MechDefs[mechdef_charger_CGR-SB],Challenger]]' reduces the engine to upgrade the weapon payload to be a serious threat.\r\n\r\n\r\n\r\nThe Combine has unveiled a new Tokugawa variant, the [[DM.VehicleDefs[vehicledef_TOKUGAWA_TKG-151].Description,TKG-151]], which is armed with dual [[DM.WeaponDefs[Weapon_Autocannon_AC2_0-STOCK],Autocannon 2s]] for ranged sniping.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "The mercenary unit known as {COMPANY.CompanyName} has been very active over the past several months in this region shooting up the [[DM.BaseDescriptionDefs[LoreMRB],MRB]] rankings.\r\n\r\n\r\n\r\nIf you find yourself in need of a reputable band of guns for hire, trust ComStar's Mercenary Review Board to provide you with an unbiased rating and discreet management of your contracts.\r\n\r\n\r\n\r\n\r\n\r\nThis has been the CNB July broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

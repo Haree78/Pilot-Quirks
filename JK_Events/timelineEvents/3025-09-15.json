@@ -1,0 +1,82 @@
+﻿{
+    "Description": {
+        "Id": "3025-09-15",
+        "Name": "ComStar News Bureau",
+        "Details": "The [[DM.BaseDescriptionDefs[LoreAllianceGames],2nd Alliance Games]] were held on [[DM.SystemDefs[starsystemdef_TauCeti(NewEarth2116+)],New Earth]] throughout August.  Broadcast to both the [[DM.Factions[faction_Steiner],Lyran Commonwealth]] and [[DM.Factions[faction_Davion],Federated Suns]], the [[DM.BaseDescriptionDefs[LoreSteinerLCAF],LCAF]] once again had a tough time of it, losing all mock engagements against their [[DM.BaseDescriptionDefs[LoreDavionAFFS],AFFS]] counterparts.  We are sure many viewers in Lyran space were disappointed in their showing.\r\n\r\n\r\n\r\nDistracting from the games, the assault on [[DM.SystemDefs[starsystemdef_Galtor],Galtor III]] continues with the [[DM.Factions[faction_Kurita],Combine]] looking like they will be the clear winner in the engagement, with only a few minor obstacles standing in their way before conquering the world.\r\n\r\n\r\n\r\nRebellious elements resorted to violence on [[DM.SystemDefs[starsystemdef_Hongqiao],Hongqiao]] after the announcement of new tax laws from Regulus.  In what has been seen as a heavy handed reaction, 'Mech units (including the [[DM.BaseDescriptionDefs[LoreFWLMRollingThunder],Rolling Thunder]]) were dispatched to deal with the guerilla elements on the steamy jungle world.\r\n\r\n\r\n\r\nA missile heavy variant of the [[DM.MechDefs[mechdef_hunchback_HBK-4G],Hunchback]] has made its appearance, the new [[DM.MechDefs[mechdef_hunchback_HBK-4SP],HBK-4SP]] relies on its twin [[DM.WeaponDefs[Weapon_SRM_SRM6_0-STOCK],SRM-6s]] to dish out a hellish spread of damage.  Though less concentrated than the standard Hunchback's payload, 4 tons of [[DM.AmmoDefs[Ammunition_SRM].Description,SRM ammo]] keep the missiles flying.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Our coverage of the [[DM.BaseDescriptionDefs[LoreSolaris7],Solaris VII]] [[DM.BaseDescriptionDefs[LoreGrandTournament],Grand Tournament]] begins next month with the trophy for the new Class Six Champion up for grabs.  Can Hans Moder hold onto his title for a 2nd year running or will he be usurped?\r\n\r\n\r\n\r\nYou can follow the Solaris VII matches through our broadcasts, or catch up on the stats of your favorite MechWarriors in your local ComStar publications.\r\n\r\n\r\n\r\n\r\n\r\nThis has been the CNB September broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

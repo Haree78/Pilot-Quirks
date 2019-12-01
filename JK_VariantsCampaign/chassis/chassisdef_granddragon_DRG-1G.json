@@ -1,219 +1,219 @@
-{
-    "Description": {
-        "Cost": 6100000,
-        "Rarity": 5,
-        "Purchasable": true,
-        "Manufacturer": "",
-        "Model": "",
-        "UIName": "Grand Dragon",
-        "Id": "chassisdef_granddragon_DRG-1G",
-        "Name": "Grand Dragon",
-        "Details": "Affectionately known as the 'Grand Dragon', the DRG-1G replaces the AC5 with a PPC, Medium Laser and 2 extra Heat Sinks.",
-        "Icon": "uixTxrIcon_dragon"
+﻿{
+  "Description": {
+    "Cost": 6100000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Grand Dragon",
+    "Id": "chassisdef_granddragon_DRG-1G",
+    "Name": "Grand Dragon",
+    "Details": "Affectionately known as the 'Grand Dragon', the DRG-1G replaces the AC5 with a PPC, Medium Laser and 2 extra Heat Sinks.",
+    "Icon": "uixTxrIcon_dragon"
+  },
+  "MovementCapDefID": "movedef_dragon_DRG-1N",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_dragon",
+  "PrefabIdentifier": "chrPrfMech_dragonBase-001",
+  "PrefabBase": "dragon",
+  "Tonnage": 60,
+  "InitialTonnage": 31,
+  "weightClass": "HEAVY",
+  "BattleValue": 5383000,
+  "Heatsinks": 0,
+  "TopSpeed": 150,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 85,
+  "MeleeInstability": 60,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 75,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 75,
+  "DFAInstability": 75,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
     },
-    "MovementCapDefID": "movedef_dragon_DRG-1N",
-    "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_dragon",
-    "PrefabIdentifier": "chrPrfMech_dragonBase-001",
-    "PrefabBase": "dragon",
-    "Tonnage": 60,
-    "InitialTonnage": 31,
-    "weightClass": "HEAVY",
-    "BattleValue": 5383000,
-    "Heatsinks": 0,
-    "TopSpeed": 150,
-    "TurnRadius": 90,
-    "MaxJumpjets": 5,
-    "Stability": 160,
-    "StabilityDefenses": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-    ],
-    "SpotterDistanceMultiplier": 1,
-    "VisibilityMultiplier": 1,
-    "SensorRangeMultiplier": 1,
-    "Signature": 0,
-    "Radius": 8,
-    "PunchesWithLeftArm": false,
-    "MeleeDamage": 85,
-    "MeleeInstability": 60,
-    "MeleeToHitModifier": 0,
-    "DFADamage": 75,
-    "DFAToHitModifier": 0,
-    "DFASelfDamage": 75,
-    "DFAInstability": 75,
-    "Locations": [
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
         {
-            "Location": "Head",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 1,
-            "MaxArmor": 45,
-            "MaxRearArmor": -1,
-            "InternalStructure": 16
+          "WeaponMount": "Energy",
+          "Omni": false
         },
         {
-            "Location": "LeftArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 100,
-            "MaxRearArmor": -1,
-            "InternalStructure": 50
-        },
-        {
-            "Location": "LeftTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 140,
-            "MaxRearArmor": 70,
-            "InternalStructure": 70
-        },
-        {
-            "Location": "CenterTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 4,
-            "MaxArmor": 200,
-            "MaxRearArmor": 100,
-            "InternalStructure": 100
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 140,
-            "MaxRearArmor": 70,
-            "InternalStructure": 70
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 100,
-            "MaxRearArmor": -1,
-            "InternalStructure": 50
-        },
-        {
-            "Location": "LeftLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 4,
-            "MaxArmor": 140,
-            "MaxRearArmor": -1,
-            "InternalStructure": 70
-        },
-        {
-            "Location": "RightLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 4,
-            "MaxArmor": 140,
-            "MaxRearArmor": -1,
-            "InternalStructure": 70
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
-    ],
-    "LOSSourcePositions": [
-        {
-            "x": 0,
-            "y": 13,
-            "z": 1
-        },
-        {
-            "x": 3,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": -3,
-            "y": 13,
-            "z": 0
-        }
-    ],
-    "LOSTargetPositions": [
-        {
-            "x": 0,
-            "y": 13,
-            "z": 1
-        },
-        {
-            "x": 3,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": -3,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 0
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 0
-        }
-    ],
-    "VariantName": "DRG-1G",
-    "ChassisTags": {
-        "items": [],
-        "tagSetSourceFile": ""
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
     },
-    "StockRole": "Skirmisher & Brawler",
-    "YangsThoughts": "If the Dracs shove a PPC on something, they will certainly take the opportunity to do it.  Not that it is a bad thing, but it makes me wonder if the DCMS leadership is compensating...  All jokes aside, this is a step up from the standard Dragon and actually earns the 'Grand' moniker."
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 13,
+      "z": 1
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 13,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 13,
+      "z": 1
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": 0
+    }
+  ],
+  "VariantName": "DRG-1G",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Skirmisher & Brawler",
+  "YangsThoughts": "If the Dracs shove a PPC on something, they will certainly take the opportunity to do it.  Not that it is a bad thing, but it makes me wonder if the DCMS leadership is compensating...  All jokes aside, this is a step up from the standard Dragon and actually earns the 'Grand' moniker."
 }

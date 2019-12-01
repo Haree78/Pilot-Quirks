@@ -1,0 +1,82 @@
+﻿{
+    "Description": {
+        "Id": "3025-10-15",
+        "Name": "ComStar News Bureau",
+        "Details": "An upwelling of civic pride, and displeasure with the occupying [[DM.Factions[faction_Kurita],Draconis Combine]] troops has turned into an independence movement on the world of [[DM.SystemDefs[starsystemdef_Norn(Verthandi)],Verthandi]].  Sadly this has resulted in outbreaks of violence across the world and the Combine is expected to come down heavy on these seditionists.\r\n\r\n\r\n\r\nThe situation on [[DM.SystemDefs[starsystemdef_Galtor],Galtor III]] has taken an unexpected turn, it appears that [[DM.BaseDescriptionDefs[LoreHanseDavion],The Fox]] finally turned his attention to the campaign and dispatched the [[DM.BaseDescriptionDefs[LoreAFFSCrucisLancers],4th Crucis Lancers]] to reinforce the beleaguered [[DM.BaseDescriptionDefs[LoreDavionAFFS],AFFS]] units.  The Lancers were able to turn the tide and the [[DM.BaseDescriptionDefs[LoreKuritaDCMS],DCMS]] has been driven from the system.\r\n\r\n\r\n\r\nA radical new Combine variant, the [[DM.MechDefs[mechdef_trebuchet_TBT-7K],Trebuchet TBT-7K]] aims to use direct-fire support instead of the more typical indirect-fire model.  Only time will tell if this is truly a viable alternative to the tried and true standard [[DM.MechDefs[mechdef_trebuchet_TBT-5N],Trebuchet]].",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "Smelling blood in the space lanes, pirate activity has surged this past month with attacks reported along the [[DM.BaseDescriptionDefs[LorePeriphery],Periphery]] borders.  [[DM.BaseDescriptionDefs[LoreLadyDeath],Lady Death]] has also reared her head, with bloody raids on the fringes of both [[DM.Factions[faction_Davion],Federated Suns]] and [[DM.Factions[faction_TaurianConcordat],Taurian]] space, few are left alive where her band of marauders strikes.\r\n\r\n\r\n\r\nIn the latest [[DM.BaseDescriptionDefs[LoreGrandTournament],Grand Tournament]] news, the field of 128 opponents has already been winnowed down, but there are still dozens of serious contenders left.  By the time you are hearing this, a winner has likely already been decided.\r\n\r\n\r\n\r\n\r\n\r\nThis has been the CNB October broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

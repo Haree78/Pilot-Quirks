@@ -1,9 +1,9 @@
-{
+﻿{
     "Name": "JK_VariantsStarLeague",
     "Enabled": true,
 
-	"Version": "1.6.2.5",
-	"PackagedOn": "2019-08-08T16:45:00Z",
+	"Version": "1.8.0.0",
+	"PackagedOn": "2019-09-27T16:45:00Z",
 
     "Description": "Star League Era - Adds 1 'Mech Variant - usable in Skirmish mode and 1 vehicle usable in Campaign.",
     "Author": "Justin Kase",

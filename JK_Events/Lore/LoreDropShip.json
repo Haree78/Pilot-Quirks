@@ -1,0 +1,6 @@
+﻿{
+    "Id" : "LoreDropShip",
+    "Name" : "DropShips",
+    "Details" : "DropShips are spacecraft massing between 200 and 100,000 tons which are incapable of FTL travel on their own.  They are typically used in intrasystem travel or transit between planets and JumpShips.  DropShips are also capable of connecting to a JumpShip via a Docking collar, allowing the DropShip to hitch a ride between star systems, utilizing the JumpShip to make the FTL transition.\r\n\r\nThe vast majority of DropShips are made to allow for planetary landings, but some are so massive (such as the Behemoth), they often need smaller DropShips or cargo freighters to transport their cargo from orbit to the surface.",
+    "Icon" : ""
+}

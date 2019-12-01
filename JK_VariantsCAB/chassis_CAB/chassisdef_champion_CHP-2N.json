@@ -1,5 +1,4 @@
-{
- 
+﻿{
   "Description": {
     "Cost": 5700000,
     "Rarity": 2,
@@ -24,7 +23,7 @@
   "Heatsinks": 0,
   "TopSpeed": 150,
   "TurnRadius": 90,
-  "MaxJumpjets": 5,
+  "MaxJumpjets": 0,
   "Stability": 160,
   "StabilityDefenses": [
     0,
@@ -50,9 +49,7 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
@@ -84,7 +81,7 @@
           "WeaponMount": "Energy",
           "Omni": false
         },
-		{
+        {
           "WeaponMount": "Energy",
           "Omni": false
         },
@@ -120,7 +117,7 @@
     {
       "Location": "RightTorso",
       "Hardpoints": [
-		{
+        {
           "WeaponMount": "Ballistic",
           "Omni": false
         }
@@ -147,9 +144,7 @@
     },
     {
       "Location": "LeftLeg",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 140,
@@ -158,9 +153,7 @@
     },
     {
       "Location": "RightLeg",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 140,
@@ -214,9 +207,7 @@
   ],
   "VariantName": "CHP-2N",
   "ChassisTags": {
-    "items": [
-
-    ],
+    "items": [],
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Recon and Striker",

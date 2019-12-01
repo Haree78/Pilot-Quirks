@@ -1,0 +1,82 @@
+﻿{
+    "Description": {
+        "Id": "3025-06-15",
+        "Name": "ComStar News Bureau",
+        "Details": "Acting on claims that date back over seven centuries, the [[DM.Factions[faction_Liao],Capellan Confederation]] invaded the [[DM.Factions[faction_Davion],Federated Suns]] world of [[DM.SystemDefs[starsystemdef_Redfield],Redfield]] and is currently occupying it.  Elements of the [[DM.BaseDescriptionDefs[LoreCCAFStIvesLancers],1st St Ives Lancers]] and [[DM.BaseDescriptionDefs[LoreMercBigMAC],McCarron's Armored Cavalry]] were among the [[DM.BaseDescriptionDefs[LoreLiaoCCAF],CCAF]] units involved in the invasion.  The [[DM.BaseDescriptionDefs[LoreDavionAFFS],AFFS]] has been slow to respond to this incursion.  Reports of a new Capellan BattleMech seen in the engagement appear to be nothing more than some sort of [[DM.BaseDescriptionDefs[LoreFrankenMech],FrankenMech]] amalgamation they are calling the [[DM.MechDefs[mechdef_cataphract_CTF-1X],Cataphract]] rather than a truly new design.\r\n\r\n\r\n\r\nThere have also been reports of a new [[DM.MechDefs[mechdef_urbanmech_UM-R60X],UrbanMech]] refit in the service of [[DM.BaseDescriptionDefs[LoreHouseLiao],House Liao]], which adds further anti-personnel capabilities with a machine gun by downgrading the sanctioned number of heat sinks.\r\n\r\n\r\n\r\nMeanwhile the [[DM.Factions[faction_Steiner],Lyran Commonwealth]] continues to gear up for war with [[DM.BaseDescriptionDefs[LoreCorpCyclopsInc],Cyclops Inc.'s]] new Hover Tank, the [[DM.VehicleDefs[vehicledef_DRILLSON].Description,Drillson]].  With its primary armaments of a [[DM.WeaponDefs[Weapon_Laser_LargeLaser_0-STOCK],Large Laser]] and [[DM.WeaponDefs[Weapon_LRM_LRM10_0-STOCK],LRM-10]] can cause a considerable amount of damage at range.",
+        "Icon": "uixTxrTimeLine_ComStarNewsBureau.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "ComStar News Bureau",
+                        "Details": "ComStar Publishing is proud to announce their latest effort to keep the light of the [[DM.BaseDescriptionDefs[LoreInnerSphere],Inner Sphere]] burning bright with the release of <i>Technical Readout: 3025</i>.  This Compendious Tome lists the capabilities and history of the most common pieces of military hardware used by the [[DM.BaseDescriptionDefs[LoreSuccessorState],Successor States]].\r\n\r\n\r\n\r\nWhile our primary focus is on [[DM.BaseDescriptionDefs[LoreBattleMech],BattleMechs]], we have included chapters on [[DM.BaseDescriptionDefs[LoreCombatVehicle],Combat Vehicles]], [[DM.BaseDescriptionDefs[LoreAerospaceFighter],Aerospace fighters]], [[DM.BaseDescriptionDefs[LoreDropShip],DropShips]], [[DM.BaseDescriptionDefs[LoreJumpShip],JumpShips]] and even the pinnacle of [[DM.BaseDescriptionDefs[LoreStarLeague],Star League]] technology, the [[DM.BaseDescriptionDefs[LoreLAM],Land-Air 'Mech]].  All accompanied by brilliant illustrations, this volume is a must for all, from historians to MechWarriors.  Copies can be purchased at reputable booksellers or digitally downloaded via ComNet.\r\n\r\n\r\n\r\n\r\n\r\nThis has been the CNB June broadcast.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items" : [
+                                ],
+                                "tagSetSourceFile" : ""
+                            
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

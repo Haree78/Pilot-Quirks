@@ -1,4 +1,4 @@
-{
+﻿{
   "MechTags": {
     "items": [
       "unit_mech",
@@ -19,7 +19,44 @@
       "NotSteiner",
       "NotKurita",
       "NotMagistracyOfCanopus",
-      "NotTaurianConcordat"
+      "NotTaurianConcordat",
+      "unit_none",
+      "unit_none_Davion",
+      "unit_none_Liao",
+      "unit_none_Marik",
+      "unit_none_Steiner",
+      "unit_none_Kurita",
+      "unit_none_MagistracyOfCanopus",
+      "unit_none_TaurianConcordat",
+      "unit_none_AuriganDirectorate",
+      "unit_none_AuriganRestoration",
+      "unit_rare_ComStar",
+      "unit_none_MercenaryReviewBoard",
+      "unit_none_DuchyOfAndurien",
+      "unit_none_AuriganMercenaries",
+      "unit_none_AuriganPirates",
+      "unit_none_Locals",
+      "unit_none_Betrayers",
+      "unit_none_MajestyMetals",
+      "unit_none_KellHounds",
+      "unit_none_GrayDeathLegion",
+      "unit_none_FlakJackals",
+      "unit_none_LocalsBrockwayRefugees",
+      "unit_none_SelfEmployed",
+      "unit_none_MasonsMarauders",
+      "unit_none_SteelBeast",
+      "unit_none_RazorbackMercs",
+      "unit_none_RedHareRegiment",
+      "unit_none_EmeraldDawn",
+      "unit_none_SianTriumphant",
+      "unit_none_BlackCalderaDefense",
+      "unit_none_BlackCalderaDefense_Hidden",
+      "unit_none_SecuritySolutionsInc",
+      "unit_none_PaladinProtectionLLC",
+      "unit_none_HouseNakano",
+      "unit_none_HouseKhulan",
+      "unit_none_HostileMercenaries",
+      "unit_none_NoFaction"
     ],
     "tagSetSourceFile": ""
   },
@@ -34,7 +71,7 @@
     "UIName": "Black Knight BL-6b-KNT",
     "Id": "mechdef_blackknight_BL-6b-KNT",
     "Name": "Black Knight",
-    "Details": "The Black Knight 6b was the harder-hitting, cooler-running Star League ancestor to the standard BL-6-KNT we have today. It did everything the 7 does, but better\u2014mostly thanks to its Double Heat Sinks, which are basically nonexistent these days and its lighter EndoSteel internal structure.  This 'Royal' variant also benefitted from the latest in SLDF tech with a built in Beagle Active Probe.",
+    "Details": "The Black Knight 6b was the harder-hitting, cooler-running Star League ancestor to the standard BL-6-KNT we have today. It did everything the 7 does, but better—mostly thanks to its Double Heat Sinks, which are basically nonexistent these days and its lighter EndoSteel internal structure.  This 'Royal' variant also benefitted from the latest in SLDF tech with a built in Beagle Active Probe.",
     "Icon": "uixTxrIcon_blackknight"
   },
   "simGameMechPartCost": 1490000,
@@ -269,4 +306,5 @@
       "hasPrefabName": false
     }
   ],
+  "MinAppearanceDate": "2751-01-01T00:00:00Z"
 }

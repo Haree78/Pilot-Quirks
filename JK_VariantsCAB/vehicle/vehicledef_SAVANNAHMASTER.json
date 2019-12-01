@@ -1,61 +1,110 @@
-{
-   "Version" : 1,
-   "Description" : {
-      "Id" : "vehicledef_SAVANNAHMASTER",
-      "Name" : "Savannah Master",
-      "Details" : "Primarily a light recon unit, and armed with just a single Medium Laser, the Savannah Master relies on its superior mobility to keep it safe.",
-      "Icon" : "",
-      "Cost" : 993,
-      "Rarity" : 3,
-      "Purchasable" : false
-   },
-   "ChassisID" : "vehiclechassisdef_SAVANNAHMASTER",
-   "VehicleTags": {
-        "items" : [
-            "unit_vehicle",
-            "unit_light",
-            "unit_wheels",
-            "unit_release"
-        ],
-      "tagSetSourceFile": ""
-   },
-   "Locations" : [
-		{
-			"Location" : "Front",
-			"CurrentArmor" : 50,
-			"CurrentInternalStructure" : 5,
-			"AssignedArmor" : 50,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Left",
-			"CurrentArmor" : 30,
-			"CurrentInternalStructure" : 5,
-			"AssignedArmor" : 30,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Right",
-			"CurrentArmor" : 30,
-			"CurrentInternalStructure" : 5,
-			"AssignedArmor" : 30,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Rear",
-			"CurrentArmor" : 10,
-			"CurrentInternalStructure" : 5,
-			"AssignedArmor" : 10,
-			"DamageLevel" : "Functional"
-		}
-   ],
-   "inventory" : [
-      {
-         "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
-         "HardpointSlot" : 0,
-         "DamageLevel" : "Functional"
-      }
-   ]
+﻿{
+  "Version": 1,
+  "Description": {
+    "Id": "vehicledef_SAVANNAHMASTER",
+    "Name": "Savannah Master",
+    "Details": "Primarily a light recon unit, and armed with just a single Medium Laser, the Savannah Master relies on its superior mobility to keep it safe.",
+    "Icon": "",
+    "Cost": 993,
+    "Rarity": 3,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_SAVANNAHMASTER",
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_light",
+      "unit_wheels",
+      "unit_range_medium",
+      "unit_speed_high",
+      "unit_armor_low",
+      "unit_release",
+      "NotDavion",
+      "NotLiao",
+      "NotMarik",
+      "NotKurita",
+      "NotMagistracyOfCanopus",
+      "NotTaurianConcordat",
+      "unit_ext_rare",
+      "unit_none_Davion",
+      "unit_none_Liao",
+      "unit_none_Marik",
+      "unit_rare_Steiner",
+      "unit_none_Kurita",
+      "unit_none_MagistracyOfCanopus",
+      "unit_none_TaurianConcordat",
+      "unit_none_AuriganDirectorate",
+      "unit_none_AuriganRestoration",
+      "unit_none_ComStar",
+      "unit_none_MercenaryReviewBoard",
+      "unit_none_DuchyOfAndurien",
+      "unit_ext_rare_AuriganMercenaries",
+      "unit_none_AuriganPirates",
+      "unit_none_Locals",
+      "unit_none_Betrayers",
+      "unit_none_MajestyMetals",
+      "unit_none_KellHounds",
+      "unit_none_GrayDeathLegion",
+      "unit_none_FlakJackals",
+      "unit_none_LocalsBrockwayRefugees",
+      "unit_none_SelfEmployed",
+      "unit_none_MasonsMarauders",
+      "unit_none_SteelBeast",
+      "unit_none_RazorbackMercs",
+      "unit_none_RedHareRegiment",
+      "unit_none_EmeraldDawn",
+      "unit_none_SianTriumphant",
+      "unit_none_BlackCalderaDefense",
+      "unit_none_BlackCalderaDefense_Hidden",
+      "unit_none_SecuritySolutionsInc",
+      "unit_none_PaladinProtectionLLC",
+      "unit_ext_rare_HouseNakano",
+      "unit_ext_rare_HouseKhulan",
+      "unit_none_ProfHorvat",
+      "unit_none_EdCorbu",
+      "unit_none_HostileMercenaries",
+      "unit_ext_rare_NoFaction"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3025-02-14T00:00:00Z"
 }

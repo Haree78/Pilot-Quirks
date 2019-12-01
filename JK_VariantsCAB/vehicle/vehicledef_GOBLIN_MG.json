@@ -1,144 +1,192 @@
-{
-   "Version" : 1,
-   "Description" : {
-      "Id" : "vehicledef_GOBLIN_MG",
-      "Name" : "Goblin MG",
-      "Details" : "",
-      "Icon" : "",
-      "Cost" : 973,
-      "Rarity" : 1,
-      "Purchasable" : false
-   },
-   "ChassisID" : "vehiclechassisdef_GOBLIN_MG",
-   "VehicleTags": {
-      "items": [
-         "unit_vehicle",
-         "unit_medium",
-         "unit_tracks"
-      ],
-      "tagSetSourceFile": ""
-   },
-   "Locations" : [
-		{
-			"Location" : "Front",
-			"CurrentArmor" : 150,
-			"CurrentInternalStructure" : 25,
-			"AssignedArmor" : 150,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Left",
-			"CurrentArmor" : 120,
-			"CurrentInternalStructure" : 25,
-			"AssignedArmor" : 120,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Right",
-			"CurrentArmor" : 120,
-			"CurrentInternalStructure" : 25,
-			"AssignedArmor" : 120,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Rear",
-			"CurrentArmor" : 100,
-			"CurrentInternalStructure" : 25,
-			"AssignedArmor" : 100,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Turret",
-			"CurrentArmor" : 150,
-			"CurrentInternalStructure" : 25,
-			"AssignedArmor" : 150,
-			"DamageLevel" : "Functional"
-		}
-   ],
-   "inventory" : [
-      {
-         "ComponentDefID" : "Weapon_MachineGun_MachineGun_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
-         "HardpointSlot" : 0,
-         "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_MachineGun_MachineGun_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
-         "HardpointSlot" : 1,
-         "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_MG",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-         "HardpointSlot" : -1,
-         "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_MG",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-         "HardpointSlot" : -1,
-         "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_MG_Half",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-         "HardpointSlot" : -1,
-         "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_SRM",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-         "HardpointSlot" : -1,
-         "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_SRM",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-         "HardpointSlot" : -1,
-         "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_MachineGun_MachineGun_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Left",
-         "HardpointSlot" : 0,
-         "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_MachineGun_MachineGun_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Right",
-         "HardpointSlot" : 0,
-         "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_MachineGun_MachineGun_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Rear",
-         "HardpointSlot" : 0,
-         "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_MachineGun_MachineGun_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Turret",
-         "HardpointSlot" : 0,
-         "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_SRM_SRM6_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Turret",
-         "HardpointSlot" : 1,
-         "DamageLevel" : "Functional"
-      }
-   ]
+﻿{
+  "Version": 1,
+  "Description": {
+    "Id": "vehicledef_GOBLIN_MG",
+    "Name": "Goblin MG",
+    "Details": "",
+    "Icon": "",
+    "Cost": 973,
+    "Rarity": 1,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_GOBLIN_MG",
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_medium",
+      "unit_tracks",
+      "unit_range_short",
+      "unit_speed_low",
+      "unit_release",
+      "NotMarik",
+      "NotSteiner",
+      "NotKurita",
+      "NotMagistracyOfCanopus",
+      "NotTaurianConcordat",
+      "unit_ext_rare",
+      "unit_rare_Davion",
+      "unit_very_rare_Liao",
+      "unit_none_Marik",
+      "unit_none_Steiner",
+      "unit_ext_rare_Kurita",
+      "unit_none_MagistracyOfCanopus",
+      "unit_ext_rare_TaurianConcordat",
+      "unit_ext_rare_AuriganDirectorate",
+      "unit_very_rare_AuriganRestoration",
+      "unit_none_ComStar",
+      "unit_very_rare_MercenaryReviewBoard",
+      "unit_none_DuchyOfAndurien",
+      "unit_very_rare_AuriganMercenaries",
+      "unit_very_rare_AuriganPirates",
+      "unit_very_rare_Locals",
+      "unit_ext_rare_Betrayers",
+      "unit_none_MajestyMetals",
+      "unit_none_KellHounds",
+      "unit_none_GrayDeathLegion",
+      "unit_none_FlakJackals",
+      "unit_very_rare_LocalsBrockwayRefugees",
+      "unit_very_rare_SelfEmployed",
+      "unit_none_MasonsMarauders",
+      "unit_none_SteelBeast",
+      "unit_none_RazorbackMercs",
+      "unit_none_RedHareRegiment",
+      "unit_none_EmeraldDawn",
+      "unit_very_rare_SianTriumphant",
+      "unit_very_rare_BlackCalderaDefense",
+      "unit_very_rare_BlackCalderaDefense_Hidden",
+      "unit_very_rare_SecuritySolutionsInc",
+      "unit_very_rare_PaladinProtectionLLC",
+      "unit_very_rare_HouseNakano",
+      "unit_very_rare_HouseKhulan",
+      "unit_none_ProfHorvat",
+      "unit_very_rare_EdCorbu",
+      "unit_very_rare_HostileMercenaries",
+      "unit_very_rare_NoFaction"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Left",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Right",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Rear",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2500-01-01T00:00:00Z"
 }

@@ -1,0 +1,17 @@
+﻿{
+    "ItemID": "Ammo_AmmunitionBox_Generic_AC5",
+    "RequirementDef": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "tagSetSourceFile": "",
+            "items": [
+                "timeline_3025_2_10"
+            ]
+        },
+        "ExclusionTags": {
+            "tagSetSourceFile": "Tags/CompanyTags",
+            "items": []
+        },
+        "RequirementComparisons": []
+    }
+}
