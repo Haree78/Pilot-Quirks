@@ -1,13 +1,14 @@
-﻿{
+{
   "Name": "PanicSystem",
 
   "Enabled": true,
 
-  "Version": "3.5.1",
+  "Version": "3.5.3",
   "Description": "Simulates mechwarrior panic and automatic ejections",
   "Website": "https://github.com/gnivler/PanicSystem",
 
   "DLL": "PanicSystem.dll",
+  "DLLEntryPoint": "PanicSystem.PanicSystem.Init",
 
   "Settings": {
     "Debug": false,
