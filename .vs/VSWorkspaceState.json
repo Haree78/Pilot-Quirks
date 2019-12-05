@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BetterHeadlights"
+    "\\BetterHeadlights",
+    "\\Retrainer",
+    "\\SkipIntro"
   ],
-  "SelectedNode": "\\SalvageOperations",
+  "SelectedNode": "\\Retrainer",
   "PreviewInSolutionExplorer": false
 }
